@@ -14,7 +14,8 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 5. 示例：创建了一个Student类型的对象，定义了该对象的引用s，同时对s发送getAge消息请求。 
     Student s = new Student();
     s.getAge()   
- 6. 每个对象都提供服务，程序服务
+ 6. 每个对象都提供服务，程序应该被理解：通过调用其他对象提供的服务，来为用户提供服务
+ 7. 
 
 
 
@@ -22,7 +23,7 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM4ODEyNzg1LC0xNjEyNDg1MTkwLDE1Nz
-cwNzg1NDEsLTE3OTgyNTk4NzQsNzMzMTk3Mzk1LC04MjExOTc5
-ODAsLTEyMjY1Mjk5ODNdfQ==
+eyJoaXN0b3J5IjpbMTcxNTgyNDQ5MSwtMTYxMjQ4NTE5MCwxNT
+c3MDc4NTQxLC0xNzk4MjU5ODc0LDczMzE5NzM5NSwtODIxMTk3
+OTgwLC0xMjI2NTI5OTgzXX0=
 -->
