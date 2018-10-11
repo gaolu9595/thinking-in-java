@@ -11,7 +11,7 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 2. 程序是对象的集合
 3. 每个对象都有自己的由其他对象所构成的存储
 4. 每个对象都有其类型（class），某一特定类型的所有对象都可以接收相同的消息
-5. 示例：创建了
+5. 示例：创建了一个Student类型的对象，定义了该对象的引用s，同时对s发送getAge消息请求。
     Student s = new Student();
     s.getAge()   
 
@@ -21,7 +21,7 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMTE4NDU1NCwtMTYxMjQ4NTE5MCwxNT
+eyJoaXN0b3J5IjpbLTkxODMxMzI3OCwtMTYxMjQ4NTE5MCwxNT
 c3MDc4NTQxLC0xNzk4MjU5ODc0LDczMzE5NzM5NSwtODIxMTk3
 OTgwLC0xMjI2NTI5OTgzXX0=
 -->
