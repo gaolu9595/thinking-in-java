@@ -6,10 +6,9 @@ JRE: Java Runtime Enviorment (只包含client运行环境下的JVM：jre/bin/cli
 IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 ### OOP基本思想
-
-万物皆为对象
+ 1. 万物皆为对象
 2. 程序是对象的集合
-3. 
+3. 每个对象都有自己的由其他对象所构成的存储
 4. 每个对象都有其类型，某一特定类型的所有对象都可以接收相同的消息
 
 
@@ -18,6 +17,6 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI5ODYwMzA1LC0xNzk4MjU5ODc0LDczMz
-E5NzM5NSwtODIxMTk3OTgwLC0xMjI2NTI5OTgzXX0=
+eyJoaXN0b3J5IjpbMTU3NzA3ODU0MSwtMTc5ODI1OTg3NCw3Mz
+MxOTczOTUsLTgyMTE5Nzk4MCwtMTIyNjUyOTk4M119
 -->
