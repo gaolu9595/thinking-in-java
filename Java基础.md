@@ -16,7 +16,7 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
     s.getAge()   
  6. 每个对象都提供服务，程序应该被理解：通过调用其他对象提供的服务，来为用户提供服务
  7. 良好的OOP中，每个对象都可以很好的完成一项任务，但是它并不试图做更多的事
- 8. 类创建者对类消费者（客户端程序员）隐藏具体实现，只暴露必需的部分【访问控制能便于维护+减轻开发任务，Java用关键字public、private、protected来设定***类的边界*****，Java还设置了*****包访问权限*****】
+ 8. 类创建者对类消费者（客户端程序员）隐藏具体实现，只暴露必需的部分【访问控制能便于维护+减轻开发任务，Java用关键字public、private、protected来设定*****类的边界*****，Java还设置了*****包访问权限*****】
  9. 
 
 
@@ -24,8 +24,8 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE1NzI0OTU1LC04MzA1NDEzNTUsNDE4OD
-Q2ODM1LDE3MTU4MjQ0OTEsLTE2MTI0ODUxOTAsMTU3NzA3ODU0
-MSwtMTc5ODI1OTg3NCw3MzMxOTczOTUsLTgyMTE5Nzk4MCwtMT
-IyNjUyOTk4M119
+eyJoaXN0b3J5IjpbLTc5NzI2Mjg4NSwtODMwNTQxMzU1LDQxOD
+g0NjgzNSwxNzE1ODI0NDkxLC0xNjEyNDg1MTkwLDE1NzcwNzg1
+NDEsLTE3OTgyNTk4NzQsNzMzMTk3Mzk1LC04MjExOTc5ODAsLT
+EyMjY1Mjk5ODNdfQ==
 -->
