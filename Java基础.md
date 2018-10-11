@@ -16,7 +16,7 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
     s.getAge()   
  6. 每个对象都提供服务，程序应该被理解：通过调用其他对象提供的服务，来为用户提供服务
  7. 良好的OOP中，每个对象都可以很好的完成一项任务，但是它并不试图做更多的事
- 8. 抽象具体
+ 8. 类创建者对类消费者（客户端程序员）隐藏具体实现，只暴露必需的部分
 
 
 
@@ -24,8 +24,8 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MzEzMzgxMSw0MTg4NDY4MzUsMTcxNT
-gyNDQ5MSwtMTYxMjQ4NTE5MCwxNTc3MDc4NTQxLC0xNzk4MjU5
-ODc0LDczMzE5NzM5NSwtODIxMTk3OTgwLC0xMjI2NTI5OTgzXX
-0=
+eyJoaXN0b3J5IjpbLTIwMDM1NTcxODEsNDE4ODQ2ODM1LDE3MT
+U4MjQ0OTEsLTE2MTI0ODUxOTAsMTU3NzA3ODU0MSwtMTc5ODI1
+OTg3NCw3MzMxOTczOTUsLTgyMTE5Nzk4MCwtMTIyNjUyOTk4M1
+19
 -->
