@@ -22,7 +22,7 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 11. 所有的类最终都继承于Object类（单根继承结构）
 12. 🔥**容器**🔥（e.g. C++的STL等；Java提供的诸多类似List/Map/Set等的容器，以及队列/树/堆栈等多种构件）【只需要创建一个容器对象，让它处理所有细节，而不需要管将来会将多少个对象置于容器中】
 13. 范型：创建一个容器并让它知道自己保存的对象的具体类型（非Object类型），避免向下转型的不安全性
-14. 🔥**对象的创建与生命周期**🔥：Java采用完全动态内存分配的方式，只能在堆上new一个对象，并且采用垃圾回收器机制（注：内存池----堆）
+14. 🔥**对象的创建与生命周期**🔥：Java采用完全动态内存分配的方式，只能在堆上new一个对象，并且采用垃圾回收器机制（注：内存池---->堆）
 15. **异常处理**与**并发编程**
 16. C/S模式
 
@@ -32,18 +32,18 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 
 ###  Java程序设计
-1. 数据存储到什么地方：寄存器、堆栈、堆、常量存储、非RAM存储
+1. 数据存储到什么地方：寄存器、堆栈、堆(memory pool)、常量存储、非RAM存储
 2. Java基本数据类型：
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4Mjc5NDI4Myw0NTY5MTM5MTgsLTYzMT
-I2NjUwOCwtMTM4MTE3NTIzMSwxMzg0NzkxNzExLC0xNzM5MTg4
-ODQzLC0xMjYwODI0NDQ3LC03Nzc3NzM4NTUsNzU3NjE3OTQxLC
-0xNzA0NjcxNTE2LDEzNzk1NjQ3MzEsLTEzMjIzMDE0MDcsNTMz
-MjQ2NTczLC04Nzc3MDUxMjksNTAwMjcyODY3LC05NzQzOTgyND
-gsLTQ0NDAzMDc4OCw4MjU4MTIzNDMsMTAxNjkwMzMzNSwtODMw
-NTQxMzU1XX0=
+eyJoaXN0b3J5IjpbMjE3OTc4MDk1LDQ1NjkxMzkxOCwtNjMxMj
+Y2NTA4LC0xMzgxMTc1MjMxLDEzODQ3OTE3MTEsLTE3MzkxODg4
+NDMsLTEyNjA4MjQ0NDcsLTc3Nzc3Mzg1NSw3NTc2MTc5NDEsLT
+E3MDQ2NzE1MTYsMTM3OTU2NDczMSwtMTMyMjMwMTQwNyw1MzMy
+NDY1NzMsLTg3NzcwNTEyOSw1MDAyNzI4NjcsLTk3NDM5ODI0OC
+wtNDQ0MDMwNzg4LDgyNTgxMjM0MywxMDE2OTAzMzM1LC04MzA1
+NDEzNTVdfQ==
 -->
