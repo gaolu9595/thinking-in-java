@@ -28,7 +28,7 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 | 客户端 | 服务器端 | 前端开发(界面) |
 |--|--|--|
-| 安卓/IOS/PC开发 | Web开发 | HTML/CSS/JavaScript |
+| 安卓/IOS/PC开发/浏览器客户端(JS) | Web开发 | HTML/CSS |
 
 
 
@@ -36,11 +36,11 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzkxODg4NDMsLTEyNjA4MjQ0NDcsLT
-c3Nzc3Mzg1NSw3NTc2MTc5NDEsLTE3MDQ2NzE1MTYsMTM3OTU2
-NDczMSwtMTMyMjMwMTQwNyw1MzMyNDY1NzMsLTg3NzcwNTEyOS
-w1MDAyNzI4NjcsLTk3NDM5ODI0OCwtNDQ0MDMwNzg4LDgyNTgx
-MjM0MywxMDE2OTAzMzM1LC04MzA1NDEzNTUsNDE4ODQ2ODM1LD
-E3MTU4MjQ0OTEsLTE2MTI0ODUxOTAsMTU3NzA3ODU0MSwtMTc5
-ODI1OTg3NF19
+eyJoaXN0b3J5IjpbMTM4NDc5MTcxMSwtMTczOTE4ODg0MywtMT
+I2MDgyNDQ0NywtNzc3NzczODU1LDc1NzYxNzk0MSwtMTcwNDY3
+MTUxNiwxMzc5NTY0NzMxLC0xMzIyMzAxNDA3LDUzMzI0NjU3My
+wtODc3NzA1MTI5LDUwMDI3Mjg2NywtOTc0Mzk4MjQ4LC00NDQw
+MzA3ODgsODI1ODEyMzQzLDEwMTY5MDMzMzUsLTgzMDU0MTM1NS
+w0MTg4NDY4MzUsMTcxNTgyNDQ5MSwtMTYxMjQ4NTE5MCwxNTc3
+MDc4NTQxXX0=
 -->
