@@ -23,18 +23,18 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 12. 🔥**容器**🔥（e.g. C++的STL等；Java提供的诸多类似List/Map/Set等的容器，以及队列/树/堆栈等多种构件）【只需要创建一个容器对象，让它处理所有细节，而不需要管将来会将多少个对象置于容器中】
 13. 范型：创建一个容器并让它知道自己保存的对象的具体类型（非Object类型），避免向下转型的不安全性
 14. 🔥**对象的创建与生命周期**🔥：Java采用完全动态内存分配的方式，只能在堆上new一个对象，并且采用垃圾回收器机制（注：内存池----堆）
-15. 
+15. **异常处理**与**并发编程**
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU3NjE3OTQxLC0xNzA0NjcxNTE2LDEzNz
-k1NjQ3MzEsLTEzMjIzMDE0MDcsNTMzMjQ2NTczLC04Nzc3MDUx
-MjksNTAwMjcyODY3LC05NzQzOTgyNDgsLTQ0NDAzMDc4OCw4Mj
-U4MTIzNDMsMTAxNjkwMzMzNSwtODMwNTQxMzU1LDQxODg0Njgz
-NSwxNzE1ODI0NDkxLC0xNjEyNDg1MTkwLDE1NzcwNzg1NDEsLT
-E3OTgyNTk4NzQsNzMzMTk3Mzk1LC04MjExOTc5ODAsLTEyMjY1
-Mjk5ODNdfQ==
+eyJoaXN0b3J5IjpbLTc3Nzc3Mzg1NSw3NTc2MTc5NDEsLTE3MD
+Q2NzE1MTYsMTM3OTU2NDczMSwtMTMyMjMwMTQwNyw1MzMyNDY1
+NzMsLTg3NzcwNTEyOSw1MDAyNzI4NjcsLTk3NDM5ODI0OCwtND
+Q0MDMwNzg4LDgyNTgxMjM0MywxMDE2OTAzMzM1LC04MzA1NDEz
+NTUsNDE4ODQ2ODM1LDE3MTU4MjQ0OTEsLTE2MTI0ODUxOTAsMT
+U3NzA3ODU0MSwtMTc5ODI1OTg3NCw3MzMxOTczOTUsLTgyMTE5
+Nzk4MF19
 -->
