@@ -20,14 +20,14 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 9. 🔥**继承**🔥（is-a和is-like-a关系）与**组合**
 10. ❓❓❓*多态 [在OOP中编译器无法产生传统意义上的函数调用，即“前期绑定”，Java缺省使用动态的“后期绑定”]--------向上转型upcasting*❓❓❓
 11. 所有的类最终都继承于Object类（单根继承结构）
-12. 容器（e.g. C++的STL等；Java提供的诸多类似List/Map/Set等的容器，以及队列/树/堆栈等多种构件）
+12. 🔥**容器**（e.g. C++的STL等；Java提供的诸多类似List/Map/Set等的容器，以及队列/树/堆栈等多种构件）【只需要创建一个容器对象，让它处理所有细节，而不需要管将来会将多少个对象置于容器中】
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjUzMjk3LDUzMzI0NjU3MywtODc3Nz
+eyJoaXN0b3J5IjpbODM2NDkzNTQ1LDUzMzI0NjU3MywtODc3Nz
 A1MTI5LDUwMDI3Mjg2NywtOTc0Mzk4MjQ4LC00NDQwMzA3ODgs
 ODI1ODEyMzQzLDEwMTY5MDMzMzUsLTgzMDU0MTM1NSw0MTg4ND
 Y4MzUsMTcxNTgyNDQ5MSwtMTYxMjQ4NTE5MCwxNTc3MDc4NTQx
