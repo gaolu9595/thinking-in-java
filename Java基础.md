@@ -25,16 +25,17 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 14. 🔥**对象的创建与生命周期**🔥：Java采用完全动态内存分配的方式，只能在堆上new一个对象，并且采用垃圾回收器机制（注：内存池----堆）
 15. **异常处理**与**并发编程**
 16. C/S模式
+17. 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjA4MjQ0NDcsLTc3Nzc3Mzg1NSw3NT
-c2MTc5NDEsLTE3MDQ2NzE1MTYsMTM3OTU2NDczMSwtMTMyMjMw
-MTQwNyw1MzMyNDY1NzMsLTg3NzcwNTEyOSw1MDAyNzI4NjcsLT
-k3NDM5ODI0OCwtNDQ0MDMwNzg4LDgyNTgxMjM0MywxMDE2OTAz
-MzM1LC04MzA1NDEzNTUsNDE4ODQ2ODM1LDE3MTU4MjQ0OTEsLT
-E2MTI0ODUxOTAsMTU3NzA3ODU0MSwtMTc5ODI1OTg3NCw3MzMx
-OTczOTVdfQ==
+eyJoaXN0b3J5IjpbMTQ2Njc5NDM5MSwtMTI2MDgyNDQ0NywtNz
+c3NzczODU1LDc1NzYxNzk0MSwtMTcwNDY3MTUxNiwxMzc5NTY0
+NzMxLC0xMzIyMzAxNDA3LDUzMzI0NjU3MywtODc3NzA1MTI5LD
+UwMDI3Mjg2NywtOTc0Mzk4MjQ4LC00NDQwMzA3ODgsODI1ODEy
+MzQzLDEwMTY5MDMzMzUsLTgzMDU0MTM1NSw0MTg4NDY4MzUsMT
+cxNTgyNDQ5MSwtMTYxMjQ4NTE5MCwxNTc3MDc4NTQxLC0xNzk4
+MjU5ODc0XX0=
 -->
