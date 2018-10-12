@@ -1,12 +1,12 @@
 ## Java编程基础😁
 
-### 相关概念
+### 😉相关概念
 JDK: Java Development Kit (包含JRE，同时包括client和server端的)
 JRE: Java Runtime Enviorment (只包含client运行环境下的JVM：jre/bin/client/jvm.dll)
 IDE: Integrated Development Enviorment (e.g. Eclipse)
 问题空间（一项业务）<=============>   解空间（计算机）
 
-### Object-oriented Programming）OOP基本思想
+### 😍Object-oriented Programming）OOP基本思想
 1. 👌**万物皆为对象**👌
 2. 程序是对象的集合
 3. 每个对象都有自己的由其他对象所构成的存储
@@ -35,14 +35,15 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 1. 数据**存储**到什么地方：寄存器(处理器内部)、堆栈、堆(memory pool，所有Java对象)、常量存储(程序内部)、非RAM存储(e.g.持久化对象和流对象)
 2. Java**基本数据类型**[强类型语言]：
 | boolean | char | byte | short | int | long | float | double | void |
-3. 
+3. 类(class)：程序员定义的新数据类型【字段+方法】
+4. 
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDc3NjAxNzIsLTM3MzY1NzIxMyw0NT
+eyJoaXN0b3J5IjpbLTEwNTc3MTkwNDUsLTM3MzY1NzIxMyw0NT
 Y5MTM5MTgsLTYzMTI2NjUwOCwtMTM4MTE3NTIzMSwxMzg0Nzkx
 NzExLC0xNzM5MTg4ODQzLC0xMjYwODI0NDQ3LC03Nzc3NzM4NT
 UsNzU3NjE3OTQxLC0xNzA0NjcxNTE2LDEzNzk1NjQ3MzEsLTEz
