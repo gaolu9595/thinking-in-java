@@ -24,17 +24,17 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 13. 范型：创建一个容器并让它知道自己保存的对象的具体类型（非Object类型），避免向下转型的不安全性
 14. 🔥**对象的创建与生命周期**🔥：Java采用完全动态内存分配的方式，只能在堆上new一个对象，并且采用垃圾回收器机制（注：内存池----堆）
 15. **异常处理**与**并发编程**
-
+16. C/S模式
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3Nzc3Mzg1NSw3NTc2MTc5NDEsLTE3MD
-Q2NzE1MTYsMTM3OTU2NDczMSwtMTMyMjMwMTQwNyw1MzMyNDY1
-NzMsLTg3NzcwNTEyOSw1MDAyNzI4NjcsLTk3NDM5ODI0OCwtND
-Q0MDMwNzg4LDgyNTgxMjM0MywxMDE2OTAzMzM1LC04MzA1NDEz
-NTUsNDE4ODQ2ODM1LDE3MTU4MjQ0OTEsLTE2MTI0ODUxOTAsMT
-U3NzA3ODU0MSwtMTc5ODI1OTg3NCw3MzMxOTczOTUsLTgyMTE5
-Nzk4MF19
+eyJoaXN0b3J5IjpbLTEyNjA4MjQ0NDcsLTc3Nzc3Mzg1NSw3NT
+c2MTc5NDEsLTE3MDQ2NzE1MTYsMTM3OTU2NDczMSwtMTMyMjMw
+MTQwNyw1MzMyNDY1NzMsLTg3NzcwNTEyOSw1MDAyNzI4NjcsLT
+k3NDM5ODI0OCwtNDQ0MDMwNzg4LDgyNTgxMjM0MywxMDE2OTAz
+MzM1LC04MzA1NDEzNTUsNDE4ODQ2ODM1LDE3MTU4MjQ0OTEsLT
+E2MTI0ODUxOTAsMTU3NzA3ODU0MSwtMTc5ODI1OTg3NCw3MzMx
+OTczOTVdfQ==
 -->
