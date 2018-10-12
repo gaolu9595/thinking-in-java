@@ -41,17 +41,18 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 6. 🔥 **“==”和“equals()”的区别** 🔥：前者比较的是基本数据类型的数值和引用类型的“对象地址”；后者不能用来比较基本数据类型，而在一些引用类型（未重写equals时）中比较“对象地址”，在另一些（重写了equals时，如String，Date，包装器类型）中比较对象的值。
 7. 基本类型存储的是实际的数值，而并非指向一个对象的引用；而引用类型则不是这样（易出现“  *别名现象*  ”）
 8. a++和a--：先赋值再计算； ++a和--a：先计算再赋值
-9. 使用逻辑
+9. 使用逻辑操作符时，“短路”的发生可以获得潜在的性能提升
+10. 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYwMzM3Mjc1LC00MzU0ODM4MTQsMjAyOT
-czODU4MiwtMjAxNDYyMzc2OCw1NzA0OTI0NjIsLTEzMTc3NzA2
-OTUsMTM2MDUyNTcsLTc2Mzg3MDA4NSwtMzczNjU3MjEzLDQ1Nj
-kxMzkxOCwtNjMxMjY2NTA4LC0xMzgxMTc1MjMxLDEzODQ3OTE3
-MTEsLTE3MzkxODg4NDMsLTEyNjA4MjQ0NDcsLTc3Nzc3Mzg1NS
-w3NTc2MTc5NDEsLTE3MDQ2NzE1MTYsMTM3OTU2NDczMSwtMTMy
-MjMwMTQwN119
+eyJoaXN0b3J5IjpbMTA2ODM5MDU4NSwtNDM1NDgzODE0LDIwMj
+k3Mzg1ODIsLTIwMTQ2MjM3NjgsNTcwNDkyNDYyLC0xMzE3Nzcw
+Njk1LDEzNjA1MjU3LC03NjM4NzAwODUsLTM3MzY1NzIxMyw0NT
+Y5MTM5MTgsLTYzMTI2NjUwOCwtMTM4MTE3NTIzMSwxMzg0Nzkx
+NzExLC0xNzM5MTg4ODQzLC0xMjYwODI0NDQ3LC03Nzc3NzM4NT
+UsNzU3NjE3OTQxLC0xNzA0NjcxNTE2LDEzNzk1NjQ3MzEsLTEz
+MjIzMDE0MDddfQ==
 -->
