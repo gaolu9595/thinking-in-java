@@ -32,14 +32,14 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 
 ###  Java程序设计
-1. 数据存储到什么地方：寄存器(处理器内部)、堆栈、堆(memory pool)、常量存储(程序内部)、非RAM存储(e.g.持久化对象和流对象)
+1. 数据存储到什么地方：寄存器(处理器内部)、堆栈、堆(memory pool，所有Java对象)、常量存储(程序内部)、非RAM存储(e.g.持久化对象和流对象)
 2. Java基本数据类型：
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ3OTAyOTc3LDQ1NjkxMzkxOCwtNjMxMj
+eyJoaXN0b3J5IjpbMjY3ODcxNDQwLDQ1NjkxMzkxOCwtNjMxMj
 Y2NTA4LC0xMzgxMTc1MjMxLDEzODQ3OTE3MTEsLTE3MzkxODg4
 NDMsLTEyNjA4MjQ0NDcsLTc3Nzc3Mzg1NSw3NTc2MTc5NDEsLT
 E3MDQ2NzE1MTYsMTM3OTU2NDczMSwtMTMyMjMwMTQwNyw1MzMy
