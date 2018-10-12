@@ -14,21 +14,22 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 5. ***示例***：创建了一个Student类型的对象，定义了该对象的引用s，同时对s发送getAge消息请求。 
     Student s = new Student();
     s.getAge()   
- 6. 每个对象都提供服务，程序应该被理解：通过调用其他对象提供的服务，来为用户提供服务
- 7. 良好的OOP中，每个对象都可以很好的完成一项任务，但是它并不试图做更多的事
- 8. 类创建者对类消费者（客户端程序员）隐藏具体实现，只暴露必需的部分【访问控制能便于维护+减轻开发任务，Java用关键字public、private、protected来设定*****类的边界*****，Java还设置了*****包访问权限*****】
- 9. 🔥**继承**🔥（is-a和is-like-a关系）与**组合**
+6. 每个对象都提供服务，程序应该被理解：通过调用其他对象提供的服务，来为用户提供服务
+7. 良好的OOP中，每个对象都可以很好的完成一项任务，但是它并不试图做更多的事
+8. 类创建者对类消费者（客户端程序员）隐藏具体实现，只暴露必需的部分【访问控制能便于维护+减轻开发任务，Java用关键字public、private、protected来设定*****类的边界*****，Java还设置了*****包访问权限*****】
+9. 🔥**继承**🔥（is-a和is-like-a关系）与**组合**
 10. ❓❓❓多态 [在OOP中编译器无法产生传统意义上的函数调用，即“前期绑定”，Java缺省使用动态的“后期绑定”]--------向上转型upcasting❓❓❓
+11. 
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1Mjk5MTkzNSwtODc3NzA1MTI5LDUwMD
-I3Mjg2NywtOTc0Mzk4MjQ4LC00NDQwMzA3ODgsODI1ODEyMzQz
-LDEwMTY5MDMzMzUsLTgzMDU0MTM1NSw0MTg4NDY4MzUsMTcxNT
-gyNDQ5MSwtMTYxMjQ4NTE5MCwxNTc3MDc4NTQxLC0xNzk4MjU5
-ODc0LDczMzE5NzM5NSwtODIxMTk3OTgwLC0xMjI2NTI5OTgzXX
-0=
+eyJoaXN0b3J5IjpbMTE2MTE4MTUxLC04Nzc3MDUxMjksNTAwMj
+cyODY3LC05NzQzOTgyNDgsLTQ0NDAzMDc4OCw4MjU4MTIzNDMs
+MTAxNjkwMzMzNSwtODMwNTQxMzU1LDQxODg0NjgzNSwxNzE1OD
+I0NDkxLC0xNjEyNDg1MTkwLDE1NzcwNzg1NDEsLTE3OTgyNTk4
+NzQsNzMzMTk3Mzk1LC04MjExOTc5ODAsLTEyMjY1Mjk5ODNdfQ
+==
 -->
