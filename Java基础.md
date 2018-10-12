@@ -18,19 +18,19 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 7. 良好的OOP中，每个对象都可以很好的完成一项任务，但是它并不试图做更多的事
 8. 类创建者对类消费者（客户端程序员）隐藏具体实现，只暴露必需的部分【访问控制能便于维护+减轻开发任务，Java用关键字public、private、protected来设定*****类的边界*****，Java还设置了*****包访问权限*****】
 9. 🔥**继承**🔥（is-a和is-like-a关系）与**组合**
-10. ❓❓❓*多态 [在OOP中编译器无法产生传统意义上的函数调用，即“前期绑定”，Java缺省使用动态的“后期绑定”]--------向上转型upcasting*❓❓❓
+10. ❓❓❓***多态** [在OOP中编译器无法产生传统意义上的函数调用，即“前期绑定”，Java缺省使用动态的“后期绑定”]--------向上转型upcasting*❓❓❓
 11. 所有的类最终都继承于Object类（单根继承结构）
-12. 🔥**容器**（e.g. C++的STL等；Java提供的诸多类似List/Map/Set等的容器，以及队列/树/堆栈等多种构件）【只需要创建一个容器对象，让它处理所有细节，而不需要管将来会将多少个对象置于容器中】
+12. 🔥**容器**🔥（e.g. C++的STL等；Java提供的诸多类似List/Map/Set等的容器，以及队列/树/堆栈等多种构件）【只需要创建一个容器对象，让它处理所有细节，而不需要管将来会将多少个对象置于容器中】
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM2NDkzNTQ1LDUzMzI0NjU3MywtODc3Nz
-A1MTI5LDUwMDI3Mjg2NywtOTc0Mzk4MjQ4LC00NDQwMzA3ODgs
-ODI1ODEyMzQzLDEwMTY5MDMzMzUsLTgzMDU0MTM1NSw0MTg4ND
-Y4MzUsMTcxNTgyNDQ5MSwtMTYxMjQ4NTE5MCwxNTc3MDc4NTQx
-LC0xNzk4MjU5ODc0LDczMzE5NzM5NSwtODIxMTk3OTgwLC0xMj
-I2NTI5OTgzXX0=
+eyJoaXN0b3J5IjpbLTEzMjIzMDE0MDcsNTMzMjQ2NTczLC04Nz
+c3MDUxMjksNTAwMjcyODY3LC05NzQzOTgyNDgsLTQ0NDAzMDc4
+OCw4MjU4MTIzNDMsMTAxNjkwMzMzNSwtODMwNTQxMzU1LDQxOD
+g0NjgzNSwxNzE1ODI0NDkxLC0xNjEyNDg1MTkwLDE1NzcwNzg1
+NDEsLTE3OTgyNTk4NzQsNzMzMTk3Mzk1LC04MjExOTc5ODAsLT
+EyMjY1Mjk5ODNdfQ==
 -->
