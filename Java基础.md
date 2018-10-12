@@ -37,18 +37,18 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 | boolean | char | byte | short | int | long | float | double | void |
 3. 类(class)：程序员定义的新数据类型【字段+方法】
 4. static修饰的方法和字段是不依赖于类的对象而存在的，可以直接通过类名来访问
-5. 字段
+5. **类变量能被Java自动初始化**，而方法中的局部变量则不能，需要程序员手动初始化
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTE4NzEyOTYsLTc2Mzg3MDA4NSwtMz
-czNjU3MjEzLDQ1NjkxMzkxOCwtNjMxMjY2NTA4LC0xMzgxMTc1
-MjMxLDEzODQ3OTE3MTEsLTE3MzkxODg4NDMsLTEyNjA4MjQ0ND
-csLTc3Nzc3Mzg1NSw3NTc2MTc5NDEsLTE3MDQ2NzE1MTYsMTM3
-OTU2NDczMSwtMTMyMjMwMTQwNyw1MzMyNDY1NzMsLTg3NzcwNT
-EyOSw1MDAyNzI4NjcsLTk3NDM5ODI0OCwtNDQ0MDMwNzg4LDgy
-NTgxMjM0M119
+eyJoaXN0b3J5IjpbMTgzMzUzNTI0MSwtNzYzODcwMDg1LC0zNz
+M2NTcyMTMsNDU2OTEzOTE4LC02MzEyNjY1MDgsLTEzODExNzUy
+MzEsMTM4NDc5MTcxMSwtMTczOTE4ODg0MywtMTI2MDgyNDQ0Ny
+wtNzc3NzczODU1LDc1NzYxNzk0MSwtMTcwNDY3MTUxNiwxMzc5
+NTY0NzMxLC0xMzIyMzAxNDA3LDUzMzI0NjU3MywtODc3NzA1MT
+I5LDUwMDI3Mjg2NywtOTc0Mzk4MjQ4LC00NDQwMzA3ODgsODI1
+ODEyMzQzXX0=
 -->
