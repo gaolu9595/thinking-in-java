@@ -22,17 +22,18 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 11. 所有的类最终都继承于Object类（单根继承结构）
 12. 🔥**容器**🔥（e.g. C++的STL等；Java提供的诸多类似List/Map/Set等的容器，以及队列/树/堆栈等多种构件）【只需要创建一个容器对象，让它处理所有细节，而不需要管将来会将多少个对象置于容器中】
 13. 范型：创建一个容器并让它知道自己保存的对象的具体类型（非Object类型），避免向下转型的不安全性
-14. 
+14. 对象的创建与
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDQ2NzE1MTYsMTM3OTU2NDczMSwtMT
-MyMjMwMTQwNyw1MzMyNDY1NzMsLTg3NzcwNTEyOSw1MDAyNzI4
-NjcsLTk3NDM5ODI0OCwtNDQ0MDMwNzg4LDgyNTgxMjM0MywxMD
-E2OTAzMzM1LC04MzA1NDEzNTUsNDE4ODQ2ODM1LDE3MTU4MjQ0
-OTEsLTE2MTI0ODUxOTAsMTU3NzA3ODU0MSwtMTc5ODI1OTg3NC
-w3MzMxOTczOTUsLTgyMTE5Nzk4MCwtMTIyNjUyOTk4M119
+eyJoaXN0b3J5IjpbNzc3NzY3NTY5LC0xNzA0NjcxNTE2LDEzNz
+k1NjQ3MzEsLTEzMjIzMDE0MDcsNTMzMjQ2NTczLC04Nzc3MDUx
+MjksNTAwMjcyODY3LC05NzQzOTgyNDgsLTQ0NDAzMDc4OCw4Mj
+U4MTIzNDMsMTAxNjkwMzMzNSwtODMwNTQxMzU1LDQxODg0Njgz
+NSwxNzE1ODI0NDkxLC0xNjEyNDg1MTkwLDE1NzcwNzg1NDEsLT
+E3OTgyNTk4NzQsNzMzMTk3Mzk1LC04MjExOTc5ODAsLTEyMjY1
+Mjk5ODNdfQ==
 -->
