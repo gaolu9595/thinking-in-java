@@ -30,17 +30,19 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 |--|--|--|
 | 安卓/IOS/PC开发/浏览器(JS,Applet) | Web服务器，Servlet及JSP | HTML/CSS |
 
-#
+
+###  Java程序设计
+1. 数据存储到什么地方：寄存器、堆栈、堆、常量存储、非RAM
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIzMDcyNzM1LDQ1NjkxMzkxOCwtNjMxMj
-Y2NTA4LC0xMzgxMTc1MjMxLDEzODQ3OTE3MTEsLTE3MzkxODg4
-NDMsLTEyNjA4MjQ0NDcsLTc3Nzc3Mzg1NSw3NTc2MTc5NDEsLT
-E3MDQ2NzE1MTYsMTM3OTU2NDczMSwtMTMyMjMwMTQwNyw1MzMy
-NDY1NzMsLTg3NzcwNTEyOSw1MDAyNzI4NjcsLTk3NDM5ODI0OC
-wtNDQ0MDMwNzg4LDgyNTgxMjM0MywxMDE2OTAzMzM1LC04MzA1
-NDEzNTVdfQ==
+eyJoaXN0b3J5IjpbLTE5NzI1NzczNTcsNDU2OTEzOTE4LC02Mz
+EyNjY1MDgsLTEzODExNzUyMzEsMTM4NDc5MTcxMSwtMTczOTE4
+ODg0MywtMTI2MDgyNDQ0NywtNzc3NzczODU1LDc1NzYxNzk0MS
+wtMTcwNDY3MTUxNiwxMzc5NTY0NzMxLC0xMzIyMzAxNDA3LDUz
+MzI0NjU3MywtODc3NzA1MTI5LDUwMDI3Mjg2NywtOTc0Mzk4Mj
+Q4LC00NDQwMzA3ODgsODI1ODEyMzQzLDEwMTY5MDMzMzUsLTgz
+MDU0MTM1NV19
 -->
