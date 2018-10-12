@@ -40,17 +40,18 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 5. **类变量能被Java自动初始化**，而方法中的局部变量则不能，需要程序员手动初始化
 6. 🔥 **“==”和“equals()”的区别** 🔥：前者比较的是基本数据类型的数值和引用类型的“对象地址”；后者不能用来比较基本数据类型，而在一些引用类型（未重写equals时）中比较“对象地址”，在另一些（重写了equals时，如String，Date类型）中比较对象的值。
 7. 基本类型存储的是实际的数值，而并非指向一个对象的引用；而引用类型则不是这样（易出现“  *别名现象*  ”）
-8. 
+8. a++和a--：先赋值再计算； ++a和--a：先计算再赋值
+9. 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTQ2MjM3NjgsNTcwNDkyNDYyLC0xMz
-E3NzcwNjk1LDEzNjA1MjU3LC03NjM4NzAwODUsLTM3MzY1NzIx
-Myw0NTY5MTM5MTgsLTYzMTI2NjUwOCwtMTM4MTE3NTIzMSwxMz
-g0NzkxNzExLC0xNzM5MTg4ODQzLC0xMjYwODI0NDQ3LC03Nzc3
-NzM4NTUsNzU3NjE3OTQxLC0xNzA0NjcxNTE2LDEzNzk1NjQ3Mz
-EsLTEzMjIzMDE0MDcsNTMzMjQ2NTczLC04Nzc3MDUxMjksNTAw
-MjcyODY3XX0=
+eyJoaXN0b3J5IjpbMjAyOTczODU4MiwtMjAxNDYyMzc2OCw1Nz
+A0OTI0NjIsLTEzMTc3NzA2OTUsMTM2MDUyNTcsLTc2Mzg3MDA4
+NSwtMzczNjU3MjEzLDQ1NjkxMzkxOCwtNjMxMjY2NTA4LC0xMz
+gxMTc1MjMxLDEzODQ3OTE3MTEsLTE3MzkxODg4NDMsLTEyNjA4
+MjQ0NDcsLTc3Nzc3Mzg1NSw3NTc2MTc5NDEsLTE3MDQ2NzE1MT
+YsMTM3OTU2NDczMSwtMTMyMjMwMTQwNyw1MzMyNDY1NzMsLTg3
+NzcwNTEyOV19
 -->
