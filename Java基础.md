@@ -36,18 +36,19 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 2. Java**基本数据类型**[强类型语言]：
 | boolean | char | byte | short | int | long | float | double | void |
 3. 类(class)：程序员定义的新数据类型【字段+方法】
-4. 
+4. static修饰的方法和字段是不依赖于类的对象而存在的，可以直接通过类名来访问
+5. 字段
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2Mzg3MDA4NSwtMzczNjU3MjEzLDQ1Nj
-kxMzkxOCwtNjMxMjY2NTA4LC0xMzgxMTc1MjMxLDEzODQ3OTE3
-MTEsLTE3MzkxODg4NDMsLTEyNjA4MjQ0NDcsLTc3Nzc3Mzg1NS
-w3NTc2MTc5NDEsLTE3MDQ2NzE1MTYsMTM3OTU2NDczMSwtMTMy
-MjMwMTQwNyw1MzMyNDY1NzMsLTg3NzcwNTEyOSw1MDAyNzI4Nj
-csLTk3NDM5ODI0OCwtNDQ0MDMwNzg4LDgyNTgxMjM0MywxMDE2
-OTAzMzM1XX0=
+eyJoaXN0b3J5IjpbLTIwMTE4NzEyOTYsLTc2Mzg3MDA4NSwtMz
+czNjU3MjEzLDQ1NjkxMzkxOCwtNjMxMjY2NTA4LC0xMzgxMTc1
+MjMxLDEzODQ3OTE3MTEsLTE3MzkxODg4NDMsLTEyNjA4MjQ0ND
+csLTc3Nzc3Mzg1NSw3NTc2MTc5NDEsLTE3MDQ2NzE1MTYsMTM3
+OTU2NDczMSwtMTMyMjMwMTQwNyw1MzMyNDY1NzMsLTg3NzcwNT
+EyOSw1MDAyNzI4NjcsLTk3NDM5ODI0OCwtNDQ0MDMwNzg4LDgy
+NTgxMjM0M119
 -->
