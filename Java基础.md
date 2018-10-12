@@ -21,17 +21,17 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 10. ❓❓❓***多态** [在OOP中编译器无法产生传统意义上的函数调用，即“前期绑定”，Java缺省使用动态的“后期绑定”]--------向上转型upcasting*❓❓❓
 11. 所有的类最终都继承于Object类（单根继承结构）
 12. 🔥**容器**🔥（e.g. C++的STL等；Java提供的诸多类似List/Map/Set等的容器，以及队列/树/堆栈等多种构件）【只需要创建一个容器对象，让它处理所有细节，而不需要管将来会将多少个对象置于容器中】
-13. 
+13. 泛型
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3OTU2NDczMSwtMTMyMjMwMTQwNyw1Mz
-MyNDY1NzMsLTg3NzcwNTEyOSw1MDAyNzI4NjcsLTk3NDM5ODI0
-OCwtNDQ0MDMwNzg4LDgyNTgxMjM0MywxMDE2OTAzMzM1LC04Mz
-A1NDEzNTUsNDE4ODQ2ODM1LDE3MTU4MjQ0OTEsLTE2MTI0ODUx
-OTAsMTU3NzA3ODU0MSwtMTc5ODI1OTg3NCw3MzMxOTczOTUsLT
-gyMTE5Nzk4MCwtMTIyNjUyOTk4M119
+eyJoaXN0b3J5IjpbLTEyMzQwMTA3NzMsMTM3OTU2NDczMSwtMT
+MyMjMwMTQwNyw1MzMyNDY1NzMsLTg3NzcwNTEyOSw1MDAyNzI4
+NjcsLTk3NDM5ODI0OCwtNDQ0MDMwNzg4LDgyNTgxMjM0MywxMD
+E2OTAzMzM1LC04MzA1NDEzNTUsNDE4ODQ2ODM1LDE3MTU4MjQ0
+OTEsLTE2MTI0ODUxOTAsMTU3NzA3ODU0MSwtMTc5ODI1OTg3NC
+w3MzMxOTczOTUsLTgyMTE5Nzk4MCwtMTIyNjUyOTk4M119
 -->
