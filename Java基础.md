@@ -31,7 +31,7 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 | 安卓/IOS/PC开发/浏览器(JS,Applet) | Web服务器，Servlet及JSP | HTML/CSS |
 
 
-###  Java程序设计
+###  📝Java程序设计
 1. 数据**存储**到什么地方：寄存器(处理器内部)、堆栈、堆(memory pool，所有Java对象)、常量存储(程序内部)、非RAM存储(e.g.持久化对象和流对象)
 2. Java**基本数据类型**[强类型语言]：
 | boolean | char | byte | short | int | long | float | double | void |
@@ -43,11 +43,11 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTc3MTkwNDUsLTM3MzY1NzIxMyw0NT
-Y5MTM5MTgsLTYzMTI2NjUwOCwtMTM4MTE3NTIzMSwxMzg0Nzkx
-NzExLC0xNzM5MTg4ODQzLC0xMjYwODI0NDQ3LC03Nzc3NzM4NT
-UsNzU3NjE3OTQxLC0xNzA0NjcxNTE2LDEzNzk1NjQ3MzEsLTEz
-MjIzMDE0MDcsNTMzMjQ2NTczLC04Nzc3MDUxMjksNTAwMjcyOD
-Y3LC05NzQzOTgyNDgsLTQ0NDAzMDc4OCw4MjU4MTIzNDMsMTAx
-NjkwMzMzNV19
+eyJoaXN0b3J5IjpbLTc2Mzg3MDA4NSwtMzczNjU3MjEzLDQ1Nj
+kxMzkxOCwtNjMxMjY2NTA4LC0xMzgxMTc1MjMxLDEzODQ3OTE3
+MTEsLTE3MzkxODg4NDMsLTEyNjA4MjQ0NDcsLTc3Nzc3Mzg1NS
+w3NTc2MTc5NDEsLTE3MDQ2NzE1MTYsMTM3OTU2NDczMSwtMTMy
+MjMwMTQwNyw1MzMyNDY1NzMsLTg3NzcwNTEyOSw1MDAyNzI4Nj
+csLTk3NDM5ODI0OCwtNDQ0MDMwNzg4LDgyNTgxMjM0MywxMDE2
+OTAzMzM1XX0=
 -->
