@@ -1,4 +1,4 @@
-## Java程序设计基础😁
+## Java编程基础😁
 
 ### 相关概念
 JDK: Java Development Kit (包含JRE，同时包括client和server端的)
@@ -32,17 +32,18 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 
 ###  Java程序设计
-1. 数据存储到什么地方：寄存器、堆栈、堆、常量存储、非RAM
+1. 数据存储到什么地方：寄存器、堆栈、堆、常量存储、非RAM存储
+2. Java基本数据类型：
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzI1NzczNTcsNDU2OTEzOTE4LC02Mz
-EyNjY1MDgsLTEzODExNzUyMzEsMTM4NDc5MTcxMSwtMTczOTE4
-ODg0MywtMTI2MDgyNDQ0NywtNzc3NzczODU1LDc1NzYxNzk0MS
-wtMTcwNDY3MTUxNiwxMzc5NTY0NzMxLC0xMzIyMzAxNDA3LDUz
-MzI0NjU3MywtODc3NzA1MTI5LDUwMDI3Mjg2NywtOTc0Mzk4Mj
-Q4LC00NDQwMzA3ODgsODI1ODEyMzQzLDEwMTY5MDMzMzUsLTgz
-MDU0MTM1NV19
+eyJoaXN0b3J5IjpbMTU4Mjc5NDI4Myw0NTY5MTM5MTgsLTYzMT
+I2NjUwOCwtMTM4MTE3NTIzMSwxMzg0NzkxNzExLC0xNzM5MTg4
+ODQzLC0xMjYwODI0NDQ3LC03Nzc3NzM4NTUsNzU3NjE3OTQxLC
+0xNzA0NjcxNTE2LDEzNzk1NjQ3MzEsLTEzMjIzMDE0MDcsNTMz
+MjQ2NTczLC04Nzc3MDUxMjksNTAwMjcyODY3LC05NzQzOTgyND
+gsLTQ0NDAzMDc4OCw4MjU4MTIzNDMsMTAxNjkwMzMzNSwtODMw
+NTQxMzU1XX0=
 -->
