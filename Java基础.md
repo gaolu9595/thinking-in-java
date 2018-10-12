@@ -4,7 +4,7 @@
 JDK: Java Development Kit (包含JRE，同时包括client和server端的)
 JRE: Java Runtime Enviorment (只包含client运行环境下的JVM：jre/bin/client/jvm.dll)
 IDE: Integrated Development Enviorment (e.g. Eclipse)
-问题空间（一项业务）<=============>解空间（计算机）
+问题空间（一项业务）<=============>   解空间（计算机）
 
 ### OOP基本思想
 1. 👌**万物皆为对象**👌
@@ -25,8 +25,9 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NDAzMDc4OCw4MjU4MTIzNDMsMTAxNj
-kwMzMzNSwtODMwNTQxMzU1LDQxODg0NjgzNSwxNzE1ODI0NDkx
-LC0xNjEyNDg1MTkwLDE1NzcwNzg1NDEsLTE3OTgyNTk4NzQsNz
-MzMTk3Mzk1LC04MjExOTc5ODAsLTEyMjY1Mjk5ODNdfQ==
+eyJoaXN0b3J5IjpbMTMwNjY0OTg2OCwtNDQ0MDMwNzg4LDgyNT
+gxMjM0MywxMDE2OTAzMzM1LC04MzA1NDEzNTUsNDE4ODQ2ODM1
+LDE3MTU4MjQ0OTEsLTE2MTI0ODUxOTAsMTU3NzA3ODU0MSwtMT
+c5ODI1OTg3NCw3MzMxOTczOTUsLTgyMTE5Nzk4MCwtMTIyNjUy
+OTk4M119
 -->
