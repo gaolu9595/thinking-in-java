@@ -38,7 +38,7 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 3. **类(class)**：程序员定义的新数据类型【字段+方法】
 4. **static**修饰的方法和字段是不依赖于类的对象而存在的，可以直接通过类名来访问
 5. **类变量能被Java自动初始化**，而方法中的局部变量则不能，需要程序员手动初始化
-6. 🔥 **“==”和“equals()”的区别** 🔥：前者比较的是基本数据类型的数值和引用类型的“对象地址”；后者不能用来比较基本数据类型，而在一些引用类型（未重写equals时）中比较“对象地址”，在另一些（重写了equals时，如String，Date类型）中比较对象的值。
+6. 🔥 **“==”和“equals()”的区别** 🔥：前者比较的是基本数据类型的数值和引用类型的“对象地址”；后者不能用来比较基本数据类型，而在一些引用类型（未重写equals时）中比较“对象地址”，在另一些（重写了equals时，如String，Date，包装器类型）中比较对象的值。
 7. 基本类型存储的是实际的数值，而并非指向一个对象的引用；而引用类型则不是这样（易出现“  *别名现象*  ”）
 8. a++和a--：先赋值再计算； ++a和--a：先计算再赋值
 9. 
@@ -47,11 +47,11 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyOTczODU4MiwtMjAxNDYyMzc2OCw1Nz
-A0OTI0NjIsLTEzMTc3NzA2OTUsMTM2MDUyNTcsLTc2Mzg3MDA4
-NSwtMzczNjU3MjEzLDQ1NjkxMzkxOCwtNjMxMjY2NTA4LC0xMz
-gxMTc1MjMxLDEzODQ3OTE3MTEsLTE3MzkxODg4NDMsLTEyNjA4
-MjQ0NDcsLTc3Nzc3Mzg1NSw3NTc2MTc5NDEsLTE3MDQ2NzE1MT
-YsMTM3OTU2NDczMSwtMTMyMjMwMTQwNyw1MzMyNDY1NzMsLTg3
-NzcwNTEyOV19
+eyJoaXN0b3J5IjpbLTQzNTQ4MzgxNCwyMDI5NzM4NTgyLC0yMD
+E0NjIzNzY4LDU3MDQ5MjQ2MiwtMTMxNzc3MDY5NSwxMzYwNTI1
+NywtNzYzODcwMDg1LC0zNzM2NTcyMTMsNDU2OTEzOTE4LC02Mz
+EyNjY1MDgsLTEzODExNzUyMzEsMTM4NDc5MTcxMSwtMTczOTE4
+ODg0MywtMTI2MDgyNDQ0NywtNzc3NzczODU1LDc1NzYxNzk0MS
+wtMTcwNDY3MTUxNiwxMzc5NTY0NzMxLC0xMzIyMzAxNDA3LDUz
+MzI0NjU3M119
 -->
