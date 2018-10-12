@@ -35,8 +35,8 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 1. 数据**存储**到什么地方：寄存器(处理器内部)、堆栈、堆(memory pool，所有Java对象)、常量存储(程序内部)、非RAM存储(e.g.持久化对象和流对象)
 2. Java**基本数据类型**[强类型语言]：
 | boolean | char | byte | short | int | long | float | double | void |
-3. 类(class)：程序员定义的新数据类型【字段+方法】
-4. static修饰的方法和字段是不依赖于类的对象而存在的，可以直接通过类名来访问
+3. **类(class)**：程序员定义的新数据类型【字段+方法】
+4. **static**修饰的方法和字段是不依赖于类的对象而存在的，可以直接通过类名来访问
 5. **类变量能被Java自动初始化**，而方法中的局部变量则不能，需要程序员手动初始化
 
 
@@ -44,11 +44,11 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMzUzNTI0MSwtNzYzODcwMDg1LC0zNz
-M2NTcyMTMsNDU2OTEzOTE4LC02MzEyNjY1MDgsLTEzODExNzUy
-MzEsMTM4NDc5MTcxMSwtMTczOTE4ODg0MywtMTI2MDgyNDQ0Ny
-wtNzc3NzczODU1LDc1NzYxNzk0MSwtMTcwNDY3MTUxNiwxMzc5
-NTY0NzMxLC0xMzIyMzAxNDA3LDUzMzI0NjU3MywtODc3NzA1MT
-I5LDUwMDI3Mjg2NywtOTc0Mzk4MjQ4LC00NDQwMzA3ODgsODI1
-ODEyMzQzXX0=
+eyJoaXN0b3J5IjpbMTM2MDUyNTcsLTc2Mzg3MDA4NSwtMzczNj
+U3MjEzLDQ1NjkxMzkxOCwtNjMxMjY2NTA4LC0xMzgxMTc1MjMx
+LDEzODQ3OTE3MTEsLTE3MzkxODg4NDMsLTEyNjA4MjQ0NDcsLT
+c3Nzc3Mzg1NSw3NTc2MTc5NDEsLTE3MDQ2NzE1MTYsMTM3OTU2
+NDczMSwtMTMyMjMwMTQwNyw1MzMyNDY1NzMsLTg3NzcwNTEyOS
+w1MDAyNzI4NjcsLTk3NDM5ODI0OCwtNDQ0MDMwNzg4LDgyNTgx
+MjM0M119
 -->
