@@ -38,17 +38,17 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 3. **类(class)**：程序员定义的新数据类型【字段+方法】
 4. **static**修饰的方法和字段是不依赖于类的对象而存在的，可以直接通过类名来访问
 5. **类变量能被Java自动初始化**，而方法中的局部变量则不能，需要程序员手动初始化
-
+6. 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MDUyNTcsLTc2Mzg3MDA4NSwtMzczNj
-U3MjEzLDQ1NjkxMzkxOCwtNjMxMjY2NTA4LC0xMzgxMTc1MjMx
-LDEzODQ3OTE3MTEsLTE3MzkxODg4NDMsLTEyNjA4MjQ0NDcsLT
-c3Nzc3Mzg1NSw3NTc2MTc5NDEsLTE3MDQ2NzE1MTYsMTM3OTU2
-NDczMSwtMTMyMjMwMTQwNyw1MzMyNDY1NzMsLTg3NzcwNTEyOS
-w1MDAyNzI4NjcsLTk3NDM5ODI0OCwtNDQ0MDMwNzg4LDgyNTgx
-MjM0M119
+eyJoaXN0b3J5IjpbNTU0OTIwMjA3LDEzNjA1MjU3LC03NjM4Nz
+AwODUsLTM3MzY1NzIxMyw0NTY5MTM5MTgsLTYzMTI2NjUwOCwt
+MTM4MTE3NTIzMSwxMzg0NzkxNzExLC0xNzM5MTg4ODQzLC0xMj
+YwODI0NDQ3LC03Nzc3NzM4NTUsNzU3NjE3OTQxLC0xNzA0Njcx
+NTE2LDEzNzk1NjQ3MzEsLTEzMjIzMDE0MDcsNTMzMjQ2NTczLC
+04Nzc3MDUxMjksNTAwMjcyODY3LC05NzQzOTgyNDgsLTQ0NDAz
+MDc4OF19
 -->
