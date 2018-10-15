@@ -48,17 +48,17 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 13. Java中的小数默认是double类型，若需得到float类型要进行类型转换
 14. **二进制编码**（原码---反码---补码）
 15. 通常，表达式中出现的最大的数据类型决定了表达式最终的数据类型（e.g. 将一个float值和一个double值相乘，结果是double）；只要比int小的类型（char，byte和short），在运算之前，值都会自动转换成int
-16. Java中包含的控制执行语句主要有“if-else, while, do-while, for, return, break, continue, switch-case”，不支持goto语句
+16. Java中包含的控制执行语句主要有“if-else, while, do-while, for, foreach, return, break, continue, switch-case”，不支持goto语句
 17. 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMTM2OTY0MiwtMTMzOTI2MzAxNCwtOD
-IzNDYwMzEzLDUzNTQ4ODU1Niw1NjUxMzE2NSwtMjEyNDc5NjQ4
-NCw1OTExMzU2NzEsMTA2ODM5MDU4NSwtNDM1NDgzODE0LDIwMj
-k3Mzg1ODIsLTIwMTQ2MjM3NjgsNTcwNDkyNDYyLC0xMzE3Nzcw
-Njk1LDEzNjA1MjU3LC03NjM4NzAwODUsLTM3MzY1NzIxMyw0NT
-Y5MTM5MTgsLTYzMTI2NjUwOCwtMTM4MTE3NTIzMSwxMzg0Nzkx
-NzExXX0=
+eyJoaXN0b3J5IjpbMTIwODQzNzA1NiwtMzMxMzY5NjQyLC0xMz
+M5MjYzMDE0LC04MjM0NjAzMTMsNTM1NDg4NTU2LDU2NTEzMTY1
+LC0yMTI0Nzk2NDg0LDU5MTEzNTY3MSwxMDY4MzkwNTg1LC00Mz
+U0ODM4MTQsMjAyOTczODU4MiwtMjAxNDYyMzc2OCw1NzA0OTI0
+NjIsLTEzMTc3NzA2OTUsMTM2MDUyNTcsLTc2Mzg3MDA4NSwtMz
+czNjU3MjEzLDQ1NjkxMzkxOCwtNjMxMjY2NTA4LC0xMzgxMTc1
+MjMxXX0=
 -->
