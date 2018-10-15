@@ -36,7 +36,7 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 2. Java**基本数据类型**[强类型语言]：（每个基本数据类型都有自己的包装类）
 | boolean | char | byte | short | int | long | float | double | void |
 3. **类(class)**：程序员定义的新数据类型【字段+方法】
-4. **static**修饰的方法和字段是不依赖于类的对象而存在的，可以直接通过类名来访问
+4. **static**修饰的方法和字段是不依赖于类的对象而存在的，可以直接通过类名来访问，是没有this的方法
 5. **类变量能被Java自动初始化**，而方法中的局部变量则不能，需要程序员手动初始化
 6. 🔥 **“==”和“equals()”的区别** 🔥：前者比较的是基本数据类型的数值和引用类型的“对象地址”；后者不能用来比较基本数据类型，而在一些引用类型（未重写equals时）中比较“对象地址”，在另一些（重写了equals时，如String，Date，包装器类型）中比较对象的值。
 7. 基本类型存储的是实际的数值，而并非指向一个对象的引用；而引用类型则不是这样（易出现“  *别名现象*  ”）
@@ -56,11 +56,11 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzI0OTAyMzAsMTkzNDE5OTg2MiwtMT
-M1ODc2NzIwNSwtNDg5MDQxNDkwLDEyMDg0MzcwNTYsLTMzMTM2
-OTY0MiwtMTMzOTI2MzAxNCwtODIzNDYwMzEzLDUzNTQ4ODU1Ni
-w1NjUxMzE2NSwtMjEyNDc5NjQ4NCw1OTExMzU2NzEsMTA2ODM5
-MDU4NSwtNDM1NDgzODE0LDIwMjk3Mzg1ODIsLTIwMTQ2MjM3Nj
-gsNTcwNDkyNDYyLC0xMzE3NzcwNjk1LDEzNjA1MjU3LC03NjM4
-NzAwODVdfQ==
+eyJoaXN0b3J5IjpbLTE3NjgyODY4MywtMTc3MjQ5MDIzMCwxOT
+M0MTk5ODYyLC0xMzU4NzY3MjA1LC00ODkwNDE0OTAsMTIwODQz
+NzA1NiwtMzMxMzY5NjQyLC0xMzM5MjYzMDE0LC04MjM0NjAzMT
+MsNTM1NDg4NTU2LDU2NTEzMTY1LC0yMTI0Nzk2NDg0LDU5MTEz
+NTY3MSwxMDY4MzkwNTg1LC00MzU0ODM4MTQsMjAyOTczODU4Mi
+wtMjAxNDYyMzc2OCw1NzA0OTI0NjIsLTEzMTc3NzA2OTUsMTM2
+MDUyNTddfQ==
 -->
