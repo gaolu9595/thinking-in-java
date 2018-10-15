@@ -46,12 +46,13 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 11. 单精度浮点数的表示范围（4bytes）：-3.40E+38~3.40E+38
 12. 双精度浮点数的表示范围（8bytes）：-1.79E+308~-1.79E+308
 13. Java中的小数默认是double类型，若需得到float类型要进行类型转换
-14. 二进制
+14. 二进制编码（原码---反码---补码）
+15. 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMjUyMDgxNyw1MzU0ODg1NTYsNTY1MT
+eyJoaXN0b3J5IjpbLTgyMzQ2MDMxMyw1MzU0ODg1NTYsNTY1MT
 MxNjUsLTIxMjQ3OTY0ODQsNTkxMTM1NjcxLDEwNjgzOTA1ODUs
 LTQzNTQ4MzgxNCwyMDI5NzM4NTgyLC0yMDE0NjIzNzY4LDU3MD
 Q5MjQ2MiwtMTMxNzc3MDY5NSwxMzYwNTI1NywtNzYzODcwMDg1
