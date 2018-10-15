@@ -51,16 +51,16 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 16. Java中包含的控制执行语句主要有“if-else, while, do-while, for, foreach, return, break, continue, switch-case”，不支持goto语句
 17. **构造方法**：每个类都有至少一个构造方法，若没有显示定义一个构造方法，编译器会自动创建一个默认构造器（无参）；而若显示定义了构造方法，默认构造器就不会被创建。*除构造方法外，Java编译器中禁止在其他任何方法中调用构造方法*。      **方法重载**。
 18. this关键字，用于在方法的内部获得对当前对象的引用；可以解决参数名和数据成员名相同时出现的歧义问题
-19. finalize方法【垃圾回收】
+19. finalize方法是危险的，多余的【垃圾回收】
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY4Nzk3MzU3LC0xNzY4Mjg2ODMsLTE3Nz
-I0OTAyMzAsMTkzNDE5OTg2MiwtMTM1ODc2NzIwNSwtNDg5MDQx
-NDkwLDEyMDg0MzcwNTYsLTMzMTM2OTY0MiwtMTMzOTI2MzAxNC
-wtODIzNDYwMzEzLDUzNTQ4ODU1Niw1NjUxMzE2NSwtMjEyNDc5
-NjQ4NCw1OTExMzU2NzEsMTA2ODM5MDU4NSwtNDM1NDgzODE0LD
-IwMjk3Mzg1ODIsLTIwMTQ2MjM3NjgsNTcwNDkyNDYyLC0xMzE3
-NzcwNjk1XX0=
+eyJoaXN0b3J5IjpbLTc2Mjc3OTMzNywyNjg3OTczNTcsLTE3Nj
+gyODY4MywtMTc3MjQ5MDIzMCwxOTM0MTk5ODYyLC0xMzU4NzY3
+MjA1LC00ODkwNDE0OTAsMTIwODQzNzA1NiwtMzMxMzY5NjQyLC
+0xMzM5MjYzMDE0LC04MjM0NjAzMTMsNTM1NDg4NTU2LDU2NTEz
+MTY1LC0yMTI0Nzk2NDg0LDU5MTEzNTY3MSwxMDY4MzkwNTg1LC
+00MzU0ODM4MTQsMjAyOTczODU4MiwtMjAxNDYyMzc2OCw1NzA0
+OTI0NjJdfQ==
 -->
