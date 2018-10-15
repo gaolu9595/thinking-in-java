@@ -42,17 +42,17 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 7. 基本类型存储的是实际的数值，而并非指向一个对象的引用；而引用类型则不是这样（易出现“  *别名现象*  ”）
 8. a++和a--：先赋值再计算； ++a和--a：先计算再赋值
 9. 使用逻辑操作符时，“短路”的发生可以获得潜在的性能提升
-10. BigInteger和BigDecimal是用于int和float高精度计算的两个类，支持任意精度的整数和定点数，需要用方法调用来取代运算符实现运算，所以会慢一些
+10. BigInteger和BigDecimal是用于int和float高精度计算的两个类，支持任意精度的整数和定点数，计算值不丢失任何信息；但是需要用方法调用来取代运算符实现运算，所以会慢一些
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTAxOTE4NDAsNTkxMTM1NjcxLDEwNj
-gzOTA1ODUsLTQzNTQ4MzgxNCwyMDI5NzM4NTgyLC0yMDE0NjIz
-NzY4LDU3MDQ5MjQ2MiwtMTMxNzc3MDY5NSwxMzYwNTI1NywtNz
-YzODcwMDg1LC0zNzM2NTcyMTMsNDU2OTEzOTE4LC02MzEyNjY1
-MDgsLTEzODExNzUyMzEsMTM4NDc5MTcxMSwtMTczOTE4ODg0My
-wtMTI2MDgyNDQ0NywtNzc3NzczODU1LDc1NzYxNzk0MSwtMTcw
-NDY3MTUxNl19
+eyJoaXN0b3J5IjpbLTE3NjcxMzEzOCw1OTExMzU2NzEsMTA2OD
+M5MDU4NSwtNDM1NDgzODE0LDIwMjk3Mzg1ODIsLTIwMTQ2MjM3
+NjgsNTcwNDkyNDYyLC0xMzE3NzcwNjk1LDEzNjA1MjU3LC03Nj
+M4NzAwODUsLTM3MzY1NzIxMyw0NTY5MTM5MTgsLTYzMTI2NjUw
+OCwtMTM4MTE3NTIzMSwxMzg0NzkxNzExLC0xNzM5MTg4ODQzLC
+0xMjYwODI0NDQ3LC03Nzc3NzM4NTUsNzU3NjE3OTQxLC0xNzA0
+NjcxNTE2XX0=
 -->
