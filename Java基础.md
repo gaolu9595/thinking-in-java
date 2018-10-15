@@ -45,13 +45,13 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 10. BigInteger和BigDecimal是用于int和float高精度计算的两个类，支持任意精度的整数和浮点数，计算值不丢失任何信息；但是需要用方法调用来取代运算符实现运算，所以会慢一些
 11. 单精度浮点数的表示范围（4bytes）：-3.40E+38~3.40E+38
 12. 双精度浮点数的表示范围（8bytes）：-1.79E+308~-1.79E+308
-13. Java中的小数默认是double类型，若需得到float类型要进行类型转换或者
+13. Java中的小数默认是double类型，若需得到float类型要进行类型转换
 14. 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI5NTg3NDIxLDU2NTEzMTY1LC0yMTI0Nz
+eyJoaXN0b3J5IjpbNTM1NDg4NTU2LDU2NTEzMTY1LC0yMTI0Nz
 k2NDg0LDU5MTEzNTY3MSwxMDY4MzkwNTg1LC00MzU0ODM4MTQs
 MjAyOTczODU4MiwtMjAxNDYyMzc2OCw1NzA0OTI0NjIsLTEzMT
 c3NzA2OTUsMTM2MDUyNTcsLTc2Mzg3MDA4NSwtMzczNjU3MjEz
