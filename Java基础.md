@@ -49,17 +49,18 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 14. **二进制编码**（原码---反码---补码）
 15. 通常，表达式中出现的最大的数据类型决定了表达式最终的数据类型（e.g. 将一个float值和一个double值相乘，结果是double）；只要比int小的类型（char，byte和short），在运算之前，值都会自动转换成int
 16. Java中包含的控制执行语句主要有“if-else, while, do-while, for, foreach, return, break, continue, switch-case”，不支持goto语句
-17. **构造方法**：每个类都有至少一个构造方法，若没有显示定义一个构造方法，编译器会自动创建一个默认构造器（无参）；而若显示定义了构造方法，默认构造器就不会被创建。**方法重载**
-18. this关键字，用于在方法的内部获得对当前对象的引用 
+17. **构造方法**：每个类都有至少一个构造方法，若没有显示定义一个构造方法，编译器会自动创建一个默认构造器（无参）；而若显示定义了构造方法，默认构造器就不会被创建。*除构造方法外，Java编译器中禁止在其他任何方法中调用构造方法*。      **方法重载**。
+18. this关键字，用于在方法的内部获得对当前对象的引用；可以解决参数名和数据成员名相同时出现的歧义问题
+19. 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNDE5OTg2MiwtMTM1ODc2NzIwNSwtND
-g5MDQxNDkwLDEyMDg0MzcwNTYsLTMzMTM2OTY0MiwtMTMzOTI2
-MzAxNCwtODIzNDYwMzEzLDUzNTQ4ODU1Niw1NjUxMzE2NSwtMj
-EyNDc5NjQ4NCw1OTExMzU2NzEsMTA2ODM5MDU4NSwtNDM1NDgz
-ODE0LDIwMjk3Mzg1ODIsLTIwMTQ2MjM3NjgsNTcwNDkyNDYyLC
-0xMzE3NzcwNjk1LDEzNjA1MjU3LC03NjM4NzAwODUsLTM3MzY1
-NzIxM119
+eyJoaXN0b3J5IjpbLTE3NzI0OTAyMzAsMTkzNDE5OTg2MiwtMT
+M1ODc2NzIwNSwtNDg5MDQxNDkwLDEyMDg0MzcwNTYsLTMzMTM2
+OTY0MiwtMTMzOTI2MzAxNCwtODIzNDYwMzEzLDUzNTQ4ODU1Ni
+w1NjUxMzE2NSwtMjEyNDc5NjQ4NCw1OTExMzU2NzEsMTA2ODM5
+MDU4NSwtNDM1NDgzODE0LDIwMjk3Mzg1ODIsLTIwMTQ2MjM3Nj
+gsNTcwNDkyNDYyLC0xMzE3NzcwNjk1LDEzNjA1MjU3LC03NjM4
+NzAwODVdfQ==
 -->
