@@ -52,16 +52,16 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 17. **构造方法**：每个类都有至少一个构造方法，若没有显示定义一个构造方法，编译器会自动创建一个默认构造器（无参）；而若显示定义了构造方法，默认构造器就不会被创建。*除构造方法外，Java编译器中禁止在其他任何方法中调用构造方法*。      **方法重载**。
 18. this关键字，用于在方法的内部获得对当前对象的引用；可以解决参数名和数据成员名相同时出现的歧义问题
 19. finalize方法（终结处理）是危险的，多余的【垃圾回收】
-20. 在类的内部，变量定义的先后顺序决定了初始化的顺序，即使变量定义散布于方法定义间，它们依旧会*在任何方法（包括构造方法）被调用之前*就得到初始化
+20. 在类的内部，变量定义的先后顺序决定了初始化的顺序，即使变量定义散布于方法定义间，它们依旧会*在任何方法（包括构造方法）被调用之前*就得到初始化【】
 21. 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUwNjMwMzk2LC03NjI3NzkzMzcsMjY4Nz
-k3MzU3LC0xNzY4Mjg2ODMsLTE3NzI0OTAyMzAsMTkzNDE5OTg2
-MiwtMTM1ODc2NzIwNSwtNDg5MDQxNDkwLDEyMDg0MzcwNTYsLT
-MzMTM2OTY0MiwtMTMzOTI2MzAxNCwtODIzNDYwMzEzLDUzNTQ4
-ODU1Niw1NjUxMzE2NSwtMjEyNDc5NjQ4NCw1OTExMzU2NzEsMT
-A2ODM5MDU4NSwtNDM1NDgzODE0LDIwMjk3Mzg1ODIsLTIwMTQ2
-MjM3NjhdfQ==
+eyJoaXN0b3J5IjpbMTQwMTUzNTgzNSw1NTA2MzAzOTYsLTc2Mj
+c3OTMzNywyNjg3OTczNTcsLTE3NjgyODY4MywtMTc3MjQ5MDIz
+MCwxOTM0MTk5ODYyLC0xMzU4NzY3MjA1LC00ODkwNDE0OTAsMT
+IwODQzNzA1NiwtMzMxMzY5NjQyLC0xMzM5MjYzMDE0LC04MjM0
+NjAzMTMsNTM1NDg4NTU2LDU2NTEzMTY1LC0yMTI0Nzk2NDg0LD
+U5MTEzNTY3MSwxMDY4MzkwNTg1LC00MzU0ODM4MTQsMjAyOTcz
+ODU4Ml19
 -->
