@@ -33,7 +33,7 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 ###  📝Java程序设计
 1. 数据**存储**到什么地方：寄存器(处理器内部)、堆栈、堆(memory pool，所有Java对象)、常量存储(程序内部)、非RAM存储(e.g.持久化对象和流对象)
-2. Java**基本数据类型**[强类型语言]：
+2. Java**基本数据类型**[强类型语言]：（每个基本数据类型都有自己的包装类）
 | boolean | char | byte | short | int | long | float | double | void |
 3. **类(class)**：程序员定义的新数据类型【字段+方法】
 4. **static**修饰的方法和字段是不依赖于类的对象而存在的，可以直接通过类名来访问
@@ -54,11 +54,11 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzkyNjMwMTQsLTgyMzQ2MDMxMyw1Mz
-U0ODg1NTYsNTY1MTMxNjUsLTIxMjQ3OTY0ODQsNTkxMTM1Njcx
-LDEwNjgzOTA1ODUsLTQzNTQ4MzgxNCwyMDI5NzM4NTgyLC0yMD
-E0NjIzNzY4LDU3MDQ5MjQ2MiwtMTMxNzc3MDY5NSwxMzYwNTI1
-NywtNzYzODcwMDg1LC0zNzM2NTcyMTMsNDU2OTEzOTE4LC02Mz
-EyNjY1MDgsLTEzODExNzUyMzEsMTM4NDc5MTcxMSwtMTczOTE4
-ODg0M119
+eyJoaXN0b3J5IjpbLTMzMTM2OTY0MiwtMTMzOTI2MzAxNCwtOD
+IzNDYwMzEzLDUzNTQ4ODU1Niw1NjUxMzE2NSwtMjEyNDc5NjQ4
+NCw1OTExMzU2NzEsMTA2ODM5MDU4NSwtNDM1NDgzODE0LDIwMj
+k3Mzg1ODIsLTIwMTQ2MjM3NjgsNTcwNDkyNDYyLC0xMzE3Nzcw
+Njk1LDEzNjA1MjU3LC03NjM4NzAwODUsLTM3MzY1NzIxMyw0NT
+Y5MTM5MTgsLTYzMTI2NjUwOCwtMTM4MTE3NTIzMSwxMzg0Nzkx
+NzExXX0=
 -->
