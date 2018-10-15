@@ -49,16 +49,16 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 14. **二进制编码**（原码---反码---补码）
 15. 通常，表达式中出现的最大的数据类型决定了表达式最终的数据类型（e.g. 将一个float值和一个double值相乘，结果是double）；只要比int小的类型（char，byte和short），在运算之前，值都会自动转换成int
 16. Java中包含的控制执行语句主要有“if-else, while, do-while, for, foreach, return, break, continue, switch-case”，不支持goto语句
-17. 
+17. **方法重载**： 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwODQzNzA1NiwtMzMxMzY5NjQyLC0xMz
-M5MjYzMDE0LC04MjM0NjAzMTMsNTM1NDg4NTU2LDU2NTEzMTY1
-LC0yMTI0Nzk2NDg0LDU5MTEzNTY3MSwxMDY4MzkwNTg1LC00Mz
-U0ODM4MTQsMjAyOTczODU4MiwtMjAxNDYyMzc2OCw1NzA0OTI0
-NjIsLTEzMTc3NzA2OTUsMTM2MDUyNTcsLTc2Mzg3MDA4NSwtMz
-czNjU3MjEzLDQ1NjkxMzkxOCwtNjMxMjY2NTA4LC0xMzgxMTc1
-MjMxXX0=
+eyJoaXN0b3J5IjpbLTQ4OTA0MTQ5MCwxMjA4NDM3MDU2LC0zMz
+EzNjk2NDIsLTEzMzkyNjMwMTQsLTgyMzQ2MDMxMyw1MzU0ODg1
+NTYsNTY1MTMxNjUsLTIxMjQ3OTY0ODQsNTkxMTM1NjcxLDEwNj
+gzOTA1ODUsLTQzNTQ4MzgxNCwyMDI5NzM4NTgyLC0yMDE0NjIz
+NzY4LDU3MDQ5MjQ2MiwtMTMxNzc3MDY5NSwxMzYwNTI1NywtNz
+YzODcwMDg1LC0zNzM2NTcyMTMsNDU2OTEzOTE4LC02MzEyNjY1
+MDhdfQ==
 -->
