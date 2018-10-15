@@ -43,16 +43,18 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 8. a++和a--：先赋值再计算； ++a和--a：先计算再赋值
 9. 使用逻辑操作符时，“短路”的发生可以获得潜在的性能提升
 10. BigInteger和BigDecimal是用于int和float高精度计算的两个类，支持任意精度的整数和浮点数，计算值不丢失任何信息；但是需要用方法调用来取代运算符实现运算，所以会慢一些
-11. 
+11. 单精度浮点数的表示范围：-3.40E+38~3.40E+38
+12. 双精度浮点数的表示范围：-1.79E+308~-1.79E+308
+13. 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTI4OTA1MjAsLTIxMjQ3OTY0ODQsNT
-kxMTM1NjcxLDEwNjgzOTA1ODUsLTQzNTQ4MzgxNCwyMDI5NzM4
-NTgyLC0yMDE0NjIzNzY4LDU3MDQ5MjQ2MiwtMTMxNzc3MDY5NS
-wxMzYwNTI1NywtNzYzODcwMDg1LC0zNzM2NTcyMTMsNDU2OTEz
-OTE4LC02MzEyNjY1MDgsLTEzODExNzUyMzEsMTM4NDc5MTcxMS
-wtMTczOTE4ODg0MywtMTI2MDgyNDQ0NywtNzc3NzczODU1LDc1
-NzYxNzk0MV19
+eyJoaXN0b3J5IjpbNTY1MTMxNjUsLTIxMjQ3OTY0ODQsNTkxMT
+M1NjcxLDEwNjgzOTA1ODUsLTQzNTQ4MzgxNCwyMDI5NzM4NTgy
+LC0yMDE0NjIzNzY4LDU3MDQ5MjQ2MiwtMTMxNzc3MDY5NSwxMz
+YwNTI1NywtNzYzODcwMDg1LC0zNzM2NTcyMTMsNDU2OTEzOTE4
+LC02MzEyNjY1MDgsLTEzODExNzUyMzEsMTM4NDc5MTcxMSwtMT
+czOTE4ODg0MywtMTI2MDgyNDQ0NywtNzc3NzczODU1LDc1NzYx
+Nzk0MV19
 -->
