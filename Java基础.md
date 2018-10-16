@@ -55,15 +55,15 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 20. 在类的内部，变量定义的先后顺序决定了初始化的顺序(**先静态对象，再非静态对象**)，即使变量定义散布于方法定义间，它们依旧会*在任何方法（包括构造方法）被调用之前*就得到初始化 
 21. 对象的创建过程 [e.g. HelloLulu/src/constructor/StaticInitialization.java]
 22. package和import关键字允许程序员做的，是将单一的全局名字空间分割开，使得不论多少人使用Internet（因为在发布Java程序时，package的名称一般使用反顺序的域名）和Java编写类都不会出现名称冲突的问题
-23. 
+23. **Java访问权限修饰词**：包访问权限；
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NzU0NzcyMCwzNTQ2NjY4ODAsLTEyND
-Y3OTA2MzAsLTE0MjUzNzIwMDIsLTE4MzM0NjYxNDUsNTUwNjMw
-Mzk2LC03NjI3NzkzMzcsMjY4Nzk3MzU3LC0xNzY4Mjg2ODMsLT
-E3NzI0OTAyMzAsMTkzNDE5OTg2MiwtMTM1ODc2NzIwNSwtNDg5
-MDQxNDkwLDEyMDg0MzcwNTYsLTMzMTM2OTY0MiwtMTMzOTI2Mz
-AxNCwtODIzNDYwMzEzLDUzNTQ4ODU1Niw1NjUxMzE2NSwtMjEy
-NDc5NjQ4NF19
+eyJoaXN0b3J5IjpbLTYwMDMxODUyNywxNDg3NTQ3NzIwLDM1ND
+Y2Njg4MCwtMTI0Njc5MDYzMCwtMTQyNTM3MjAwMiwtMTgzMzQ2
+NjE0NSw1NTA2MzAzOTYsLTc2Mjc3OTMzNywyNjg3OTczNTcsLT
+E3NjgyODY4MywtMTc3MjQ5MDIzMCwxOTM0MTk5ODYyLC0xMzU4
+NzY3MjA1LC00ODkwNDE0OTAsMTIwODQzNzA1NiwtMzMxMzY5Nj
+QyLC0xMzM5MjYzMDE0LC04MjM0NjAzMTMsNTM1NDg4NTU2LDU2
+NTEzMTY1XX0=
 -->
