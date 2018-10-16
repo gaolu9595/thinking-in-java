@@ -56,14 +56,14 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 21. 对象的创建过程 [e.g. HelloLulu/src/constructor/StaticInitialization.java]
 22. package和import关键字允许程序员做的，是将单一的全局名字空间分割开，使得不论多少人使用Internet（因为在发布Java程序时，package的名称一般使用反顺序的域名）和Java编写类都不会出现名称冲突的问题
 23. **Java访问权限修饰词**：包访问权限（无任何访问权限修饰时）；public（该成员声明自己对每个人都是可用的）；private（除了包含该成员的类外，其他任何类都无法访问这个成员）；protected（继承访问权限，使得该成员对继承自该成员所在类的其他类是可用的，而对于其所在包以外的其他非子类不可用）
-
+24. Java中的类仅有public和包访问权限两个选择。如果不希望任何其他人访问该类，可以将类中所有的构造方法设置为private，阻止任何人创建类的对象。
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1OTYxOTg0LC0yMjAwMjUxMDEsLTYwMD
-MxODUyNywxNDg3NTQ3NzIwLDM1NDY2Njg4MCwtMTI0Njc5MDYz
-MCwtMTQyNTM3MjAwMiwtMTgzMzQ2NjE0NSw1NTA2MzAzOTYsLT
-c2Mjc3OTMzNywyNjg3OTczNTcsLTE3NjgyODY4MywtMTc3MjQ5
-MDIzMCwxOTM0MTk5ODYyLC0xMzU4NzY3MjA1LC00ODkwNDE0OT
-AsMTIwODQzNzA1NiwtMzMxMzY5NjQyLC0xMzM5MjYzMDE0LC04
-MjM0NjAzMTNdfQ==
+eyJoaXN0b3J5IjpbMTM0MDk3MzI4MiwtNDU5NjE5ODQsLTIyMD
+AyNTEwMSwtNjAwMzE4NTI3LDE0ODc1NDc3MjAsMzU0NjY2ODgw
+LC0xMjQ2NzkwNjMwLC0xNDI1MzcyMDAyLC0xODMzNDY2MTQ1LD
+U1MDYzMDM5NiwtNzYyNzc5MzM3LDI2ODc5NzM1NywtMTc2ODI4
+NjgzLC0xNzcyNDkwMjMwLDE5MzQxOTk4NjIsLTEzNTg3NjcyMD
+UsLTQ4OTA0MTQ5MCwxMjA4NDM3MDU2LC0zMzEzNjk2NDIsLTEz
+MzkyNjMwMTRdfQ==
 -->
