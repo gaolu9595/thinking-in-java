@@ -54,14 +54,15 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 19. finalize方法（终结处理）是危险的，多余的【垃圾回收】
 20. 在类的内部，变量定义的先后顺序决定了初始化的顺序(**先静态对象，再非静态对象**)，即使变量定义散布于方法定义间，它们依旧会*在任何方法（包括构造方法）被调用之前*就得到初始化 
 21. 对象的创建过程 [e.g. HelloLulu/src/constructor/StaticInitialization.java]
+22. 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjUzNzIwMDIsLTE4MzM0NjYxNDUsNT
-UwNjMwMzk2LC03NjI3NzkzMzcsMjY4Nzk3MzU3LC0xNzY4Mjg2
-ODMsLTE3NzI0OTAyMzAsMTkzNDE5OTg2MiwtMTM1ODc2NzIwNS
-wtNDg5MDQxNDkwLDEyMDg0MzcwNTYsLTMzMTM2OTY0MiwtMTMz
-OTI2MzAxNCwtODIzNDYwMzEzLDUzNTQ4ODU1Niw1NjUxMzE2NS
-wtMjEyNDc5NjQ4NCw1OTExMzU2NzEsMTA2ODM5MDU4NSwtNDM1
-NDgzODE0XX0=
+eyJoaXN0b3J5IjpbLTEyNDY3OTA2MzAsLTE0MjUzNzIwMDIsLT
+E4MzM0NjYxNDUsNTUwNjMwMzk2LC03NjI3NzkzMzcsMjY4Nzk3
+MzU3LC0xNzY4Mjg2ODMsLTE3NzI0OTAyMzAsMTkzNDE5OTg2Mi
+wtMTM1ODc2NzIwNSwtNDg5MDQxNDkwLDEyMDg0MzcwNTYsLTMz
+MTM2OTY0MiwtMTMzOTI2MzAxNCwtODIzNDYwMzEzLDUzNTQ4OD
+U1Niw1NjUxMzE2NSwtMjEyNDc5NjQ4NCw1OTExMzU2NzEsMTA2
+ODM5MDU4NV19
 -->
