@@ -58,12 +58,13 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 23. 访问权限控制可以确保不会有任何客户端程序员依赖于某个类的底层实现的任何部分，也能简化他们对类的理解
 24. **Java访问权限修饰词**：包访问权限（无任何访问权限修饰时）；public（该成员声明自己对每个人都是可用的）；private（除了包含该成员的类外，其他任何类都无法访问这个成员）；protected（继承访问权限，使得该成员对继承自该成员所在类的其他类是可用的，而对于其所在包以外的其他非子类不可用）
 25. Java中的类仅有public和包访问权限两个选择。如果不希望任何其他人访问该类，可以将类中所有的构造方法设置为private，阻止任何人创建类的对象。
-26. 【继承时，创建的导出类的对象中，包含了一个基类的子对象】Java会自动在导出类的构造器中插入对基类默认构造器的调用，且这种调用是从基类“向外”扩散的。（基类构造器有参数列表时，要显示调用super()）
-27. 代理------->将成员对象置于要构造的类中，并且在新类中暴露该成员对象的底层部分方法子集，使用新类的方法来这些方法。
-28. 
+26. **组合与继承**
+27. 【继承时，创建的导出类的对象中，包含了一个基类的子对象】Java会自动在导出类的构造器中插入对基类默认构造器的调用，且这种调用是从基类“向外”扩散的。（基类构造器有参数列表时，要显示调用super()）
+28. *代理*------>将成员对象置于要构造的类中，并且在新类中暴露该成员对象的底层部分方法子集，使用新类的方法来这些方法。
+29. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ3MTMxOTU0LC0zNjAyMzc4NTIsLTQ1MD
+eyJoaXN0b3J5IjpbNjkzNDIzOTY0LC0zNjAyMzc4NTIsLTQ1MD
 k0NzIyOCwyMDQwMDIyODA3LDE3MzkyNzEyOTMsMTM0MDk3MzI4
 MiwtNDU5NjE5ODQsLTIyMDAyNTEwMSwtNjAwMzE4NTI3LDE0OD
 c1NDc3MjAsMzU0NjY2ODgwLC0xMjQ2NzkwNjMwLC0xNDI1Mzcy
