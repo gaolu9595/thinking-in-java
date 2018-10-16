@@ -58,14 +58,14 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 23. 访问权限控制可以确保不会有任何客户端程序员依赖于某个类的底层实现的任何部分，也能简化他们对类的理解
 24. **Java访问权限修饰词**：包访问权限（无任何访问权限修饰时）；public（该成员声明自己对每个人都是可用的）；private（除了包含该成员的类外，其他任何类都无法访问这个成员）；protected（继承访问权限，使得该成员对继承自该成员所在类的其他类是可用的，而对于其所在包以外的其他非子类不可用）
 25. Java中的类仅有public和包访问权限两个选择。如果不希望任何其他人访问该类，可以将类中所有的构造方法设置为private，阻止任何人创建类的对象。
-26. 
+26. 【继承时，创建的导出类的对象中，包含了一个基类的子对象】Java会自动在子类的构造器中插入对基类构造器的调用，且这种调用是从基类“向外”扩散的。
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczOTI3MTI5MywxMzQwOTczMjgyLC00NT
-k2MTk4NCwtMjIwMDI1MTAxLC02MDAzMTg1MjcsMTQ4NzU0Nzcy
-MCwzNTQ2NjY4ODAsLTEyNDY3OTA2MzAsLTE0MjUzNzIwMDIsLT
-E4MzM0NjYxNDUsNTUwNjMwMzk2LC03NjI3NzkzMzcsMjY4Nzk3
-MzU3LC0xNzY4Mjg2ODMsLTE3NzI0OTAyMzAsMTkzNDE5OTg2Mi
-wtMTM1ODc2NzIwNSwtNDg5MDQxNDkwLDEyMDg0MzcwNTYsLTMz
-MTM2OTY0Ml19
+eyJoaXN0b3J5IjpbLTE1NjYwNjc0ODMsMTczOTI3MTI5MywxMz
+QwOTczMjgyLC00NTk2MTk4NCwtMjIwMDI1MTAxLC02MDAzMTg1
+MjcsMTQ4NzU0NzcyMCwzNTQ2NjY4ODAsLTEyNDY3OTA2MzAsLT
+E0MjUzNzIwMDIsLTE4MzM0NjYxNDUsNTUwNjMwMzk2LC03NjI3
+NzkzMzcsMjY4Nzk3MzU3LC0xNzY4Mjg2ODMsLTE3NzI0OTAyMz
+AsMTkzNDE5OTg2MiwtMTM1ODc2NzIwNSwtNDg5MDQxNDkwLDEy
+MDg0MzcwNTZdfQ==
 -->
