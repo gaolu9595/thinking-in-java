@@ -64,13 +64,15 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 29. try{}finally{}，try关键字下面的块是保护区，表示需要被特殊处理，其中一项特殊处理就是“不论try块如何退出，finally子句中的代码总是要被执行”
 30. **重载与重写**
 31. **final**关键字：从设计角度来决定是否使用final，而不要从性能角度
+
 *修饰字段*：一个永不改变的编译时常量；一个在运行时被初始化的且不能被改变的数值或者引用
 *修饰参数*：保证在方法中无法更改final修饰的参数（数值/引用）
 *修饰方法*：锁定方法，防止任何继承类重写
 *修饰类*：永远不能被继承（因为final类禁止继承，因此final类中所有方法都隐式指定为final，因为无法覆盖他们）
-32. 继承与初始化过程[e.g. HelloLulu/src/Inheritance/Test.java]
-33. 👉👉👉 **多态** 👌👌👌
-动态绑定（后期绑定）【编译器一直不知道对象的类型，但是方法调用机制能找到正确的方法体并加以调用】，Java中除了**static方法和final方法(private包括其中)**以外，其他所有方法都执行后期绑定；
+33. 继承与初始化过程[e.g. HelloLulu/src/Inheritance/Test.java]
+34. 👉👉👉 **多态** 👌👌👌
+
+动态绑定（后期绑定）【编译器一直不知道对象的类型，但是方法调用机制能找到正确的方法体并加以调用】，Java中除了**static方法和final方法**(private包括其中)以外，其他所有方法都执行后期绑定；
 注意：任何域访问操作都将由编译器解析，因此不是多态的
 ======>所以，**一般将域设置为private，然后通过get和set方法来访问**
 
@@ -84,11 +86,11 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA2NjU3NjA5LC00NjQ0OTMwMTcsMTExMD
-IwOTY4LC0xNDE0NTQ0MjcwLDE1ODgzOTAxMjEsLTE1NDE5NDM2
-OTIsMjA3MzQ2ODExNSwtMTg4MzczNDYxLDIwNTExNjYxNjQsLT
-M2MDIzNzg1MiwtNDUwOTQ3MjI4LDIwNDAwMjI4MDcsMTczOTI3
-MTI5MywxMzQwOTczMjgyLC00NTk2MTk4NCwtMjIwMDI1MTAxLC
-02MDAzMTg1MjcsMTQ4NzU0NzcyMCwzNTQ2NjY4ODAsLTEyNDY3
-OTA2MzBdfQ==
+eyJoaXN0b3J5IjpbNTk4NDQ4NjIzLDgwNjY1NzYwOSwtNDY0ND
+kzMDE3LDExMTAyMDk2OCwtMTQxNDU0NDI3MCwxNTg4MzkwMTIx
+LC0xNTQxOTQzNjkyLDIwNzM0NjgxMTUsLTE4ODM3MzQ2MSwyMD
+UxMTY2MTY0LC0zNjAyMzc4NTIsLTQ1MDk0NzIyOCwyMDQwMDIy
+ODA3LDE3MzkyNzEyOTMsMTM0MDk3MzI4MiwtNDU5NjE5ODQsLT
+IyMDAyNTEwMSwtNjAwMzE4NTI3LDE0ODc1NDc3MjAsMzU0NjY2
+ODgwXX0=
 -->
