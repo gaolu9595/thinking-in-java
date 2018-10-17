@@ -65,16 +65,16 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 30. **重载与重写**
 31. **final**关键字
 修饰字段：一个永不改变的编译时常量；一个在运行时被初始化的且不能被改变的数值或者引用
-修饰参数：保证在方法中无法更改final修饰的参数（数值）
-修饰方法：
+修饰参数：保证在方法中无法更改final修饰的参数（数值/引用）
+修饰方法：锁定方法，防止任何继承类重写
 修饰类：
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAyODY5MDI1LC0xODgzNzM0NjEsMjA1MT
-E2NjE2NCwtMzYwMjM3ODUyLC00NTA5NDcyMjgsMjA0MDAyMjgw
-NywxNzM5MjcxMjkzLDEzNDA5NzMyODIsLTQ1OTYxOTg0LC0yMj
-AwMjUxMDEsLTYwMDMxODUyNywxNDg3NTQ3NzIwLDM1NDY2Njg4
-MCwtMTI0Njc5MDYzMCwtMTQyNTM3MjAwMiwtMTgzMzQ2NjE0NS
-w1NTA2MzAzOTYsLTc2Mjc3OTMzNywyNjg3OTczNTcsLTE3Njgy
-ODY4M119
+eyJoaXN0b3J5IjpbMjA3MzQ2ODExNSwtMTg4MzczNDYxLDIwNT
+ExNjYxNjQsLTM2MDIzNzg1MiwtNDUwOTQ3MjI4LDIwNDAwMjI4
+MDcsMTczOTI3MTI5MywxMzQwOTczMjgyLC00NTk2MTk4NCwtMj
+IwMDI1MTAxLC02MDAzMTg1MjcsMTQ4NzU0NzcyMCwzNTQ2NjY4
+ODAsLTEyNDY3OTA2MzAsLTE0MjUzNzIwMDIsLTE4MzM0NjYxND
+UsNTUwNjMwMzk2LC03NjI3NzkzMzcsMjY4Nzk3MzU3LC0xNzY4
+Mjg2ODNdfQ==
 -->
