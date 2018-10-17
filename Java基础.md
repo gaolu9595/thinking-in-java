@@ -69,7 +69,7 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 *修饰方法*：锁定方法，防止任何继承类重写
 *修饰类*：永远不能被继承（因为final类禁止继承，因此final类中所有方法都隐式指定为final，因为无法覆盖他们）
 32. 继承与初始化过程[e.g. HelloLulu/src/Inheritance/Test.java]
-
+33. 
 
 
 
@@ -80,7 +80,7 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDcwMTUzNTYsMTU4ODM5MDEyMSwtMT
+eyJoaXN0b3J5IjpbLTE0MTQ1NDQyNzAsMTU4ODM5MDEyMSwtMT
 U0MTk0MzY5MiwyMDczNDY4MTE1LC0xODgzNzM0NjEsMjA1MTE2
 NjE2NCwtMzYwMjM3ODUyLC00NTA5NDcyMjgsMjA0MDAyMjgwNy
 wxNzM5MjcxMjkzLDEzNDA5NzMyODIsLTQ1OTYxOTg0LC0yMjAw
