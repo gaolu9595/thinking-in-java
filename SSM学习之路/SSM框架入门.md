@@ -39,8 +39,8 @@
 
 
 ### SSM+Redis框架
-![](F:%5CJavaBook%5CSSM%5CSSM_Redis)
+![](F://JavaBook//SSM//SSM_Redis)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg2MzIwMTU3LDUxNDk4ODUwMSwxNTc2MD
-c4NDQ1LDMwMjk0MDY2M119
+eyJoaXN0b3J5IjpbNTA5ODE2OTAsOTg2MzIwMTU3LDUxNDk4OD
+UwMSwxNTc2MDc4NDQ1LDMwMjk0MDY2M119
 -->
