@@ -22,7 +22,13 @@
  - Model （模型），封装了应用程序的数据和由它们组成的 POJO 。  
  - View （视图），负责把模型数据渲染到视图上，将数据以一定的形式展现给用户。  
  - Controller （控制器），负责处理用户请求，并建立适当的模型把它传递给视图渲染
+
+
+### Redis----互联网最流行的NoSQL
+具备一定的持久层功能，也能作为一种缓存工具，提高性能
+【非结构化】
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQxMDA3OTA5LDUxNDk4ODUwMSwxNTc2MD
-c4NDQ1LDMwMjk0MDY2M119
+eyJoaXN0b3J5IjpbLTU0MjU2OTMyNiw1MTQ5ODg1MDEsMTU3Nj
+A3ODQ0NSwzMDI5NDA2NjNdfQ==
 -->
