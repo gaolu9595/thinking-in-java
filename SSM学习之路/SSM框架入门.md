@@ -29,9 +29,18 @@
 【存储半结构化数据，写入更快】
 【支持大数据写入内存】
 【从内存中读写数据比在数据库中读写数据要快很多很多】
+【缺点：结构松散，不完整，功能有限】
+特点：
+
+ - 响应快速：Redis 响应非常快，每秒可以执行大约110000个写入操作，或者81000个读操作
+ - 支持6中数据类型：字符串，哈希结构，列表，集合，可排序集合，基数
+ - 所有操作都是原子的
+ - MultiUtility工具
 
 
+### SSM+Redis框架
+![](F:%5CJavaBook%5CSSM%5CSSM_Redis)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NzkxMTg3NSw1MTQ5ODg1MDEsMTU3Nj
-A3ODQ0NSwzMDI5NDA2NjNdfQ==
+eyJoaXN0b3J5IjpbOTg2MzIwMTU3LDUxNDk4ODUwMSwxNTc2MD
+c4NDQ1LDMwMjk0MDY2M119
 -->
