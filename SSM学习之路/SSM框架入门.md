@@ -37,10 +37,7 @@
  - 所有操作都是原子的
  - MultiUtility工具
 
-
-### SSM+Redis框架
-![](F:%5CJavaBook%5CSSM%5CSSM_Redis)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg2MzIwMTU3LDk4NjMyMDE1Nyw1MTQ5OD
-g1MDEsMTU3NjA3ODQ0NSwzMDI5NDA2NjNdfQ==
+eyJoaXN0b3J5IjpbMTE2NzIyNjUzMyw5ODYzMjAxNTcsNTE0OT
+g4NTAxLDE1NzYwNzg0NDUsMzAyOTQwNjYzXX0=
 -->
