@@ -67,10 +67,10 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 修饰字段：一个永不改变的编译时常量；一个在运行时被初始化的且不能被改变的数值或者引用
 修饰参数：保证在方法中无法更改final修饰的参数（数值/引用）
 修饰方法：锁定方法，防止任何继承类重写
-修饰类：不能被继承
+修饰类：永远不能被继承（因为final类禁止继承，因此final类中所有方法都隐式指定为final，因为无法覆盖他们）
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDYwNjI0OTAsMjA3MzQ2ODExNSwtMT
+eyJoaXN0b3J5IjpbLTE1NDE5NDM2OTIsMjA3MzQ2ODExNSwtMT
 g4MzczNDYxLDIwNTExNjYxNjQsLTM2MDIzNzg1MiwtNDUwOTQ3
 MjI4LDIwNDAwMjI4MDcsMTczOTI3MTI5MywxMzQwOTczMjgyLC
 00NTk2MTk4NCwtMjIwMDI1MTAxLC02MDAzMTg1MjcsMTQ4NzU0
