@@ -14,8 +14,8 @@
 
 ### MyBatis：是一个持久层框架
 Hibernate：通过映射关系来将数据库表和POJO对应起来，完全消除了SQL语句，而只需要操作POJO来操作对应的数据库表（但是存在性能瓶颈）
-MyBatis：（没有屏蔽SQL，可以自己制定SQL规则，更能满足高并发高响应的性能需求）
+MyBatis：与Hibernate业务逻辑（没有屏蔽SQL，可以自己制定SQL规则，更能满足高并发高响应的性能需求）
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NzM1NDk5MiwxNTc2MDc4NDQ1LDMwMj
+eyJoaXN0b3J5IjpbLTQ3NDg2NjA2MywxNTc2MDc4NDQ1LDMwMj
 k0MDY2M119
 -->
