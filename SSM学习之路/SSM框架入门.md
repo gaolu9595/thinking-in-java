@@ -26,9 +26,12 @@
 
 ### Redis----互联网最流行的NoSQL
 具备一定的持久层功能，也能作为一种缓存工具，提高性能
-【非结构化】
+【存储半结构化数据，写入更快】
+【支持大数据写入内存】
+【从内存中读写数据比在数据库中读写数据要快很多很多】
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MjU2OTMyNiw1MTQ5ODg1MDEsMTU3Nj
+eyJoaXN0b3J5IjpbMTY4NzkxMTg3NSw1MTQ5ODg1MDEsMTU3Nj
 A3ODQ0NSwzMDI5NDA2NjNdfQ==
 -->
