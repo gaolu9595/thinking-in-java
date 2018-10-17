@@ -63,14 +63,14 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 28. *代理*------>将成员对象置于要构造的类中，并且在新类中暴露该成员对象的底层部分方法子集，使用新类的方法来这些方法。
 29. try{}finally{}，try关键字下面的块是保护区，表示需要被特殊处理，其中一项特殊处理就是“不论try块如何退出，finally子句中的代码总是要被执行”
 30. **重载与重写**
-31. **final**关键字
+31. **final**关键字：从设计角度来决定是否使用final，而不要从性能角度
 *修饰字段*：一个永不改变的编译时常量；一个在运行时被初始化的且不能被改变的数值或者引用
 *修饰参数*：保证在方法中无法更改final修饰的参数（数值/引用）
 *修饰方法*：锁定方法，防止任何继承类重写
 *修饰类*：永远不能被继承（因为final类禁止继承，因此final类中所有方法都隐式指定为final，因为无法覆盖他们）
 32. 继承与初始化过程[e.g. HelloLulu/src/Inheritance/Test.java]
 33. 👉👉👉 **多态** 👌👌👌
-动态绑定（后期绑定）【编译器一直不知道对象的类型，但是方法】，Java中除了static方法和final方法(private)以外，其他所有方法都执行后期绑定
+动态绑定（后期绑定）【编译器一直不知道对象的类型，但是方法调用机制能找到正确的方法体并加以调用】，Java中除了static方法和final方法(private)以外，其他所有方法都执行后期绑定
 
 
 
@@ -81,11 +81,11 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODQ2Mjg1NjgsMTExMDIwOTY4LC0xND
-E0NTQ0MjcwLDE1ODgzOTAxMjEsLTE1NDE5NDM2OTIsMjA3MzQ2
-ODExNSwtMTg4MzczNDYxLDIwNTExNjYxNjQsLTM2MDIzNzg1Mi
-wtNDUwOTQ3MjI4LDIwNDAwMjI4MDcsMTczOTI3MTI5MywxMzQw
-OTczMjgyLC00NTk2MTk4NCwtMjIwMDI1MTAxLC02MDAzMTg1Mj
-csMTQ4NzU0NzcyMCwzNTQ2NjY4ODAsLTEyNDY3OTA2MzAsLTE0
-MjUzNzIwMDJdfQ==
+eyJoaXN0b3J5IjpbLTQ2NDQ5MzAxNywxMTEwMjA5NjgsLTE0MT
+Q1NDQyNzAsMTU4ODM5MDEyMSwtMTU0MTk0MzY5MiwyMDczNDY4
+MTE1LC0xODgzNzM0NjEsMjA1MTE2NjE2NCwtMzYwMjM3ODUyLC
+00NTA5NDcyMjgsMjA0MDAyMjgwNywxNzM5MjcxMjkzLDEzNDA5
+NzMyODIsLTQ1OTYxOTg0LC0yMjAwMjUxMDEsLTYwMDMxODUyNy
+wxNDg3NTQ3NzIwLDM1NDY2Njg4MCwtMTI0Njc5MDYzMCwtMTQy
+NTM3MjAwMl19
 -->
