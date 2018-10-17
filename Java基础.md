@@ -69,7 +69,7 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 *修饰方法*：锁定方法，防止任何继承类重写
 *修饰类*：永远不能被继承（因为final类禁止继承，因此final类中所有方法都隐式指定为final，因为无法覆盖他们）
 32. 继承与初始化过程[e.g. HelloLulu/src/Inheritance/Test.java]
-33. 多态
+33. 👉👉👉 **多态** 👌👌👌
 
 
 
@@ -80,11 +80,11 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNDgxODAwNSwtMTQxNDU0NDI3MCwxNT
-g4MzkwMTIxLC0xNTQxOTQzNjkyLDIwNzM0NjgxMTUsLTE4ODM3
-MzQ2MSwyMDUxMTY2MTY0LC0zNjAyMzc4NTIsLTQ1MDk0NzIyOC
-wyMDQwMDIyODA3LDE3MzkyNzEyOTMsMTM0MDk3MzI4MiwtNDU5
-NjE5ODQsLTIyMDAyNTEwMSwtNjAwMzE4NTI3LDE0ODc1NDc3Mj
-AsMzU0NjY2ODgwLC0xMjQ2NzkwNjMwLC0xNDI1MzcyMDAyLC0x
-ODMzNDY2MTQ1XX0=
+eyJoaXN0b3J5IjpbMTExMDIwOTY4LC0xNDE0NTQ0MjcwLDE1OD
+gzOTAxMjEsLTE1NDE5NDM2OTIsMjA3MzQ2ODExNSwtMTg4Mzcz
+NDYxLDIwNTExNjYxNjQsLTM2MDIzNzg1MiwtNDUwOTQ3MjI4LD
+IwNDAwMjI4MDcsMTczOTI3MTI5MywxMzQwOTczMjgyLC00NTk2
+MTk4NCwtMjIwMDI1MTAxLC02MDAzMTg1MjcsMTQ4NzU0NzcyMC
+wzNTQ2NjY4ODAsLTEyNDY3OTA2MzAsLTE0MjUzNzIwMDIsLTE4
+MzM0NjYxNDVdfQ==
 -->
