@@ -68,7 +68,7 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 *修饰参数*：保证在方法中无法更改final修饰的参数（数值/引用）
 *修饰方法*：锁定方法，防止任何继承类重写
 *修饰类*：永远不能被继承（因为final类禁止继承，因此final类中所有方法都隐式指定为final，因为无法覆盖他们）
-32. 
+32. 继承与初始化过程[e.g. HelloLulu/src/Inheritance/Test.java]
 
 
 
@@ -80,11 +80,11 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4ODM5MDEyMSwtMTU0MTk0MzY5MiwyMD
-czNDY4MTE1LC0xODgzNzM0NjEsMjA1MTE2NjE2NCwtMzYwMjM3
-ODUyLC00NTA5NDcyMjgsMjA0MDAyMjgwNywxNzM5MjcxMjkzLD
-EzNDA5NzMyODIsLTQ1OTYxOTg0LC0yMjAwMjUxMDEsLTYwMDMx
-ODUyNywxNDg3NTQ3NzIwLDM1NDY2Njg4MCwtMTI0Njc5MDYzMC
-wtMTQyNTM3MjAwMiwtMTgzMzQ2NjE0NSw1NTA2MzAzOTYsLTc2
-Mjc3OTMzN119
+eyJoaXN0b3J5IjpbLTEzMDcwMTUzNTYsMTU4ODM5MDEyMSwtMT
+U0MTk0MzY5MiwyMDczNDY4MTE1LC0xODgzNzM0NjEsMjA1MTE2
+NjE2NCwtMzYwMjM3ODUyLC00NTA5NDcyMjgsMjA0MDAyMjgwNy
+wxNzM5MjcxMjkzLDEzNDA5NzMyODIsLTQ1OTYxOTg0LC0yMjAw
+MjUxMDEsLTYwMDMxODUyNywxNDg3NTQ3NzIwLDM1NDY2Njg4MC
+wtMTI0Njc5MDYzMCwtMTQyNTM3MjAwMiwtMTgzMzQ2NjE0NSw1
+NTA2MzAzOTZdfQ==
 -->
