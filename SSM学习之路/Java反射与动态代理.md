@@ -33,10 +33,13 @@ Java反射相比较直接new对象而言，更加灵活，很适合框架开发�
 
 **JDK动态代理**： 需要接口
 
+    // 定义一个接口if,作为代理类
+    // 用ifImpl类实现if，作为真实
+    interfa
 
 **CGLIB动态代理**：不需要接口
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAwOTE4MzcxLDcyODMwNTA3MSwxNjkwOT
-A1MTI5XX0=
+eyJoaXN0b3J5IjpbMzUyNjY0ODY2LDgwMDkxODM3MSw3MjgzMD
+UwNzEsMTY5MDkwNTEyOV19
 -->
