@@ -31,12 +31,11 @@ Java反射相比较直接new对象而言，更加灵活，很适合框架开发�
 1.用getProxy生成代理对象；
 2.制定代理的逻辑类【代理逻辑类要实现一个接口的一个方法，该方法就是代理对象的逻辑方法，可以控制真实对象的方法】
 
-
 **JDK动态代理**： 需要接口
 
 
 **CGLIB动态代理**：不需要接口
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NTk4MzAxMSwxNjkwOTA1MTI5XX0=
+eyJoaXN0b3J5IjpbNzI4MzA1MDcxLDE2OTA5MDUxMjldfQ==
 -->
