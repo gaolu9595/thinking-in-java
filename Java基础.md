@@ -69,7 +69,8 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
  - *修饰方法*：锁定方法，防止任何继承类重写
  - *修饰类*：永远不能被继承（因为final类禁止继承，因此final类中所有方法都隐式指定为final，因为无法覆盖他们）
 32. 继承与初始化过程[e.g. HelloLulu/src/Inheritance/Test.java]
-33. 👉👉👉 **多态** 👌👌👌
+33. 对象的清理是按创建对象的逆序完成的
+34. 👉👉👉 **多态** 👌👌👌
  - 动态绑定（后期绑定）【编译器一直不知道对象的类型，但是方法调用机制能找到正确的方法体并加以调用】，Java中除了**static方法(构造器是隐式的static方法)和final方法**(private包括其中)以外，其他所有方法都执行后期绑定；
  - 注意：任何域访问操作都将由编译器解析，因此不是多态的
  - ======>所以，**一般将域设置为private，然后通过get和set方法来访问**
@@ -85,11 +86,11 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDcxOTY5NzIsODA2NjU3NjA5LC00Nj
-Q0OTMwMTcsMTExMDIwOTY4LC0xNDE0NTQ0MjcwLDE1ODgzOTAx
-MjEsLTE1NDE5NDM2OTIsMjA3MzQ2ODExNSwtMTg4MzczNDYxLD
-IwNTExNjYxNjQsLTM2MDIzNzg1MiwtNDUwOTQ3MjI4LDIwNDAw
-MjI4MDcsMTczOTI3MTI5MywxMzQwOTczMjgyLC00NTk2MTk4NC
-wtMjIwMDI1MTAxLC02MDAzMTg1MjcsMTQ4NzU0NzcyMCwzNTQ2
-NjY4ODBdfQ==
+eyJoaXN0b3J5IjpbMTIxNDA0NzI5NiwtMTMwNzE5Njk3Miw4MD
+Y2NTc2MDksLTQ2NDQ5MzAxNywxMTEwMjA5NjgsLTE0MTQ1NDQy
+NzAsMTU4ODM5MDEyMSwtMTU0MTk0MzY5MiwyMDczNDY4MTE1LC
+0xODgzNzM0NjEsMjA1MTE2NjE2NCwtMzYwMjM3ODUyLC00NTA5
+NDcyMjgsMjA0MDAyMjgwNywxNzM5MjcxMjkzLDEzNDA5NzMyOD
+IsLTQ1OTYxOTg0LC0yMjAwMjUxMDEsLTYwMDMxODUyNywxNDg3
+NTQ3NzIwXX0=
 -->
