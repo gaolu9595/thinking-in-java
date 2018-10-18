@@ -41,7 +41,9 @@ Java反射相比较直接new对象而言，更加灵活，很适合框架开发�
 
 **CGLIB动态代理**：不需要接口
 
+
+**责任链模式**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MTIyODM2MywtMjIyMjA4OTM3LDgwMD
-kxODM3MSw3MjgzMDUwNzEsMTY5MDkwNTEyOV19
+eyJoaXN0b3J5IjpbMTY2OTI0MzAzLC0yMjIyMDg5MzcsODAwOT
+E4MzcxLDcyODMwNTA3MSwxNjkwOTA1MTI5XX0=
 -->
