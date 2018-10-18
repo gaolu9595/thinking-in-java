@@ -42,12 +42,14 @@ Java反射相比较直接new对象而言，更加灵活，很适合框架开发�
 **CGLIB动态代理**：不需要接口
 
 
+## 设计模式
+
 **责任链模式**
-**观察者模式**：一（被观察者）对多（观察者）的依赖关系
-**工厂模式**
+**观察者模式**：一（被观察者，继承Observable类）对多（观察者，实现Observer接口）的依赖关系
+**工厂模式**：
 **建造者模式**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMzYyNDI4NCwxMTY4MDYzMjg1LDE2Nj
-kyNDMwMywtMjIyMjA4OTM3LDgwMDkxODM3MSw3MjgzMDUwNzEs
-MTY5MDkwNTEyOV19
+eyJoaXN0b3J5IjpbMzcwODY0Mzg1LDE4MDM2MjQyODQsMTE2OD
+A2MzI4NSwxNjY5MjQzMDMsLTIyMjIwODkzNyw4MDA5MTgzNzEs
+NzI4MzA1MDcxLDE2OTA5MDUxMjldfQ==
 -->
