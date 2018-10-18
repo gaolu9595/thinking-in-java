@@ -27,11 +27,15 @@ Java反射相比较直接new对象而言，更加灵活，很适合框架开发�
 
 生成一个代理对象，来控制对真实对象的访问
 
+
+
+
+
 **JDK动态代理**： 需要接口
 
 
 **CGLIB动态代理**：不需要接口
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MDkwNTEyOV19
+eyJoaXN0b3J5IjpbLTEyMjU3MzAwNzksMTY5MDkwNTEyOV19
 -->
