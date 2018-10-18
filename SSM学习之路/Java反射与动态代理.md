@@ -37,10 +37,11 @@ Java反射相比较直接new对象而言，更加灵活，很适合框架开发�
     // 用ifImpl类实现if，作为真实对象类
     // 定义一个JdkProxy类实现InvocationHandler接口：用bind()方法得到一个代理对象proxy；用invoke()方法来描述代理逻辑[在proxy调用方法时，就会进入invoke]
     // 拦截器模式时：程序员只需要关注拦截器提供的接口需要实现哪些方法，而不需要管具体的代理逻辑了。在有拦截器时，拦截；无拦截器时就直接反射真实对象的方法了。
+    // 测试时，先用真实对象调用得到一个代理对象
 
 **CGLIB动态代理**：不需要接口
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDU2OTQ3NDcsODAwOTE4MzcxLDcyOD
-MwNTA3MSwxNjkwOTA1MTI5XX0=
+eyJoaXN0b3J5IjpbLTQ0OTcxNzY2Nyw4MDA5MTgzNzEsNzI4Mz
+A1MDcxLDE2OTA5MDUxMjldfQ==
 -->
