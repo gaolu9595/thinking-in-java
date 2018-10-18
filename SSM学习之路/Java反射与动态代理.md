@@ -43,7 +43,9 @@ Java反射相比较直接new对象而言，更加灵活，很适合框架开发�
 
 
 **责任链模式**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2OTI0MzAzLC0yMjIyMDg5MzcsODAwOT
-E4MzcxLDcyODMwNTA3MSwxNjkwOTA1MTI5XX0=
+eyJoaXN0b3J5IjpbLTc2MDkxNjM1NSwxNjY5MjQzMDMsLTIyMj
+IwODkzNyw4MDA5MTgzNzEsNzI4MzA1MDcxLDE2OTA5MDUxMjld
+fQ==
 -->
