@@ -46,10 +46,10 @@ Java反射相比较直接new对象而言，更加灵活，很适合框架开发�
 
 **责任链模式**：对应于一个对象在多个角色中处理的场景
 **观察者模式**：一（被观察者，继承Observable类）对多（观察者，实现Observer接口）的依赖关系
-**工厂模式**：
+**工厂模式**：只需要告知工厂需要什么对象，而不需要关注工厂如何创建对象
 **建造者模式**：
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2OTE5NzQ0MCwxODAzNjI0Mjg0LDExNj
-gwNjMyODUsMTY2OTI0MzAzLC0yMjIyMDg5MzcsODAwOTE4Mzcx
-LDcyODMwNTA3MSwxNjkwOTA1MTI5XX0=
+eyJoaXN0b3J5IjpbNDA3MDcyOTIyLC03NjkxOTc0NDAsMTgwMz
+YyNDI4NCwxMTY4MDYzMjg1LDE2NjkyNDMwMywtMjIyMjA4OTM3
+LDgwMDkxODM3MSw3MjgzMDUwNzEsMTY5MDkwNTEyOV19
 -->
