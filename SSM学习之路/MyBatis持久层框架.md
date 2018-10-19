@@ -32,13 +32,14 @@
 | select |  |
 | insert |  |
 | delete |  |
-| update |--|
-| insert |  |
-|--|--|
-| insert |  |
+| update |  |
+| sql |  |
+| cache |  |
+| cache-ref |  |
+| resultMap |  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MDg2Mjk1NSw0ODA5NjYwNTAsMTQxND
+eyJoaXN0b3J5IjpbMTIzMTQxMTcyNCw0ODA5NjYwNTAsMTQxND
 kxMzk3NywtMTM4MjcxMzc2NywtMTQzODQyODk3LC00MDg3MjAy
 NzUsLTg3OTI4NTgzOCwxMzEwNzg3ODM1LC0xNDkyMzUwMTY2LD
 E0OTMzMDE5MzAsLTEwMzY4NDU1MjksMTUzNzEyMTc2NSwxMzkx
