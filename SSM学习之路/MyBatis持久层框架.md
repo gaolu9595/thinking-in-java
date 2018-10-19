@@ -12,9 +12,9 @@ SqlSessionFactory：生成MyBatis的核心接口对象SqlSession【通常是单�
 
 SqlSession：有DefaultSqlSession（单线程）和SqlSessionManager（多线程）两个实现类
 
-SQLMapper：
+SQLMapper：两种实现映射器的方式（XML与注解）
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MzMwMTkzMCwtMTAzNjg0NTUyOSwxNT
-M3MTIxNzY1LDEzOTEyNzQyODFdfQ==
+eyJoaXN0b3J5IjpbLTE0OTIzNTAxNjYsMTQ5MzMwMTkzMCwtMT
+AzNjg0NTUyOSwxNTM3MTIxNzY1LDEzOTEyNzQyODFdfQ==
 -->
