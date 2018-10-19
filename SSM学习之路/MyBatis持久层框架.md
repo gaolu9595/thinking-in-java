@@ -6,12 +6,13 @@
 
 SqlSessionFactoryBuilder：
 
-SqlSessionFactory：
+SqlSessionFactory：生成
 
 SqlSession：
 
 SQLMapper：
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNzEyMTc2NSwxMzkxMjc0MjgxXX0=
+eyJoaXN0b3J5IjpbMjIwMzg4NzkwLDE1MzcxMjE3NjUsMTM5MT
+I3NDI4MV19
 -->
