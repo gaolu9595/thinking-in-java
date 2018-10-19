@@ -72,6 +72,7 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 33. 对象的清理是按创建对象的逆序完成的
 34. 👉👉👉 **多态** 👌👌👌
  - 动态绑定（后期绑定）【编译器一直不知道对象的类型，但是方法调用机制能找到正确的方法体并加以调用】，Java中除了**static方法(构造器是隐式的static方法)和final方法**(private包括其中)以外，其他所有方法都执行后期绑定；
+ - Java是通过Class对象执行其RTTI（）
  - 注意：任何域访问操作都将由编译器解析，因此不是多态的
  - ======>所以，**一般将域设置为private，然后通过get和set方法来访问**
  34. **编写构造器时的一条有效准则**（尽量做到）：用尽可能简单的方法使对象进入正常状态，若可以的话，避免调用其他方法【在构造器内，唯一能安全调用的是基类的final方法】。
@@ -86,11 +87,11 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTU3MjI1OTEsMTIxNDA0NzI5NiwtMT
-MwNzE5Njk3Miw4MDY2NTc2MDksLTQ2NDQ5MzAxNywxMTEwMjA5
-NjgsLTE0MTQ1NDQyNzAsMTU4ODM5MDEyMSwtMTU0MTk0MzY5Mi
-wyMDczNDY4MTE1LC0xODgzNzM0NjEsMjA1MTE2NjE2NCwtMzYw
-MjM3ODUyLC00NTA5NDcyMjgsMjA0MDAyMjgwNywxNzM5MjcxMj
-kzLDEzNDA5NzMyODIsLTQ1OTYxOTg0LC0yMjAwMjUxMDEsLTYw
-MDMxODUyN119
+eyJoaXN0b3J5IjpbMTA3MjkyMDE1OSwxMjE0MDQ3Mjk2LC0xMz
+A3MTk2OTcyLDgwNjY1NzYwOSwtNDY0NDkzMDE3LDExMTAyMDk2
+OCwtMTQxNDU0NDI3MCwxNTg4MzkwMTIxLC0xNTQxOTQzNjkyLD
+IwNzM0NjgxMTUsLTE4ODM3MzQ2MSwyMDUxMTY2MTY0LC0zNjAy
+Mzc4NTIsLTQ1MDk0NzIyOCwyMDQwMDIyODA3LDE3MzkyNzEyOT
+MsMTM0MDk3MzI4MiwtNDU5NjE5ODQsLTIyMDAyNTEwMSwtNjAw
+MzE4NTI3XX0=
 -->
