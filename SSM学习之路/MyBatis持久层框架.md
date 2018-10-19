@@ -36,12 +36,12 @@
 | sql |  |
 | cache |  |
 | cache-ref |  |
-| resultMap |  |
+| resultMap | 复杂 |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMTQxMTcyNCw0ODA5NjYwNTAsMTQxND
-kxMzk3NywtMTM4MjcxMzc2NywtMTQzODQyODk3LC00MDg3MjAy
-NzUsLTg3OTI4NTgzOCwxMzEwNzg3ODM1LC0xNDkyMzUwMTY2LD
-E0OTMzMDE5MzAsLTEwMzY4NDU1MjksMTUzNzEyMTc2NSwxMzkx
-Mjc0MjgxXX0=
+eyJoaXN0b3J5IjpbLTEwNjgxODE1NDUsMTIzMTQxMTcyNCw0OD
+A5NjYwNTAsMTQxNDkxMzk3NywtMTM4MjcxMzc2NywtMTQzODQy
+ODk3LC00MDg3MjAyNzUsLTg3OTI4NTgzOCwxMzEwNzg3ODM1LC
+0xNDkyMzUwMTY2LDE0OTMzMDE5MzAsLTEwMzY4NDU1MjksMTUz
+NzEyMTc2NSwxMzkxMjc0MjgxXX0=
 -->
