@@ -17,6 +17,9 @@
 
 【SQLSession和SqlMapper都可以发送SQL语句，后者更符合面向对象编程的语法规则】
 
+
+
+
 ### <font color=#0000ff >**MyBatis配置config**</font>
 
 **MyBatis的配置项顺序不能颠倒**
@@ -44,7 +47,7 @@ MyBatis级联：鉴别器、一对多、一对一
 MyBatis缓存（支持一级缓存和二级缓存）
 
 
-### <font color=#0000ff >**动态SQL**</font>
+### <font color=#0000ff >**动态SQL（用于映射XML）**</font>
 
 
 | 元素 | 作用 | 备注 |
@@ -54,15 +57,17 @@ MyBatis缓存（支持一级缓存和二级缓存）
 | trim {where, set)  | 辅助元素，用于处理特定的SQL拼装问题，比如去掉多余的and/or等 | 用于处理SQL拼装的问题   |
 | foreach | 循环语句  | 在in语句等列举条件常用 |
 | test | 判断真假| 可以做字符串或数值判断，和if通常连用 |
-| bind | 循环语句  | 通过 OGNL 表达式去自定义一个上下文变量 |
+| bind | 循环语句  | 通过OGNL表达式去自定义一个上下文变量 |
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNjUyNTUzNyw4NzMxNzU3MTgsMTE0OD
-czNjEyNCwyNDU3NjcwMDEsMTczMzIxMjU1NSwxOTA3MjI3NTMy
-LDIxNTc3MDYxMiw0OTQ3OTExODUsLTExMjYwODUxMDIsLTEwNj
-gxODE1NDUsMTIzMTQxMTcyNCw0ODA5NjYwNTAsMTQxNDkxMzk3
-NywtMTM4MjcxMzc2NywtMTQzODQyODk3LC00MDg3MjAyNzUsLT
-g3OTI4NTgzOCwxMzEwNzg3ODM1LC0xNDkyMzUwMTY2LDE0OTMz
-MDE5MzBdfQ==
+eyJoaXN0b3J5IjpbLTE2ODk4ODc0MjksODczMTc1NzE4LDExND
+g3MzYxMjQsMjQ1NzY3MDAxLDE3MzMyMTI1NTUsMTkwNzIyNzUz
+MiwyMTU3NzA2MTIsNDk0NzkxMTg1LC0xMTI2MDg1MTAyLC0xMD
+Y4MTgxNTQ1LDEyMzE0MTE3MjQsNDgwOTY2MDUwLDE0MTQ5MTM5
+NzcsLTEzODI3MTM3NjcsLTE0Mzg0Mjg5NywtNDA4NzIwMjc1LC
+04NzkyODU4MzgsMTMxMDc4NzgzNSwtMTQ5MjM1MDE2NiwxNDkz
+MzAxOTMwXX0=
 -->
