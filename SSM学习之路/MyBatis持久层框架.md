@@ -5,7 +5,7 @@
 <font color=#0099ff face="楷体">**对MyBatis的理解**：MyBatis是一个持久层框架，用于Java应用访问数据库。先将对数据库表（POJO类）的操作与SQL语言映射起来（XML或注解实现），然后用面向对象的编程方式（操作Mapper接口）来操作数据库完成事务。使用制造者模式创建（通过mybati-config.xml）一个单例的session工厂，再运用工厂模式来创建一个个session完成事务请求。MyBatis相比较Hibernate而言更加灵活高效，因为它不屏蔽SQL语句，并且支持动态SQL。
 </font>
 
-### <font color=#0000ff >**MyBatis核心组件**</font>
+### <font color=#0000ff >**MyBatis核心组件（必须厘清思路）**</font>
 
 **SqlSessionFactoryBuilder**：按照Builder模式来生成SqlSessionFactory。创建完SqlSessionFactory就应该关闭。
 
@@ -42,8 +42,13 @@ MyBatis级联：鉴别器、一对多、一对一
 （看得很晕。。。标记一下）
 
 MyBatis缓存（支持一级缓存和二级缓存）
+
+
+### <font color=#0000ff >**动态SQL**</font>
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNTg5MTc5NSwxOTA3MjI3NTMyLDIxNT
+eyJoaXN0b3J5IjpbMTczMzIxMjU1NSwxOTA3MjI3NTMyLDIxNT
 c3MDYxMiw0OTQ3OTExODUsLTExMjYwODUxMDIsLTEwNjgxODE1
 NDUsMTIzMTQxMTcyNCw0ODA5NjYwNTAsMTQxNDkxMzk3NywtMT
 M4MjcxMzc2NywtMTQzODQyODk3LC00MDg3MjAyNzUsLTg3OTI4
