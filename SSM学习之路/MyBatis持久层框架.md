@@ -6,17 +6,17 @@
 
 **MyBatis核心组件**
 
-SqlSessionFactoryBuilder：按照Builder模式来生成SqlSessionFactory。创建完SqlSessionFactory就应该关闭。
+**SqlSessionFactoryBuilder**：按照Builder模式来生成SqlSessionFactory。创建完SqlSessionFactory就应该关闭。
 
-SqlSessionFactory：相当于对数据库的一个Connection，用于生成MyBatis的核心接口对象SqlSession【*通常是单例模式*】。SqlSessionFactory 的生命周期就等同于 MyBatis 的应用周期。
+**SqlSessionFactory**：相当于对数据库的Connection池，用于生成MyBatis的核心接口对象SqlSession【*通常是单例模式*】。SqlSessionFactory 的生命周期就**等同于 MyBatis 的应用周期**。
 
-SqlSession：有DefaultSqlSession（单线程）和SqlSessionManager（多线程）两个实现类
+**SqlSession**：相当于一个Connection对象，有DefaultSqlSession（单线程）和SqlSessionManager（多线程）两个实现类。它应该**存活在一个业务请求中**，处理完整个请求后，应该关闭这条连接，让它归还给 SqlSessionFactory。
 
-SQLMapper：两种实现映射器的方式（XML与注解）
+**SQLMapper**：两种实现映射器的方式（XML与注解）
 
 【SQLSession和SqlMapper都可以发送SQL语句，推荐后者】
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM5OTgzMzgzLC0xNDkyMzUwMTY2LDE0OT
-MzMDE5MzAsLTEwMzY4NDU1MjksMTUzNzEyMTc2NSwxMzkxMjc0
-MjgxXX0=
+eyJoaXN0b3J5IjpbMTk0NTQ0MDgxOCwtMTQ5MjM1MDE2NiwxND
+kzMzAxOTMwLC0xMDM2ODQ1NTI5LDE1MzcxMjE3NjUsMTM5MTI3
+NDI4MV19
 -->
