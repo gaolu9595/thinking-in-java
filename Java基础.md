@@ -76,7 +76,7 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
  - ======>所以，**一般将域设置为private，然后通过get和set方法来访问**
  34. **编写构造器时的一条有效准则**（尽量做到）：用尽可能简单的方法使对象进入正常状态，若可以的话，避免调用其他方法【在构造器内，唯一能安全调用的是基类的final方法】。
  35. 继承中，向上转型是安全的，但会丢失类型信息；向下转型是有风险的(Java中使用RTTI[运行时类型检查]来保证安全)，但是可以获取具体类型信息。
- 36. 
+ 36. Class类是所有类的类，即所有类都是Class类的对象。 所有类都继承于java.lang.Object类
 
 
 
@@ -85,10 +85,8 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 
 
-
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNTMwMTA3OCwxMjE0MDQ3Mjk2LC0xMz
+eyJoaXN0b3J5IjpbLTYxMDk2NDQwOCwxMjE0MDQ3Mjk2LC0xMz
 A3MTk2OTcyLDgwNjY1NzYwOSwtNDY0NDkzMDE3LDExMTAyMDk2
 OCwtMTQxNDU0NDI3MCwxNTg4MzkwMTIxLC0xNTQxOTQzNjkyLD
 IwNzM0NjgxMTUsLTE4ODM3MzQ2MSwyMDUxMTY2MTY0LC0zNjAy
