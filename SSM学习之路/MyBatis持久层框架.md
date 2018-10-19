@@ -16,8 +16,12 @@
 **SQLMapper**：两种实现映射器的方式（XML与注解）。它的生命周期应该小于等于 SqlSession 的生命周期，代表一个业务请求中的业务处理
 
 【SQLSession和SqlMapper都可以发送SQL语句，后者更符合面向对象编程的语法规则】
+
+###<font color=#0000ff >**MyBatis配置**</font>
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MzQ4MDUzNiwtMTQzODQyODk3LC00MD
+eyJoaXN0b3J5IjpbLTU4NjI4NDE1MSwtMTQzODQyODk3LC00MD
 g3MjAyNzUsLTg3OTI4NTgzOCwxMzEwNzg3ODM1LC0xNDkyMzUw
 MTY2LDE0OTMzMDE5MzAsLTEwMzY4NDU1MjksMTUzNzEyMTc2NS
 wxMzkxMjc0MjgxXX0=
