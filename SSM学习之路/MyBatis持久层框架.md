@@ -8,11 +8,11 @@ SqlSessionFactoryBuilder：按照Builder模式来生成SQLSessionFactory
 
 SqlSessionFactory：生成MyBatis的核心接口对象SqlSession【通常是单例模式】
 
-SqlSession：
+SqlSession：有DefaultSqlSession（单线程）和SqlSessionManager（多线程）两个实现类
 
 SQLMapper：
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzY4NDU1MjksMTUzNzEyMTc2NSwxMz
-kxMjc0MjgxXX0=
+eyJoaXN0b3J5IjpbNjUyMTk0ODU4LC0xMDM2ODQ1NTI5LDE1Mz
+cxMjE3NjUsMTM5MTI3NDI4MV19
 -->
