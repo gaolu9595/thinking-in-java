@@ -35,7 +35,7 @@
 | update |  |
 | sql | 定义Sql语句的一部分，以供重复使用 |
 | cache | 开启SqlSessionFactory层面的二级缓存，搭配实现了java.io.Serializable接口的POJO对象 |
-| cache-ref |  |
+| cache-ref | 引用其他映射器的缓存设置 |
 | resultMap | 复杂[用于级联] |
 
 MyBatis级联：鉴别器、一对多、一对一
@@ -43,10 +43,10 @@ MyBatis级联：鉴别器、一对多、一对一
 
 MyBatis缓存（支持一级缓存和二级缓存）
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE1NzcwNjEyLDQ5NDc5MTE4NSwtMTEyNj
-A4NTEwMiwtMTA2ODE4MTU0NSwxMjMxNDExNzI0LDQ4MDk2NjA1
-MCwxNDE0OTEzOTc3LC0xMzgyNzEzNzY3LC0xNDM4NDI4OTcsLT
-QwODcyMDI3NSwtODc5Mjg1ODM4LDEzMTA3ODc4MzUsLTE0OTIz
-NTAxNjYsMTQ5MzMwMTkzMCwtMTAzNjg0NTUyOSwxNTM3MTIxNz
-Y1LDEzOTEyNzQyODFdfQ==
+eyJoaXN0b3J5IjpbMTkwNzIyNzUzMiwyMTU3NzA2MTIsNDk0Nz
+kxMTg1LC0xMTI2MDg1MTAyLC0xMDY4MTgxNTQ1LDEyMzE0MTE3
+MjQsNDgwOTY2MDUwLDE0MTQ5MTM5NzcsLTEzODI3MTM3NjcsLT
+E0Mzg0Mjg5NywtNDA4NzIwMjc1LC04NzkyODU4MzgsMTMxMDc4
+NzgzNSwtMTQ5MjM1MDE2NiwxNDkzMzAxOTMwLC0xMDM2ODQ1NT
+I5LDE1MzcxMjE3NjUsMTM5MTI3NDI4MV19
 -->
