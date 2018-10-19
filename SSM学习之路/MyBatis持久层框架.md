@@ -26,10 +26,21 @@
 
 映射器由一个**接口**和**XML文件**组成（或注解）
 
+映射器的配置元素：
+| 配置元素|  |
+|--|--|
+| select |  |
+| insert |  |
+| delete |  |
+| update |--|
+| insert |  |
+|--|--|
+| insert |  |
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg1NDkxNzkyLDQ4MDk2NjA1MCwxNDE0OT
-EzOTc3LC0xMzgyNzEzNzY3LC0xNDM4NDI4OTcsLTQwODcyMDI3
-NSwtODc5Mjg1ODM4LDEzMTA3ODc4MzUsLTE0OTIzNTAxNjYsMT
-Q5MzMwMTkzMCwtMTAzNjg0NTUyOSwxNTM3MTIxNzY1LDEzOTEy
-NzQyODFdfQ==
+eyJoaXN0b3J5IjpbMTE3MDg2Mjk1NSw0ODA5NjYwNTAsMTQxND
+kxMzk3NywtMTM4MjcxMzc2NywtMTQzODQyODk3LC00MDg3MjAy
+NzUsLTg3OTI4NTgzOCwxMzEwNzg3ODM1LC0xNDkyMzUwMTY2LD
+E0OTMzMDE5MzAsLTEwMzY4NDU1MjksMTUzNzEyMTc2NSwxMzkx
+Mjc0MjgxXX0=
 -->
