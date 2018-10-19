@@ -22,9 +22,12 @@
 **MyBatis的配置项顺序不能颠倒**
 
 
+### <font color=#0000ff >**MyBatis映射器**</font>
+
+映射器由一个**接口**和**XML文件**组成（或注解）
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNDkxMzk3NywtMTM4MjcxMzc2NywtMT
-QzODQyODk3LC00MDg3MjAyNzUsLTg3OTI4NTgzOCwxMzEwNzg3
-ODM1LC0xNDkyMzUwMTY2LDE0OTMzMDE5MzAsLTEwMzY4NDU1Mj
-ksMTUzNzEyMTc2NSwxMzkxMjc0MjgxXX0=
+eyJoaXN0b3J5IjpbNDgwOTY2MDUwLDE0MTQ5MTM5NzcsLTEzOD
+I3MTM3NjcsLTE0Mzg0Mjg5NywtNDA4NzIwMjc1LC04NzkyODU4
+MzgsMTMxMDc4NzgzNSwtMTQ5MjM1MDE2NiwxNDkzMzAxOTMwLC
+0xMDM2ODQ1NTI5LDE1MzcxMjE3NjUsMTM5MTI3NDI4MV19
 -->
