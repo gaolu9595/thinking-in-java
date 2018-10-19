@@ -14,7 +14,9 @@ SqlSession：有DefaultSqlSession（单线程）和SqlSessionManager（多线程
 
 SQLMapper：两种实现映射器的方式（XML与注解）
 
+【SQLSession和SqlMapper都可以发送SQL语句，推荐后者】
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTIzNTAxNjYsMTQ5MzMwMTkzMCwtMT
-AzNjg0NTUyOSwxNTM3MTIxNzY1LDEzOTEyNzQyODFdfQ==
+eyJoaXN0b3J5IjpbLTU3OTkzNzAwMCwtMTQ5MjM1MDE2NiwxND
+kzMzAxOTMwLC0xMDM2ODQ1NTI5LDE1MzcxMjE3NjUsMTM5MTI3
+NDI4MV19
 -->
