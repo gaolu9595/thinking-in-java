@@ -2,7 +2,7 @@
 
 <font color=#0099ff face="楷体">**Java应用可以通过MyBatis框架访问数据库**</font>
 <font color=#0099ff face="楷体">**POJO**：Plain Ordinary Java Object（简单Java对象），特指与数据库打交道的Java对象</font>
-<font color=#0099ff face="楷体">**对MyBatis的理解**：MyBatis是一个持久层框架，用于Java应用访问数据库。先将对数据库表（POJO类）的操作与SQL语言映射起来（XML或注解实现），然后用面向对象的编程方式（操作Mapper接口）来操作数据库完成事务。使用制造者模式创建（通过mybati-config）一个单例的session工厂，再运用工厂模式来创建一个个session完成事务请求。MyBatis相比较Hibernate而言更加灵活高效，因为它不屏蔽SQL语句，并且支持动态SQL。
+<font color=#0099ff face="楷体">**对MyBatis的理解**：MyBatis是一个持久层框架，用于Java应用访问数据库。先将对数据库表（POJO类）的操作与SQL语言映射起来（XML或注解实现），然后用面向对象的编程方式（操作Mapper接口）来操作数据库完成事务。使用制造者模式创建（通过mybati-config.xml）一个单例的session工厂，再运用工厂模式来创建一个个session完成事务请求。MyBatis相比较Hibernate而言更加灵活高效，因为它不屏蔽SQL语句，并且支持动态SQL。
 </font>
 
 ### <font color=#0000ff >**MyBatis核心组件**</font>
@@ -43,11 +43,11 @@ MyBatis级联：鉴别器、一对多、一对一
 
 MyBatis缓存（支持一级缓存和二级缓存）
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTQ0MzQ0MTAsMTkwNzIyNzUzMiwyMT
-U3NzA2MTIsNDk0NzkxMTg1LC0xMTI2MDg1MTAyLC0xMDY4MTgx
-NTQ1LDEyMzE0MTE3MjQsNDgwOTY2MDUwLDE0MTQ5MTM5NzcsLT
-EzODI3MTM3NjcsLTE0Mzg0Mjg5NywtNDA4NzIwMjc1LC04Nzky
-ODU4MzgsMTMxMDc4NzgzNSwtMTQ5MjM1MDE2NiwxNDkzMzAxOT
-MwLC0xMDM2ODQ1NTI5LDE1MzcxMjE3NjUsMTM5MTI3NDI4MV19
+eyJoaXN0b3J5IjpbMTYxMzEzNzM0MywxOTA3MjI3NTMyLDIxNT
+c3MDYxMiw0OTQ3OTExODUsLTExMjYwODUxMDIsLTEwNjgxODE1
+NDUsMTIzMTQxMTcyNCw0ODA5NjYwNTAsMTQxNDkxMzk3NywtMT
+M4MjcxMzc2NywtMTQzODQyODk3LC00MDg3MjAyNzUsLTg3OTI4
+NTgzOCwxMzEwNzg3ODM1LC0xNDkyMzUwMTY2LDE0OTMzMDE5Mz
+AsLTEwMzY4NDU1MjksMTUzNzEyMTc2NSwxMzkxMjc0MjgxXX0=
 
 -->
