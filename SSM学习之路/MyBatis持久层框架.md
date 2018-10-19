@@ -34,7 +34,7 @@
 | delete |  |
 | update |  |
 | sql | 定义Sql语句的一部分，以供重复使用 |
-| cache | 开启SqlSessionFactory层面的二级缓存 |
+| cache | 开启SqlSessionFactory层面的二级缓存， |
 | cache-ref |  |
 | resultMap | 复杂[用于级联] |
 
@@ -43,7 +43,7 @@ MyBatis级联：鉴别器、一对多、一对一
 
 MyBatis缓存（支持一级缓存和二级缓存）
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5OTQ5NzAzMyw0OTQ3OTExODUsLTExMj
+eyJoaXN0b3J5IjpbMTEzMjE3MTU0Myw0OTQ3OTExODUsLTExMj
 YwODUxMDIsLTEwNjgxODE1NDUsMTIzMTQxMTcyNCw0ODA5NjYw
 NTAsMTQxNDkxMzk3NywtMTM4MjcxMzc2NywtMTQzODQyODk3LC
 00MDg3MjAyNzUsLTg3OTI4NTgzOCwxMzEwNzg3ODM1LC0xNDky
