@@ -14,9 +14,9 @@
 
 **SQLMapper**：两种实现映射器的方式（XML与注解）。它的生命周期应该小于等于 SqlSession 的生命周期，代表一个业务请求中的业务处理
 
-【SQLSession和SqlMapper都可以发送SQL语句，推荐后者】
+【SQLSession和SqlMapper都可以发送SQL语句，后者更符合面向对象编程的语法规则】
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMDc4NzgzNSwtMTQ5MjM1MDE2NiwxND
-kzMzAxOTMwLC0xMDM2ODQ1NTI5LDE1MzcxMjE3NjUsMTM5MTI3
-NDI4MV19
+eyJoaXN0b3J5IjpbLTg3OTI4NTgzOCwxMzEwNzg3ODM1LC0xND
+kyMzUwMTY2LDE0OTMzMDE5MzAsLTEwMzY4NDU1MjksMTUzNzEy
+MTc2NSwxMzkxMjc0MjgxXX0=
 -->
