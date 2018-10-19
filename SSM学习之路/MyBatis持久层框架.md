@@ -46,13 +46,19 @@ MyBatis缓存（支持一级缓存和二级缓存）
 
 ### <font color=#0000ff >**动态SQL**</font>
 
-
+if                       判断语句                                                 单条件分支判断  
+choose (when, otherwise) 相当于 Java 中的 switch 和 case 语句 多条件分支判断  
+trim {where, set)  
+辅助元素，用于处理特定的 SQL 拼装问题，比如去掉多余  
+的 and 、町等  
+用于处理 SQL 拼装的问题  
+白oreach 循环语句 在 i n 语句等列举条件常用
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMzIxMjU1NSwxOTA3MjI3NTMyLDIxNT
-c3MDYxMiw0OTQ3OTExODUsLTExMjYwODUxMDIsLTEwNjgxODE1
-NDUsMTIzMTQxMTcyNCw0ODA5NjYwNTAsMTQxNDkxMzk3NywtMT
-M4MjcxMzc2NywtMTQzODQyODk3LC00MDg3MjAyNzUsLTg3OTI4
-NTgzOCwxMzEwNzg3ODM1LC0xNDkyMzUwMTY2LDE0OTMzMDE5Mz
-AsLTEwMzY4NDU1MjksMTUzNzEyMTc2NSwxMzkxMjc0MjgxXX0=
-
+eyJoaXN0b3J5IjpbNDU0NDU3NzMzLDE3MzMyMTI1NTUsMTkwNz
+IyNzUzMiwyMTU3NzA2MTIsNDk0NzkxMTg1LC0xMTI2MDg1MTAy
+LC0xMDY4MTgxNTQ1LDEyMzE0MTE3MjQsNDgwOTY2MDUwLDE0MT
+Q5MTM5NzcsLTEzODI3MTM3NjcsLTE0Mzg0Mjg5NywtNDA4NzIw
+Mjc1LC04NzkyODU4MzgsMTMxMDc4NzgzNSwtMTQ5MjM1MDE2Ni
+wxNDkzMzAxOTMwLC0xMDM2ODQ1NTI5LDE1MzcxMjE3NjUsMTM5
+MTI3NDI4MV19
 -->
