@@ -49,24 +49,19 @@ MyBatis缓存（支持一级缓存和二级缓存）
 
 | 元素 | 作用 | 备注 |
 |--|--|--|
-| if |  |  |
-| choose (when, otherwise)  |  |  |
-| trim {where, set)  |  |  |
-| foreach |  |  |
+| if | 判断语句 | 单条件分支判断   |
+| choose (when, otherwise)  | 相当于 Java 中的 switch 和 case 语句 | 多条件分支判断   |
+| trim {where, set)  | 辅助元素，用于处理特定的 SQL 拼装问题，比如去掉多余  
+的 and/or等 | 用于处理 SQL 拼装的问题   |
+| foreach | 循环语句  | 在 i n 语句等列举条件常用 |
 
-                                                                        单条件分支判断  
-相当于 Java 中的 switch 和 case 语句 多条件分支判断  
 
-辅助元素，用于处理特定的 SQL 拼装问题，比如去掉多余  
-的 and 、町等  
-用于处理 SQL 拼装的问题  
-白 循环语句 在 i n 语句等列举条件常用
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NzEzNzYyMCwxNzMzMjEyNTU1LDE5MD
-cyMjc1MzIsMjE1NzcwNjEyLDQ5NDc5MTE4NSwtMTEyNjA4NTEw
-MiwtMTA2ODE4MTU0NSwxMjMxNDExNzI0LDQ4MDk2NjA1MCwxND
-E0OTEzOTc3LC0xMzgyNzEzNzY3LC0xNDM4NDI4OTcsLTQwODcy
-MDI3NSwtODc5Mjg1ODM4LDEzMTA3ODc4MzUsLTE0OTIzNTAxNj
-YsMTQ5MzMwMTkzMCwtMTAzNjg0NTUyOSwxNTM3MTIxNzY1LDEz
-OTEyNzQyODFdfQ==
+eyJoaXN0b3J5IjpbMjQ1NzY3MDAxLDE3MzMyMTI1NTUsMTkwNz
+IyNzUzMiwyMTU3NzA2MTIsNDk0NzkxMTg1LC0xMTI2MDg1MTAy
+LC0xMDY4MTgxNTQ1LDEyMzE0MTE3MjQsNDgwOTY2MDUwLDE0MT
+Q5MTM5NzcsLTEzODI3MTM3NjcsLTE0Mzg0Mjg5NywtNDA4NzIw
+Mjc1LC04NzkyODU4MzgsMTMxMDc4NzgzNSwtMTQ5MjM1MDE2Ni
+wxNDkzMzAxOTMwLC0xMDM2ODQ1NTI5LDE1MzcxMjE3NjUsMTM5
+MTI3NDI4MV19
 -->
