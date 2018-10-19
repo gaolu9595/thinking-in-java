@@ -51,17 +51,18 @@ MyBatis缓存（支持一级缓存和二级缓存）
 |--|--|--|
 | if | 判断语句 | 单条件分支判断   |
 | choose (when, otherwise)  | 相当于 Java 中的 switch 和 case 语句 | 多条件分支判断【if-elif-else】   |
-| trim {where, set)  | 辅助元素，用于处理特定的SQL拼装问题，比如去掉多余的and/or等 | 用于处理 SQL 拼装的问题   |
-| foreach | 循环语句  | 在 i n 语句等列举条件常用 |
-
+| trim {where, set)  | 辅助元素，用于处理特定的SQL拼装问题，比如去掉多余的and/or等 | 用于处理SQL拼装的问题   |
+| foreach | 循环语句  | 在in语句等列举条件常用 |
+| test | 判断真假| 可以做字符串或数值判断，和if通常连用 |
+| bind | 循环语句  | 在 i n 语句等列举条件常用 |
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzI1NjE0OTQsMTE0ODczNjEyNCwyND
-U3NjcwMDEsMTczMzIxMjU1NSwxOTA3MjI3NTMyLDIxNTc3MDYx
-Miw0OTQ3OTExODUsLTExMjYwODUxMDIsLTEwNjgxODE1NDUsMT
-IzMTQxMTcyNCw0ODA5NjYwNTAsMTQxNDkxMzk3NywtMTM4Mjcx
-Mzc2NywtMTQzODQyODk3LC00MDg3MjAyNzUsLTg3OTI4NTgzOC
-wxMzEwNzg3ODM1LC0xNDkyMzUwMTY2LDE0OTMzMDE5MzAsLTEw
-MzY4NDU1MjldfQ==
+eyJoaXN0b3J5IjpbODczMTc1NzE4LDExNDg3MzYxMjQsMjQ1Nz
+Y3MDAxLDE3MzMyMTI1NTUsMTkwNzIyNzUzMiwyMTU3NzA2MTIs
+NDk0NzkxMTg1LC0xMTI2MDg1MTAyLC0xMDY4MTgxNTQ1LDEyMz
+E0MTE3MjQsNDgwOTY2MDUwLDE0MTQ5MTM5NzcsLTEzODI3MTM3
+NjcsLTE0Mzg0Mjg5NywtNDA4NzIwMjc1LC04NzkyODU4MzgsMT
+MxMDc4NzgzNSwtMTQ5MjM1MDE2NiwxNDkzMzAxOTMwLC0xMDM2
+ODQ1NTI5XX0=
 -->
