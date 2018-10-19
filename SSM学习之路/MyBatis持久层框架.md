@@ -33,20 +33,20 @@
 | insert |  |
 | delete |  |
 | update |  |
-| sql |  |
-| cache |  |
+| sql | 定义Sql语句的一部分，以供重复使用 |
+| cache | 开启SqlSessionFactory层面的二级缓存 |
 | cache-ref |  |
-| resultMap | 复杂 |
+| resultMap | 复杂[用于级联] |
 
 MyBatis级联：鉴别器、一对多、一对一
 （看得很晕。。。标记一下）
 
 MyBatis缓存（支持一级缓存和二级缓存）
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk0NzkxMTg1LC0xMTI2MDg1MTAyLC0xMD
-Y4MTgxNTQ1LDEyMzE0MTE3MjQsNDgwOTY2MDUwLDE0MTQ5MTM5
-NzcsLTEzODI3MTM3NjcsLTE0Mzg0Mjg5NywtNDA4NzIwMjc1LC
-04NzkyODU4MzgsMTMxMDc4NzgzNSwtMTQ5MjM1MDE2NiwxNDkz
-MzAxOTMwLC0xMDM2ODQ1NTI5LDE1MzcxMjE3NjUsMTM5MTI3ND
-I4MV19
+eyJoaXN0b3J5IjpbLTM5OTQ5NzAzMyw0OTQ3OTExODUsLTExMj
+YwODUxMDIsLTEwNjgxODE1NDUsMTIzMTQxMTcyNCw0ODA5NjYw
+NTAsMTQxNDkxMzk3NywtMTM4MjcxMzc2NywtMTQzODQyODk3LC
+00MDg3MjAyNzUsLTg3OTI4NTgzOCwxMzEwNzg3ODM1LC0xNDky
+MzUwMTY2LDE0OTMzMDE5MzAsLTEwMzY4NDU1MjksMTUzNzEyMT
+c2NSwxMzkxMjc0MjgxXX0=
 -->
