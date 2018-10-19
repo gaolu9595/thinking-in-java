@@ -5,11 +5,11 @@
 
  
 
- - IoC：控制反转（Inversion of Control）
+ - **IoC**：控制反转（Inversion of Control）
  【IoC是一个容器，根据配置文件来管理JavaBean及其依赖关系】
  【如果想要一个对象(资源)，不再需要先new它，而只需要描述它，IoC将根据描述提供所需资源】
- - AOP： 面向切面编程（Aspect Oriented Programming）
- 【通常情况下，需要用try catch finally语句来保持数据库事务的原子性和数据的一致性】
+ - **AOP**： 面向切面编程（Aspect Oriented Programming）
+ 【通常情况下，需要用**try catch finally**语句来保持数据库事务的原子性和数据的一致性】
  【常用于数据库事务。默认情况下，只要让Spring接受到异常消息，就能让数据库事务回滚，保持数据的一致性】
 
 
@@ -39,7 +39,7 @@
  - MultiUtility工具
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MjUyNjA0NiwxMTY3MjI2NTMzLDk4Nj
-MyMDE1Nyw1MTQ5ODg1MDEsMTU3NjA3ODQ0NSwzMDI5NDA2NjNd
-fQ==
+eyJoaXN0b3J5IjpbNzI1NzMyNTc0LDExNjcyMjY1MzMsOTg2Mz
+IwMTU3LDUxNDk4ODUwMSwxNTc2MDc4NDQ1LDMwMjk0MDY2M119
+
 -->
