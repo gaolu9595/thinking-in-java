@@ -2,7 +2,8 @@
 
 <font color=#0099ff face="楷体">**Java应用可以通过MyBatis框架访问数据库**</font>
 <font color=#0099ff face="楷体">**POJO**：Plain Ordinary Java Object（简单Java对象），特指与数据库打交道的Java对象</font>
-
+<font color=#0099ff face="楷体">**对MyBatis的理解**：
+</font>
 
 **MyBatis核心组件**
 
@@ -16,7 +17,7 @@
 
 【SQLSession和SqlMapper都可以发送SQL语句，后者更符合面向对象编程的语法规则】
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3OTI4NTgzOCwxMzEwNzg3ODM1LC0xND
-kyMzUwMTY2LDE0OTMzMDE5MzAsLTEwMzY4NDU1MjksMTUzNzEy
-MTc2NSwxMzkxMjc0MjgxXX0=
+eyJoaXN0b3J5IjpbLTQwODcyMDI3NSwtODc5Mjg1ODM4LDEzMT
+A3ODc4MzUsLTE0OTIzNTAxNjYsMTQ5MzMwMTkzMCwtMTAzNjg0
+NTUyOSwxNTM3MTIxNzY1LDEzOTEyNzQyODFdfQ==
 -->
