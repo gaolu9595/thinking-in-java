@@ -1,7 +1,7 @@
 ## MyBatis持久层框架
 
 <font color=#0099ff face="楷体">**Java应用可以通过MyBatis框架访问数据库**</font>
-<font color=#0099ff face="楷体">POJO：Plain Ordinary Java Object（简单Java对象），特指与数据库打交道的Java对象</font>
+<font color=#0099ff face="楷体">**POJO**：Plain Ordinary Java Object（简单Java对象），特指与数据库打交道的Java对象</font>
 
 
 **MyBatis核心组件**
@@ -15,6 +15,6 @@ SqlSession：有DefaultSqlSession（单线程）和SqlSessionManager（多线程
 SQLMapper：
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk5MDMyNDkwLC0xMDM2ODQ1NTI5LDE1Mz
-cxMjE3NjUsMTM5MTI3NDI4MV19
+eyJoaXN0b3J5IjpbMTQ5MzMwMTkzMCwtMTAzNjg0NTUyOSwxNT
+M3MTIxNzY1LDEzOTEyNzQyODFdfQ==
 -->
