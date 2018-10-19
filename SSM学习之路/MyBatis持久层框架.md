@@ -17,14 +17,14 @@
 
 【SQLSession和SqlMapper都可以发送SQL语句，后者更符合面向对象编程的语法规则】
 
-### <font color=#0000ff >**MyBatis配置**</font>
+### <font color=#0000ff >**MyBatis配置config**</font>
 
 **MyBatis的配置项顺序不能颠倒**
 
 
-### <font color=#0000ff >**MyBatis映射器**</font>
+### <font color=#0000ff >**MyBatis映射器mapper（Mybatis最复杂的部分）**</font>
 
-映射器由一个**接口**和**XML文件**组成（或注解）
+映射器由一个**接口**和**XML文件**组成（或注解），通过操作接口对象来完成数据库事务
 
 映射器的配置元素：
 | 配置元素|  |
@@ -43,7 +43,7 @@ MyBatis级联：鉴别器、一对多、一对一
 
 MyBatis缓存（支持一级缓存和二级缓存）
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMzEzNzM0MywxOTA3MjI3NTMyLDIxNT
+eyJoaXN0b3J5IjpbMTkxNTg5MTc5NSwxOTA3MjI3NTMyLDIxNT
 c3MDYxMiw0OTQ3OTExODUsLTExMjYwODUxMDIsLTEwNjgxODE1
 NDUsMTIzMTQxMTcyNCw0ODA5NjYwNTAsMTQxNDkxMzk3NywtMT
 M4MjcxMzc2NywtMTQzODQyODk3LC00MDg3MjAyNzUsLTg3OTI4
