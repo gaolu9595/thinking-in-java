@@ -54,15 +54,15 @@ MyBatis缓存（支持一级缓存和二级缓存）
 | trim {where, set)  | 辅助元素，用于处理特定的SQL拼装问题，比如去掉多余的and/or等 | 用于处理SQL拼装的问题   |
 | foreach | 循环语句  | 在in语句等列举条件常用 |
 | test | 判断真假| 可以做字符串或数值判断，和if通常连用 |
-| bind | 循环语句  | 在 i n 语句等列举条件常用 |
+| bind | 循环语句  | 通过 OGNL 表达式去自定义一个上下文变量 |
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODczMTc1NzE4LDExNDg3MzYxMjQsMjQ1Nz
-Y3MDAxLDE3MzMyMTI1NTUsMTkwNzIyNzUzMiwyMTU3NzA2MTIs
-NDk0NzkxMTg1LC0xMTI2MDg1MTAyLC0xMDY4MTgxNTQ1LDEyMz
-E0MTE3MjQsNDgwOTY2MDUwLDE0MTQ5MTM5NzcsLTEzODI3MTM3
-NjcsLTE0Mzg0Mjg5NywtNDA4NzIwMjc1LC04NzkyODU4MzgsMT
-MxMDc4NzgzNSwtMTQ5MjM1MDE2NiwxNDkzMzAxOTMwLC0xMDM2
-ODQ1NTI5XX0=
+eyJoaXN0b3J5IjpbLTUwNjUyNTUzNyw4NzMxNzU3MTgsMTE0OD
+czNjEyNCwyNDU3NjcwMDEsMTczMzIxMjU1NSwxOTA3MjI3NTMy
+LDIxNTc3MDYxMiw0OTQ3OTExODUsLTExMjYwODUxMDIsLTEwNj
+gxODE1NDUsMTIzMTQxMTcyNCw0ODA5NjYwNTAsMTQxNDkxMzk3
+NywtMTM4MjcxMzc2NywtMTQzODQyODk3LC00MDg3MjAyNzUsLT
+g3OTI4NTgzOCwxMzEwNzg3ODM1LC0xNDkyMzUwMTY2LDE0OTMz
+MDE5MzBdfQ==
 -->
