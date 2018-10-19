@@ -6,7 +6,7 @@
 
 **MyBatis核心组件**
 
-SqlSessionFactoryBuilder：按照Builder模式来生成SQLSessionFactory
+SqlSessionFactoryBuilder：按照Builder模式来生成SQLSessionFactory。创建完
 
 SqlSessionFactory：生成MyBatis的核心接口对象SqlSession【通常是单例模式】
 
@@ -16,7 +16,7 @@ SQLMapper：两种实现映射器的方式（XML与注解）
 
 【SQLSession和SqlMapper都可以发送SQL语句，推荐后者】
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3OTkzNzAwMCwtMTQ5MjM1MDE2NiwxND
-kzMzAxOTMwLC0xMDM2ODQ1NTI5LDE1MzcxMjE3NjUsMTM5MTI3
-NDI4MV19
+eyJoaXN0b3J5IjpbMTY3MjQwNzE3LC0xNDkyMzUwMTY2LDE0OT
+MzMDE5MzAsLTEwMzY4NDU1MjksMTUzNzEyMTc2NSwxMzkxMjc0
+MjgxXX0=
 -->
