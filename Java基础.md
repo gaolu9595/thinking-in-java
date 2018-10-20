@@ -78,6 +78,8 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
  34. **编写构造器时的一条有效准则**（尽量做到）：用尽可能简单的方法使对象进入正常状态，若可以的话，避免调用其他方法【在构造器内，唯一能安全调用的是基类的final方法】。
  35. 继承中，向上转型是安全的，但会丢失类型信息；向下转型是有风险的(Java中使用RTTI[运行时类型检查]来保证安全)，但是可以获取具体类型信息。
  36. **Java中所有类都有一个Class类的对象**。 所有类都继承于java.lang.Object类
+ 37. 抽象类：
+ 38. 接口：
 
 
 
@@ -87,11 +89,11 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMzg3NDc4MCwxMjE0MDQ3Mjk2LC0xMz
-A3MTk2OTcyLDgwNjY1NzYwOSwtNDY0NDkzMDE3LDExMTAyMDk2
-OCwtMTQxNDU0NDI3MCwxNTg4MzkwMTIxLC0xNTQxOTQzNjkyLD
-IwNzM0NjgxMTUsLTE4ODM3MzQ2MSwyMDUxMTY2MTY0LC0zNjAy
-Mzc4NTIsLTQ1MDk0NzIyOCwyMDQwMDIyODA3LDE3MzkyNzEyOT
-MsMTM0MDk3MzI4MiwtNDU5NjE5ODQsLTIyMDAyNTEwMSwtNjAw
-MzE4NTI3XX0=
+eyJoaXN0b3J5IjpbLTEyMTI3MDI5ODIsMTIwMzg3NDc4MCwxMj
+E0MDQ3Mjk2LC0xMzA3MTk2OTcyLDgwNjY1NzYwOSwtNDY0NDkz
+MDE3LDExMTAyMDk2OCwtMTQxNDU0NDI3MCwxNTg4MzkwMTIxLC
+0xNTQxOTQzNjkyLDIwNzM0NjgxMTUsLTE4ODM3MzQ2MSwyMDUx
+MTY2MTY0LC0zNjAyMzc4NTIsLTQ1MDk0NzIyOCwyMDQwMDIyOD
+A3LDE3MzkyNzEyOTMsMTM0MDk3MzI4MiwtNDU5NjE5ODQsLTIy
+MDAyNTEwMV19
 -->
