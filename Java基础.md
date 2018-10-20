@@ -78,7 +78,7 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
  34. **编写构造器时的一条有效准则**（尽量做到）：用尽可能简单的方法使对象进入正常状态，若可以的话，避免调用其他方法【在构造器内，唯一能安全调用的是基类的final方法】。
  35. 继承中，向上转型是安全的，但会丢失类型信息；向下转型是有风险的(Java中使用RTTI[运行时类型检查]来保证安全)，但是可以获取具体类型信息。
  36. **Java中所有类都有一个Class类的对象**。 所有类都继承于java.lang.Object类
- 37. 抽象类：不一定含有抽象方法，但是具有一个或多个抽象方法的类必须声明为抽象类。继承抽象类时可以不实现其所有抽象方法，这样的话子类也必须声明为抽象类。
+ 37. 抽象类：不一定含有抽象方法，但是具有一个或多个抽象方法的类必须声明为抽象类。继承抽象类时可以不实现其所有抽象方法，这样的话子类也必须声明为抽象类。抽象类是不能创建实例对象的。
  38. 接口：
 
 
@@ -89,11 +89,11 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NTM4Mzc4MywxMjAzODc0NzgwLDEyMT
-QwNDcyOTYsLTEzMDcxOTY5NzIsODA2NjU3NjA5LC00NjQ0OTMw
-MTcsMTExMDIwOTY4LC0xNDE0NTQ0MjcwLDE1ODgzOTAxMjEsLT
-E1NDE5NDM2OTIsMjA3MzQ2ODExNSwtMTg4MzczNDYxLDIwNTEx
-NjYxNjQsLTM2MDIzNzg1MiwtNDUwOTQ3MjI4LDIwNDAwMjI4MD
-csMTczOTI3MTI5MywxMzQwOTczMjgyLC00NTk2MTk4NCwtMjIw
-MDI1MTAxXX0=
+eyJoaXN0b3J5IjpbLTIxMDEyOTA5NDUsLTI4NTM4Mzc4MywxMj
+AzODc0NzgwLDEyMTQwNDcyOTYsLTEzMDcxOTY5NzIsODA2NjU3
+NjA5LC00NjQ0OTMwMTcsMTExMDIwOTY4LC0xNDE0NTQ0MjcwLD
+E1ODgzOTAxMjEsLTE1NDE5NDM2OTIsMjA3MzQ2ODExNSwtMTg4
+MzczNDYxLDIwNTExNjYxNjQsLTM2MDIzNzg1MiwtNDUwOTQ3Mj
+I4LDIwNDAwMjI4MDcsMTczOTI3MTI5MywxMzQwOTczMjgyLC00
+NTk2MTk4NF19
 -->
