@@ -80,7 +80,7 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
  36. **Java中所有类都有一个Class类的对象**。 所有类都继承于java.lang.Object类
  37. 抽象类：不一定含有抽象方法，但是具有一个或多个抽象方法的类必须声明为抽象类。继承抽象类时可以不实现其所有抽象方法，这样的话子类也必须声明为抽象类。抽象类是不能创建实例对象的。
  38. 接口：相当于一个完全抽象的类，其中所有域都隐式地定义为static和final。在实现一个接口时，在接口中被定义的方法必须被定义为public。接口可以降低方法与类之间的耦合。
- 39. **接口与抽象类的使用场景**【接口可以支持多实现，达到多重继承的效果；抽象类可以将每个子类都具有相同实现的方法声明为非抽象方法，减少冗余】
+ 39. **接口与抽象类的使用场景**【接口可以支持多实现，达到多重继承的效果；抽象类可以将每个子类都具有相同实现的方法声明为非抽象方法，减少冗余；接口可以实现方法与具体实现的完全分离，更利于代码调试和维护；抽象类可以】
 
 
 
@@ -90,7 +90,7 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MTQxNjAyMCwyNzQ1MzkzNTQsMTIzMz
+eyJoaXN0b3J5IjpbMjA1MjcwNDE2NywyNzQ1MzkzNTQsMTIzMz
 M2NjIzNywtMjg1MzgzNzgzLDEyMDM4NzQ3ODAsMTIxNDA0NzI5
 NiwtMTMwNzE5Njk3Miw4MDY2NTc2MDksLTQ2NDQ5MzAxNywxMT
 EwMjA5NjgsLTE0MTQ1NDQyNzAsMTU4ODM5MDEyMSwtMTU0MTk0
