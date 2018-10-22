@@ -30,12 +30,13 @@
 映射器由一个**接口**和**XML文件**组成（或注解），通过操作接口对象来完成数据库事务
 
 映射器的配置元素：
+
 | 配置元素| 备注 |
 |--|--|
-| select |  |
-| insert |  |
-| delete |  |
-| update |  |
+| select | 查询 |
+| insert | 插入 |
+| delete | 删除 |
+| update | 更改 |
 | sql | 定义Sql语句的一部分，以供重复使用 |
 | cache | 开启SqlSessionFactory层面的二级缓存，搭配实现了java.io.Serializable接口的POJO对象 |
 | cache-ref | 引用其他映射器的缓存设置 |
@@ -63,11 +64,11 @@ MyBatis缓存（支持一级缓存和二级缓存）
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAzODQxNzU0LC0xNjg5ODg3NDI5LDg3Mz
-E3NTcxOCwxMTQ4NzM2MTI0LDI0NTc2NzAwMSwxNzMzMjEyNTU1
-LDE5MDcyMjc1MzIsMjE1NzcwNjEyLDQ5NDc5MTE4NSwtMTEyNj
-A4NTEwMiwtMTA2ODE4MTU0NSwxMjMxNDExNzI0LDQ4MDk2NjA1
-MCwxNDE0OTEzOTc3LC0xMzgyNzEzNzY3LC0xNDM4NDI4OTcsLT
-QwODcyMDI3NSwtODc5Mjg1ODM4LDEzMTA3ODc4MzUsLTE0OTIz
-NTAxNjZdfQ==
+eyJoaXN0b3J5IjpbLTE2ODg2MTg5NzcsMzAzODQxNzU0LC0xNj
+g5ODg3NDI5LDg3MzE3NTcxOCwxMTQ4NzM2MTI0LDI0NTc2NzAw
+MSwxNzMzMjEyNTU1LDE5MDcyMjc1MzIsMjE1NzcwNjEyLDQ5ND
+c5MTE4NSwtMTEyNjA4NTEwMiwtMTA2ODE4MTU0NSwxMjMxNDEx
+NzI0LDQ4MDk2NjA1MCwxNDE0OTEzOTc3LC0xMzgyNzEzNzY3LC
+0xNDM4NDI4OTcsLTQwODcyMDI3NSwtODc5Mjg1ODM4LDEzMTA3
+ODc4MzVdfQ==
 -->
