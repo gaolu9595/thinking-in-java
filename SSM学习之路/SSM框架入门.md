@@ -3,8 +3,6 @@
 
 ### Spring
 
- 
-
  - **IoC**：控制反转（Inversion of Control）
  【IoC是一个容器，根据配置文件来管理JavaBean及其依赖关系】
  【如果想要一个对象(资源)，不再需要先new它，而只需要描述它，IoC将根据描述提供所需资源】
@@ -39,7 +37,7 @@
  - MultiUtility工具
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI1NzMyNTc0LDExNjcyMjY1MzMsOTg2Mz
-IwMTU3LDUxNDk4ODUwMSwxNTc2MDc4NDQ1LDMwMjk0MDY2M119
-
+eyJoaXN0b3J5IjpbLTIwMTg3MDk4OTIsNzI1NzMyNTc0LDExNj
+cyMjY1MzMsOTg2MzIwMTU3LDUxNDk4ODUwMSwxNTc2MDc4NDQ1
+LDMwMjk0MDY2M119
 -->
