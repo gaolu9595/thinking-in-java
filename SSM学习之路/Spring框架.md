@@ -9,6 +9,8 @@
 
 ### <font face="Cabrili">Spring Bean的装载</font>
 
+1. 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1Nzk0NTUxNywtMTQxMzQxMjYyMl19
+eyJoaXN0b3J5IjpbMTQ4NzI3NDgyMCwtMTQxMzQxMjYyMl19
 -->
