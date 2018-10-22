@@ -75,6 +75,7 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
  - Java是通过Class对象执行其RTTI（Run-time Type Identification）来实现多态的
  - 注意：任何域访问操作都将由编译器解析，因此不是多态的
  - ======>所以，**一般将域设置为private，然后通过get和set方法来访问**
+
  34. **编写构造器时的一条有效准则**（尽量做到）：用尽可能简单的方法使对象进入正常状态，若可以的话，避免调用其他方法【在构造器内，唯一能安全调用的是基类的final方法】。
  35. 继承中，向上转型是安全的，但会丢失类型信息；向下转型是有风险的(Java中使用RTTI[运行时类型检查]来保证安全)，但是可以获取具体类型信息。
  36. **Java中所有类都有一个Class类的对象**。 所有类都继承于java.lang.Object类
@@ -90,11 +91,11 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MzUwNDY5OCwtMTE0ODMxMzM3NiwyNz
-Q1MzkzNTQsMTIzMzM2NjIzNywtMjg1MzgzNzgzLDEyMDM4NzQ3
-ODAsMTIxNDA0NzI5NiwtMTMwNzE5Njk3Miw4MDY2NTc2MDksLT
-Q2NDQ5MzAxNywxMTEwMjA5NjgsLTE0MTQ1NDQyNzAsMTU4ODM5
-MDEyMSwtMTU0MTk0MzY5MiwyMDczNDY4MTE1LC0xODgzNzM0Nj
-EsMjA1MTE2NjE2NCwtMzYwMjM3ODUyLC00NTA5NDcyMjgsMjA0
-MDAyMjgwN119
+eyJoaXN0b3J5IjpbLTExMzgxMzc2NTIsMTg5MzUwNDY5OCwtMT
+E0ODMxMzM3NiwyNzQ1MzkzNTQsMTIzMzM2NjIzNywtMjg1Mzgz
+NzgzLDEyMDM4NzQ3ODAsMTIxNDA0NzI5NiwtMTMwNzE5Njk3Mi
+w4MDY2NTc2MDksLTQ2NDQ5MzAxNywxMTEwMjA5NjgsLTE0MTQ1
+NDQyNzAsMTU4ODM5MDEyMSwtMTU0MTk0MzY5MiwyMDczNDY4MT
+E1LC0xODgzNzM0NjEsMjA1MTE2NjE2NCwtMzYwMjM3ODUyLC00
+NTA5NDcyMjhdfQ==
 -->
