@@ -12,11 +12,8 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 3. 每个对象都有自己的由其他对象所构成的存储
 4. 每个对象都有其类型（class），某一特定类型的所有对象都可以接收相同的消息
 5. ***示例***：创建了一个Student类型的对象，定义了该对象的引用s，同时对s发送getAge消息请求。
- Student s = new Student; 
+ `Student s = new Student; 
  s.getAge()`
-
-Student s = new Student();
-s.getAge()   
 8. 每个对象都提供服务，程序应该被理解为：通过调用其他对象提供的服务，来为用户提供服务
 9. 良好的OOP中，每个对象都可以很好的完成一项任务，但是它并不试图做更多的事
 10. 类创建者对类消费者（客户端程序员）隐藏具体实现，只暴露必需的部分【访问控制能便于维护+减轻开发任务，Java用关键字public、private、protected来设定*****类的边界*****，Java还设置了*****包访问权限*****】
@@ -94,7 +91,7 @@ s.getAge()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTk4MjkzMiwtMTEzODEzNzY1MiwxOD
+eyJoaXN0b3J5IjpbMTc2MDIyMTAzNSwtMTEzODEzNzY1MiwxOD
 kzNTA0Njk4LC0xMTQ4MzEzMzc2LDI3NDUzOTM1NCwxMjMzMzY2
 MjM3LC0yODUzODM3ODMsMTIwMzg3NDc4MCwxMjE0MDQ3Mjk2LC
 0xMzA3MTk2OTcyLDgwNjY1NzYwOSwtNDY0NDkzMDE3LDExMTAy
