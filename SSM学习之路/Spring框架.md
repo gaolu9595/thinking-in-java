@@ -20,7 +20,7 @@
 ### <font face="Cabrili">Spring Bean的装载</font>
 
 1. 实现IoC容器的方式，主要分为依赖查找和依赖注入（Spring中采用后者）
-2. 依赖注入：举例来说，若Person类需要引用Car类的对象，那么Person类就依赖于Car类，这就导致了Person类的对象需要负责创建Car类的对象并管理他的生命周期，这样会导致耦合度高、难以维护。
+2. **依赖注入**：举例来说，若Person类需要引用Car类的对象，那么Person类就依赖于Car类，这就导致了Person类的对象需要负责创建Car类的对象并管理他的生命周期，这样会导致耦合度高、难以维护。而依赖注入的核心就是要将Person类对象A依赖的Car类对象B注入到A中去，而无需A自己去引用B，这个注入的过程，通常是由一个控制程序来完成的，无需对象去关心。
 3. **依赖注入的三种方式**：构造器注入，setter注入，接口注入
 4. 
 
@@ -35,7 +35,7 @@
 
 <font color=#0099ff face="楷体">**关于Spring的一些理解:**</font>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwNzc5NzQ5LC0yMDU5NjEwMjcwLC0xNj
-g2NDA5NTkyLC0yOTIxODg5MTcsMTAzMzIyMjU5LDE0ODcyNzQ4
-MjAsLTE0MTM0MTI2MjJdfQ==
+eyJoaXN0b3J5IjpbLTc2NDQ5MDE5NywtMjA1OTYxMDI3MCwtMT
+Y4NjQwOTU5MiwtMjkyMTg4OTE3LDEwMzMyMjI1OSwxNDg3Mjc0
+ODIwLC0xNDEzNDEyNjIyXX0=
 -->
