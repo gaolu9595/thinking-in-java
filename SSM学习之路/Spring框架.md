@@ -5,7 +5,7 @@
  3. IoC容器的设计：BeanFactory是SpringIoC容器定义的最底层的接口， ApplicationContext是其高级实现的扩展接口（最为常用）
  4. **Bean的初始化与依赖注入**是IoC容器的两大步骤
 	- 首先通过XML配置文件，将对象和依赖对象都配置到某个XML文件中；
-	- 然后通过BeanFactory类来自动实现注入过程
+	- 然后通过BeanFactory等类来自动实现注入过程
 	- 举例
 <pre><code>
 <bean id="car" class="car的全限定名"> </bean>
@@ -20,8 +20,9 @@
 ### <font face="Cabrili">Spring Bean的装载</font>
 
 1. 实现IoC容器的方式，主要分为依赖查找和依赖注入（Spring中采用后者）
-2. **依赖注入的三种方式**：构造器注入，setter注入，接口注入
-3. 构造器注入：
+2. 依赖注入：将
+3. **依赖注入的三种方式**：构造器注入，setter注入，接口注入
+4. 
 
 
 
@@ -34,7 +35,7 @@
 
 <font color=#0099ff face="楷体">**关于Spring的一些理解:**</font>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTU3MjkwODIsLTIwNTk2MTAyNzAsLT
-E2ODY0MDk1OTIsLTI5MjE4ODkxNywxMDMzMjIyNTksMTQ4NzI3
-NDgyMCwtMTQxMzQxMjYyMl19
+eyJoaXN0b3J5IjpbOTM2ODE5MjI4LC0yMDU5NjEwMjcwLC0xNj
+g2NDA5NTkyLC0yOTIxODg5MTcsMTAzMzIyMjU5LDE0ODcyNzQ4
+MjAsLTE0MTM0MTI2MjJdfQ==
 -->
