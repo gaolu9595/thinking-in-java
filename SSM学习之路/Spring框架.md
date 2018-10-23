@@ -4,8 +4,8 @@
 2. IoC容器：容纳和管理所有Bean（资源）
 3. IoC容器的设计：BeanFactory是SpringIoC容器定义的最底层的接口， ApplicationContext是其高级实现的扩展接口（最为常用）
 4. **Bean的初始化与依赖注入**是IoC容器的两大步骤
-5. Spring IoC
-6. Spring **Bean的生命周期** 的管理
+5. Spring **Bean的生命周期** 的管理
+6. 
 
 ### <font face="Cabrili">Spring Bean的装载</font>
 
@@ -24,6 +24,6 @@
 
 <font color=#0099ff face="楷体">**关于Spring的一些理解:**</font>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMzIyMDQ1NCwtMjkyMTg4OTE3LDEwMz
+eyJoaXN0b3J5IjpbLTExMTAzNTIwNiwtMjkyMTg4OTE3LDEwMz
 MyMjI1OSwxNDg3Mjc0ODIwLC0xNDEzNDEyNjIyXX0=
 -->
