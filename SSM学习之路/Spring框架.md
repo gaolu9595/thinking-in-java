@@ -9,8 +9,10 @@
 
 ### <font face="Cabrili">Spring Bean的装载</font>
 
-1. 
+1. 实现IoC容器的方式，主要分为依赖查找和依赖注入（Spring中采用后者）
+2. 依赖注入的三种方式：构造器注入，setter注入，
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NzI3NDgyMCwtMTQxMzQxMjYyMl19
+eyJoaXN0b3J5IjpbMTMyNTk0MzU0MCwxNDg3Mjc0ODIwLC0xND
+EzNDEyNjIyXX0=
 -->
