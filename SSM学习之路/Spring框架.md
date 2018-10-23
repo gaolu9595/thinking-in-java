@@ -7,10 +7,11 @@
 	- 首先通过XML配置文件，将对象和依赖对象都配置到某个XML文件中；
 	- 然后通过BeanFactory类来自动实现注入过程
 	- 举例
-<pre><code><bean id="car" class="car的全限定名"> </bean>
-	<bean id="person" class="person的全限定名"> 
-			<property name="car" ref="car"> 
-	</bean>
+<pre><code>
+<bean id="car" class="car的全限定名"> </bean>
+<bean id="person" class="person的全限定名"> 
+	<property name="car" ref="car"> 
+</bean>
 </code></pre>
 	
 	
@@ -33,7 +34,7 @@
 
 <font color=#0099ff face="楷体">**关于Spring的一些理解:**</font>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTI3OTk5OTIsLTIwNTk2MTAyNzAsLT
+eyJoaXN0b3J5IjpbLTE2NTU3MjkwODIsLTIwNTk2MTAyNzAsLT
 E2ODY0MDk1OTIsLTI5MjE4ODkxNywxMDMzMjIyNTksMTQ4NzI3
 NDgyMCwtMTQxMzQxMjYyMl19
 -->
