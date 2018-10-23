@@ -25,7 +25,7 @@
 4. setter注入是最常用的方式，它借助于**Java反射**来创建对象，并且调用setter方法来注入配置的值：<font color=#ff0000>【插入图片】</font>
 5. 将Bean装配到Spring IoC容器中的三种方式：
 	· 在 XML 中显示配置；
-	· 在 Java 的接口和类中实现配置（系有限））；  
+	· 在 Java 的接口和类中实现配置（次优先）；  
 	· 隐式 Bean 的发现机制和自动装配原则（优先）。
 6. 
 
@@ -39,7 +39,7 @@
 
 <font color=#0099ff face="楷体">**关于Spring的一些理解:**</font>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTg1Nzg4NSwxNTM3NDQxNjEsLTIwNT
+eyJoaXN0b3J5IjpbMTI3MjczNzkwOSwxNTM3NDQxNjEsLTIwNT
 k2MTAyNzAsLTE2ODY0MDk1OTIsLTI5MjE4ODkxNywxMDMzMjIy
 NTksMTQ4NzI3NDgyMCwtMTQxMzQxMjYyMl19
 -->
