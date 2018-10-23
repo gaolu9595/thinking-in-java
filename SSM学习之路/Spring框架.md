@@ -7,7 +7,9 @@
 	- 首先通过XML配置文件，将对象和依赖对象都配置到某个XML文件中；
 	- 然后通过BeanFactory类来自动实现注入过程
 	- 举例
-`<bean id="car" class="car的全限定名"> </bean>`
+`<bean id="car" class="car的全限定名"> </bean>
+<bean id="person" class="person的全限定名"> 
+<property> </bean>`
 	
 5. Spring **Bean的生命周期** 的管理
 
@@ -28,6 +30,6 @@
 
 <font color=#0099ff face="楷体">**关于Spring的一些理解:**</font>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMzI2MTI4MiwtMjkyMTg4OTE3LDEwMz
+eyJoaXN0b3J5IjpbLTIyODYwMTcyNiwtMjkyMTg4OTE3LDEwMz
 MyMjI1OSwxNDg3Mjc0ODIwLC0xNDEzNDEyNjIyXX0=
 -->
