@@ -25,7 +25,6 @@
 	· 隐式 Bean 的发现机制和自动装配原则（优先）。
 6. **利用注解来装配Bean**是最重要最常用的方式
 7. **Bean的作用域**[Spring提供四种]：
-
 	- 单例（Singleton）：默认选项，在整个应用中，Spring只为其生成一个Bean的实例；
 	- 原型（Prototype）：每次注入或者通过Spring IoC容器获取Bean时，Spring都会为它创建一个新的实例
 	- 会话（Session）：在Web应用中使用，在整个会话过程中Spring只创建一个Bean的实例
@@ -37,9 +36,9 @@
 
 <font color=#0099ff face="楷体">**关于Spring的一些理解:**</font>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjM0NDk2MTgsNTY3NjQ5OTA1LC0xNT
-I3NjAxMTcyLDE1NDIyMDg1ODEsLTUxODg1MzYxMywxMjcyNzM3
-OTA5LDE1Mzc0NDE2MSwtMjA1OTYxMDI3MCwtMTY4NjQwOTU5Mi
-wtMjkyMTg4OTE3LDEwMzMyMjI1OSwxNDg3Mjc0ODIwLC0xNDEz
-NDEyNjIyXX0=
+eyJoaXN0b3J5IjpbODYyNTk4OTEyLC0xOTYzNDQ5NjE4LDU2Nz
+Y0OTkwNSwtMTUyNzYwMTE3MiwxNTQyMjA4NTgxLC01MTg4NTM2
+MTMsMTI3MjczNzkwOSwxNTM3NDQxNjEsLTIwNTk2MTAyNzAsLT
+E2ODY0MDk1OTIsLTI5MjE4ODkxNywxMDMzMjIyNTksMTQ4NzI3
+NDgyMCwtMTQxMzQxMjYyMl19
 -->
