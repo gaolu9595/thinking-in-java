@@ -30,15 +30,16 @@
 	- 会话（Session）：在Web应用中使用，在整个会话过程中Spring只创建一个Bean的实例
 	- 请求（Request）：在Web应用中使用，在一次请求中Spring会创建一个实例，而不同的请求会创建不同的实例  
 
-
+### <font face="Cabrili">Spring AOP<font size="4">[AOP是对OOP的延伸与扩展</font></font>
+AOP是对OOP的延伸与扩展
 
 
 
 <font color=#0099ff face="楷体">**关于Spring的一些理解:**</font>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYyNTk4OTEyLC0xOTYzNDQ5NjE4LDU2Nz
-Y0OTkwNSwtMTUyNzYwMTE3MiwxNTQyMjA4NTgxLC01MTg4NTM2
-MTMsMTI3MjczNzkwOSwxNTM3NDQxNjEsLTIwNTk2MTAyNzAsLT
-E2ODY0MDk1OTIsLTI5MjE4ODkxNywxMDMzMjIyNTksMTQ4NzI3
-NDgyMCwtMTQxMzQxMjYyMl19
+eyJoaXN0b3J5IjpbMzU3NTEzNjExLDg2MjU5ODkxMiwtMTk2Mz
+Q0OTYxOCw1Njc2NDk5MDUsLTE1Mjc2MDExNzIsMTU0MjIwODU4
+MSwtNTE4ODUzNjEzLDEyNzI3Mzc5MDksMTUzNzQ0MTYxLC0yMD
+U5NjEwMjcwLC0xNjg2NDA5NTkyLC0yOTIxODg5MTcsMTAzMzIy
+MjU5LDE0ODcyNzQ4MjAsLTE0MTM0MTI2MjJdfQ==
 -->
