@@ -25,7 +25,7 @@
 	· 隐式 Bean 的发现机制和自动装配原则（优先）。
 6. **利用注解来装配Bean**是最重要最常用的方式
 7. **Bean的作用域**：
-
+	- 
 
 
 
@@ -36,8 +36,9 @@
 
 <font color=#0099ff face="楷体">**关于Spring的一些理解:**</font>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY3NjQ5OTA1LC0xNTI3NjAxMTcyLDE1ND
-IyMDg1ODEsLTUxODg1MzYxMywxMjcyNzM3OTA5LDE1Mzc0NDE2
-MSwtMjA1OTYxMDI3MCwtMTY4NjQwOTU5MiwtMjkyMTg4OTE3LD
-EwMzMyMjI1OSwxNDg3Mjc0ODIwLC0xNDEzNDEyNjIyXX0=
+eyJoaXN0b3J5IjpbMTEwNjgwNzA2OCw1Njc2NDk5MDUsLTE1Mj
+c2MDExNzIsMTU0MjIwODU4MSwtNTE4ODUzNjEzLDEyNzI3Mzc5
+MDksMTUzNzQ0MTYxLC0yMDU5NjEwMjcwLC0xNjg2NDA5NTkyLC
+0yOTIxODg5MTcsMTAzMzIyMjU5LDE0ODcyNzQ4MjAsLTE0MTM0
+MTI2MjJdfQ==
 -->
