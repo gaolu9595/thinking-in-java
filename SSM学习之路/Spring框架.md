@@ -1,4 +1,4 @@
-### <font face="Cabrili" align="center">Spring IoC</font>
+### <font face="Cabrili">Spring IoC</font>
 
  1. Inversion of Control：**控制反转**（将创建对象的主动权，从程序员自己手中交给容器，让容器按需求和依赖规则来创建和管理对象）是一种通过描述（Java中可以是XML或者注解）并通过第三方产生或者获取特定对象的方式
  2. IoC容器：容纳和管理所有Bean（资源），默认情况下Bean是作为单例存在的
@@ -35,8 +35,8 @@
 
 <font color=#0099ff face="楷体">**关于Spring的一些理解:**</font>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM2NjA1MDM0LDE1NDIyMDg1ODEsLTUxOD
-g1MzYxMywxMjcyNzM3OTA5LDE1Mzc0NDE2MSwtMjA1OTYxMDI3
-MCwtMTY4NjQwOTU5MiwtMjkyMTg4OTE3LDEwMzMyMjI1OSwxND
-g3Mjc0ODIwLC0xNDEzNDEyNjIyXX0=
+eyJoaXN0b3J5IjpbLTc5NDY4ODY3MSwxNTQyMjA4NTgxLC01MT
+g4NTM2MTMsMTI3MjczNzkwOSwxNTM3NDQxNjEsLTIwNTk2MTAy
+NzAsLTE2ODY0MDk1OTIsLTI5MjE4ODkxNywxMDMzMjIyNTksMT
+Q4NzI3NDgyMCwtMTQxMzQxMjYyMl19
 -->
