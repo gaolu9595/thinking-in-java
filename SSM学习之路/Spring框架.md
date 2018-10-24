@@ -1,7 +1,7 @@
-### <font face="Cabrili">Spring IoC</font>
+### <font face="Cabrili" align="center">Spring IoC</font>
 
  1. Inversion of Control：**控制反转**（将创建对象的主动权，从程序员自己手中交给容器，让容器按需求和依赖规则来创建和管理对象）是一种通过描述（Java中可以是XML或者注解）并通过第三方产生或者获取特定对象的方式
- 2. IoC容器：容纳和管理所有Bean（资源）
+ 2. IoC容器：容纳和管理所有Bean（资源），默认情况下Bean是作为单例存在的
  3. IoC容器的设计：BeanFactory是SpringIoC容器定义的最底层的接口， ApplicationContext是其高级实现的扩展接口（最为常用）
  4. BeanFactory与ApplicationContext的区别：BeanFactory在getBean的时候才会生成Bean，属于延迟加载；而ApplicationContext则是在容器启动后，扫描完容器中的Bean和依赖之后就会生成Bean。
  5. **Bean的初始化与依赖注入**是IoC容器的两大步骤：
@@ -35,8 +35,8 @@
 
 <font color=#0099ff face="楷体">**关于Spring的一些理解:**</font>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MjIwODU4MSwtNTE4ODUzNjEzLDEyNz
-I3Mzc5MDksMTUzNzQ0MTYxLC0yMDU5NjEwMjcwLC0xNjg2NDA5
-NTkyLC0yOTIxODg5MTcsMTAzMzIyMjU5LDE0ODcyNzQ4MjAsLT
-E0MTM0MTI2MjJdfQ==
+eyJoaXN0b3J5IjpbNjM2NjA1MDM0LDE1NDIyMDg1ODEsLTUxOD
+g1MzYxMywxMjcyNzM3OTA5LDE1Mzc0NDE2MSwtMjA1OTYxMDI3
+MCwtMTY4NjQwOTU5MiwtMjkyMTg4OTE3LDEwMzMyMjI1OSwxND
+g3Mjc0ODIwLC0xNDEzNDEyNjIyXX0=
 -->
