@@ -27,10 +27,9 @@
 7. **Bean的作用域**[Spring提供四种]：
 
 	- 单例（Singleton）：默认选项，在整个应用中，Spring只为其生成一个Bean的实例；
-	- 原型（Prototype）：每次注入或者通过Spring IoC容器获取  
-
-
-
+	- 原型（Prototype）：每次注入或者通过Spring IoC容器获取Bean时，Spring都会为它创建一个新的实例
+	- 会话（Session）：在Web应用中使用，在整个会话过程中Spring只创建一个Bean的实例
+	- 请求（Request）：在Web应用中使用，在一次请求中Spring会创建一个实例，而不同的请求会创建不同的实例  
 
 
 
@@ -38,9 +37,9 @@
 
 <font color=#0099ff face="楷体">**关于Spring的一些理解:**</font>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NTg1NzY0NCw1Njc2NDk5MDUsLTE1Mj
-c2MDExNzIsMTU0MjIwODU4MSwtNTE4ODUzNjEzLDEyNzI3Mzc5
-MDksMTUzNzQ0MTYxLC0yMDU5NjEwMjcwLC0xNjg2NDA5NTkyLC
-0yOTIxODg5MTcsMTAzMzIyMjU5LDE0ODcyNzQ4MjAsLTE0MTM0
-MTI2MjJdfQ==
+eyJoaXN0b3J5IjpbLTE5NjM0NDk2MTgsNTY3NjQ5OTA1LC0xNT
+I3NjAxMTcyLDE1NDIyMDg1ODEsLTUxODg1MzYxMywxMjcyNzM3
+OTA5LDE1Mzc0NDE2MSwtMjA1OTYxMDI3MCwtMTY4NjQwOTU5Mi
+wtMjkyMTg4OTE3LDEwMzMyMjI1OSwxNDg3Mjc0ODIwLC0xNDEz
+NDEyNjIyXX0=
 -->
