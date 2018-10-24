@@ -24,8 +24,10 @@
 	· 在 Java 的接口和类中实现配置（次优先）；  
 	· 隐式 Bean 的发现机制和自动装配原则（优先）。
 6. **利用注解来装配Bean**是最重要最常用的方式
-7. **Bean的作用域**：
-	- 
+7. **Bean的作用域**[Spring提供四种]：
+
+	- 单例（Singleton）：默认选项，在整个应用中，Spring只为其生成一个Bean的实例；
+	- 原型（Prototype）：每次注入或者通过Spring IoC容器获取  
 
 
 
@@ -36,7 +38,7 @@
 
 <font color=#0099ff face="楷体">**关于Spring的一些理解:**</font>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNjgwNzA2OCw1Njc2NDk5MDUsLTE1Mj
+eyJoaXN0b3J5IjpbLTU3NTg1NzY0NCw1Njc2NDk5MDUsLTE1Mj
 c2MDExNzIsMTU0MjIwODU4MSwtNTE4ODUzNjEzLDEyNzI3Mzc5
 MDksMTUzNzQ0MTYxLC0yMDU5NjEwMjcwLC0xNjg2NDA5NTkyLC
 0yOTIxODg5MTcsMTAzMzIyMjU5LDE0ODcyNzQ4MjAsLTE0MTM0
