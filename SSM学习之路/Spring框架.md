@@ -32,15 +32,19 @@
 
 ### <font face="Cabrili">Spring AOP<font size="4">  [AOP是对OOP的延伸与扩展]</font></font>
 
+1. Spring AOP可以使得程序员把重点和精力放在业务逻辑上，而不是数据库事务管理和资源管控上
+2. AOP的底层依赖是动态代理。作为 AOP ， 完全可以根据这个流程做一定的封装 ， 然后通过动态代理技术 ， 将代码  
+织入到对应的流程环节中
 
 
 
 
 <font color=#0099ff face="楷体">**关于Spring的一些理解:**</font>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MjE2MzkzMiw4NjI1OTg5MTIsLTE5Nj
-M0NDk2MTgsNTY3NjQ5OTA1LC0xNTI3NjAxMTcyLDE1NDIyMDg1
-ODEsLTUxODg1MzYxMywxMjcyNzM3OTA5LDE1Mzc0NDE2MSwtMj
-A1OTYxMDI3MCwtMTY4NjQwOTU5MiwtMjkyMTg4OTE3LDEwMzMy
-MjI1OSwxNDg3Mjc0ODIwLC0xNDEzNDEyNjIyXX0=
+eyJoaXN0b3J5IjpbMTU4MTY4OTY4OCwxODcyMTYzOTMyLDg2Mj
+U5ODkxMiwtMTk2MzQ0OTYxOCw1Njc2NDk5MDUsLTE1Mjc2MDEx
+NzIsMTU0MjIwODU4MSwtNTE4ODUzNjEzLDEyNzI3Mzc5MDksMT
+UzNzQ0MTYxLC0yMDU5NjEwMjcwLC0xNjg2NDA5NTkyLC0yOTIx
+ODg5MTcsMTAzMzIyMjU5LDE0ODcyNzQ4MjAsLTE0MTM0MTI2Mj
+JdfQ==
 -->
