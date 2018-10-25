@@ -43,18 +43,18 @@
 	- **连接点**：判断条件，由它来指定哪些是切点
 	- 织入：生成代理对象的过程
 5. Spring是方法级别的AOP框架，只能基于方法进行拦截
-6. AOP的实现方式，主要是**注解**（AspectJ）和XML
+6. AOP的开发方式，主要是**注解**（AspectJ）和XML
 7. Spring底层是通过责任链模式来实现多个切面的
 
 
 
 <font color=#0099ff face="楷体">**关于Spring的一些理解:**</font>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMDI5MTIyOCwyMDg4NjMwMTA1LDUxMT
-k4OTcyMSwxOTIzNjkyMDMwLC0xMTAwODUyNDU0LDE4NzIxNjM5
-MzIsODYyNTk4OTEyLC0xOTYzNDQ5NjE4LDU2NzY0OTkwNSwtMT
-UyNzYwMTE3MiwxNTQyMjA4NTgxLC01MTg4NTM2MTMsMTI3Mjcz
-NzkwOSwxNTM3NDQxNjEsLTIwNTk2MTAyNzAsLTE2ODY0MDk1OT
-IsLTI5MjE4ODkxNywxMDMzMjIyNTksMTQ4NzI3NDgyMCwtMTQx
-MzQxMjYyMl19
+eyJoaXN0b3J5IjpbNzIwMDEwMzk1LDIwODg2MzAxMDUsNTExOT
+g5NzIxLDE5MjM2OTIwMzAsLTExMDA4NTI0NTQsMTg3MjE2Mzkz
+Miw4NjI1OTg5MTIsLTE5NjM0NDk2MTgsNTY3NjQ5OTA1LC0xNT
+I3NjAxMTcyLDE1NDIyMDg1ODEsLTUxODg1MzYxMywxMjcyNzM3
+OTA5LDE1Mzc0NDE2MSwtMjA1OTYxMDI3MCwtMTY4NjQwOTU5Mi
+wtMjkyMTg4OTE3LDEwMzMyMjI1OSwxNDg3Mjc0ODIwLC0xNDEz
+NDEyNjIyXX0=
 -->
