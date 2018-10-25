@@ -32,8 +32,8 @@
 
 ### <font face="Cabrili">Spring AOP<font size="4">  [AOP是对OOP的延伸与扩展]</font></font>
 
-1. Spring AOP可以使得程序员把重点和精力放在业务逻辑上，而不是数据库事务管理和资源管控上。当方法标注为**@Transactional**时，该方法将启用数据库事务功能
-2. AOP的底层依赖是**动态代理**。AOP将事务处理流程做一定的封装 ，然后通过动态代理技术， 将代码植入到对应的流程环节中，用代理对象来执行实际业务逻辑和数据库事务管理的代理逻辑【参考Ch11_lulu_AOP_chapter11.game】
+1. Spring AOP可以使得程序员把重点和精力放在业务逻辑上，而不是数据库事务管理和资源管控上。当方法标注为@Transactional时，该方法将启用数据库事务功能
+2. AOP的底层依赖是**动态代理**。AOP将事务处理流程做一定的封装 ，然后通过动态代理技术，将代码植入到对应的流程环节中，用代理对象来执行实际业务逻辑和数据库事务管理的代理逻辑【参考Ch11_lulu_AOP_chapter11.game】
 3. 
 
 
@@ -41,10 +41,10 @@
 
 <font color=#0099ff face="楷体">**关于Spring的一些理解:**</font>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3Mzg0NTEyNiwtMTEwMDg1MjQ1NCwxOD
-cyMTYzOTMyLDg2MjU5ODkxMiwtMTk2MzQ0OTYxOCw1Njc2NDk5
-MDUsLTE1Mjc2MDExNzIsMTU0MjIwODU4MSwtNTE4ODUzNjEzLD
-EyNzI3Mzc5MDksMTUzNzQ0MTYxLC0yMDU5NjEwMjcwLC0xNjg2
-NDA5NTkyLC0yOTIxODg5MTcsMTAzMzIyMjU5LDE0ODcyNzQ4Mj
-AsLTE0MTM0MTI2MjJdfQ==
+eyJoaXN0b3J5IjpbNjI0MDQ0ODU2LC0xMTAwODUyNDU0LDE4Nz
+IxNjM5MzIsODYyNTk4OTEyLC0xOTYzNDQ5NjE4LDU2NzY0OTkw
+NSwtMTUyNzYwMTE3MiwxNTQyMjA4NTgxLC01MTg4NTM2MTMsMT
+I3MjczNzkwOSwxNTM3NDQxNjEsLTIwNTk2MTAyNzAsLTE2ODY0
+MDk1OTIsLTI5MjE4ODkxNywxMDMzMjIyNTksMTQ4NzI3NDgyMC
+wtMTQxMzQxMjYyMl19
 -->
