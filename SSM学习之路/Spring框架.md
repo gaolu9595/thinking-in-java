@@ -36,7 +36,7 @@
 2. AOP的底层依赖是**动态代理**。AOP将事务处理流程做一定的封装 ，然后通过动态代理技术，将业务代码织入到对应的流程环节中，用代理对象来执行实际业务逻辑和处理流程的代理逻辑【参考Ch11_lulu_AOP_chapter11.game】
 3. **AOP**通过动态代理模式，带来管控各个对象操作的切面环境，管理包括日志、数据库事务等操作，让我们拥有可以在反射原有对象方法之前正常返回、异常返回事后插入自己逻辑代码的能力，有时候甚至取代原始方法。在一些常用流程中，如数据库事务，AOP会提供默认的实现逻辑。
 4. **AOP的专用术语**：
-	- 切面（Aspect）：即业务在怎样的一个环境中进行。如数据库事务流程类就是一个切面类
+	- 切面（Aspect）：即业务在怎样的一个**环境**中进行。如数据库事务流程类就是一个切面类
 	- 通知：切面开启后，切面的方法。如前置通知(before)等
 	- 引入：允许我们在现有类中添加自定义的类和方法
 	- 切点：被切面拦截的就是一个切点。切面将切点按照一定的逻辑织入到约定流程中
@@ -49,10 +49,10 @@
 
 <font color=#0099ff face="楷体">**关于Spring的一些理解:**</font>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3Nzc2Njc0NSwxOTIzNjkyMDMwLC0xMT
-AwODUyNDU0LDE4NzIxNjM5MzIsODYyNTk4OTEyLC0xOTYzNDQ5
-NjE4LDU2NzY0OTkwNSwtMTUyNzYwMTE3MiwxNTQyMjA4NTgxLC
-01MTg4NTM2MTMsMTI3MjczNzkwOSwxNTM3NDQxNjEsLTIwNTk2
-MTAyNzAsLTE2ODY0MDk1OTIsLTI5MjE4ODkxNywxMDMzMjIyNT
-ksMTQ4NzI3NDgyMCwtMTQxMzQxMjYyMl19
+eyJoaXN0b3J5IjpbNTExOTg5NzIxLDE5MjM2OTIwMzAsLTExMD
+A4NTI0NTQsMTg3MjE2MzkzMiw4NjI1OTg5MTIsLTE5NjM0NDk2
+MTgsNTY3NjQ5OTA1LC0xNTI3NjAxMTcyLDE1NDIyMDg1ODEsLT
+UxODg1MzYxMywxMjcyNzM3OTA5LDE1Mzc0NDE2MSwtMjA1OTYx
+MDI3MCwtMTY4NjQwOTU5MiwtMjkyMTg4OTE3LDEwMzMyMjI1OS
+wxNDg3Mjc0ODIwLC0xNDEzNDEyNjIyXX0=
 -->
