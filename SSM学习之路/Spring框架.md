@@ -42,16 +42,17 @@
 	- 切点：被切面拦截的就是一个切点。切面将切点按照一定的逻辑织入到约定流程中
 	- 连接点：判断条件，由它来指定哪些是切点
 	- 织入：生成代理对象的过程
-5. Spring是方法级别的AOP框架，只能基于
+5. Spring是方法级别的AOP框架，只能基于方法进行拦截
+6. 
 
 
 
 <font color=#0099ff face="楷体">**关于Spring的一些理解:**</font>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjExNzc1MjgsMTkyMzY5MjAzMCwtMT
-EwMDg1MjQ1NCwxODcyMTYzOTMyLDg2MjU5ODkxMiwtMTk2MzQ0
-OTYxOCw1Njc2NDk5MDUsLTE1Mjc2MDExNzIsMTU0MjIwODU4MS
-wtNTE4ODUzNjEzLDEyNzI3Mzc5MDksMTUzNzQ0MTYxLC0yMDU5
-NjEwMjcwLC0xNjg2NDA5NTkyLC0yOTIxODg5MTcsMTAzMzIyMj
-U5LDE0ODcyNzQ4MjAsLTE0MTM0MTI2MjJdfQ==
+eyJoaXN0b3J5IjpbMTY3Nzc2Njc0NSwxOTIzNjkyMDMwLC0xMT
+AwODUyNDU0LDE4NzIxNjM5MzIsODYyNTk4OTEyLC0xOTYzNDQ5
+NjE4LDU2NzY0OTkwNSwtMTUyNzYwMTE3MiwxNTQyMjA4NTgxLC
+01MTg4NTM2MTMsMTI3MjczNzkwOSwxNTM3NDQxNjEsLTIwNTk2
+MTAyNzAsLTE2ODY0MDk1OTIsLTI5MjE4ODkxNywxMDMzMjIyNT
+ksMTQ4NzI3NDgyMCwtMTQxMzQxMjYyMl19
 -->
