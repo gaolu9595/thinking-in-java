@@ -44,13 +44,13 @@
 	- 织入：生成代理对象的过程
 5. Spring是方法级别的AOP框架，只能基于方法进行拦截
 6. AOP的实现方式，主要是**注解**（AspectJ）和XML
-7. 
+7. Spring底层是通过责任链模式来实现多个切面的
 
 
 
 <font color=#0099ff face="楷体">**关于Spring的一些理解:**</font>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMjIyNTQ5NiwyMDg4NjMwMTA1LDUxMT
+eyJoaXN0b3J5IjpbMjEzMDI5MTIyOCwyMDg4NjMwMTA1LDUxMT
 k4OTcyMSwxOTIzNjkyMDMwLC0xMTAwODUyNDU0LDE4NzIxNjM5
 MzIsODYyNTk4OTEyLC0xOTYzNDQ5NjE4LDU2NzY0OTkwNSwtMT
 UyNzYwMTE3MiwxNTQyMjA4NTgxLC01MTg4NTM2MTMsMTI3Mjcz
