@@ -38,16 +38,20 @@
 4. **AOP的专用术语**：
 	- 切面（Aspect）：即业务在怎样的一个环境中进行。如数据库事务流程类就是一个切面类
 	- 通知：切面开启后，切面的方法。如前置通知(before)等
+	- 引入：允许我们在现有类中添加自定义的类和方法
+	- 切点：被切面拦截的就是一个切点。切面将切点按照一定的逻辑织入到约定流程中
+	- 连接点：判断条件，由它来指定哪些是切点
+	- 织入：生成代理对象的过程
 
 
 
 
 <font color=#0099ff face="楷体">**关于Spring的一些理解:**</font>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcyNzM3NTQ4LC0xMTAwODUyNDU0LDE4Nz
-IxNjM5MzIsODYyNTk4OTEyLC0xOTYzNDQ5NjE4LDU2NzY0OTkw
-NSwtMTUyNzYwMTE3MiwxNTQyMjA4NTgxLC01MTg4NTM2MTMsMT
-I3MjczNzkwOSwxNTM3NDQxNjEsLTIwNTk2MTAyNzAsLTE2ODY0
-MDk1OTIsLTI5MjE4ODkxNywxMDMzMjIyNTksMTQ4NzI3NDgyMC
-wtMTQxMzQxMjYyMl19
+eyJoaXN0b3J5IjpbMTkyMzY5MjAzMCwtMTEwMDg1MjQ1NCwxOD
+cyMTYzOTMyLDg2MjU5ODkxMiwtMTk2MzQ0OTYxOCw1Njc2NDk5
+MDUsLTE1Mjc2MDExNzIsMTU0MjIwODU4MSwtNTE4ODUzNjEzLD
+EyNzI3Mzc5MDksMTUzNzQ0MTYxLC0yMDU5NjEwMjcwLC0xNjg2
+NDA5NTkyLC0yOTIxODg5MTcsMTAzMzIyMjU5LDE0ODcyNzQ4Mj
+AsLTE0MTM0MTI2MjJdfQ==
 -->
