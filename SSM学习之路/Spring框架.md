@@ -34,14 +34,14 @@
 
 1. Spring AOP可以使得程序员把重点和精力放在业务逻辑上，而不是数据库事务管理和资源管控上。当方法标注为@Transactional时，该方法将启用数据库事务功能
 2. AOP的底层依赖是**动态代理**。AOP将事务处理流程做一定的封装 ，然后通过动态代理技术，将代码植入到对应的流程环节中，用代理对象来执行实际业务逻辑和数据库事务管理的代理逻辑【参考Ch11_lulu_AOP_chapter11.game】
-3. AOP是通过动态代理模式，来管控各个对象操作的切面环境，管理包括日志、数据库事务等操作，让我们拥有可以在反射原有对象方法之前正常返回、异常返回事后插入自己逻辑代码的能力，有时候甚至取代原始方法。
+3. AOP是通过动态代理模式，来管控各个对象操作的切面环境，管理包括日志、数据库事务等操作，让我们拥有可以在反射原有对象方法之前正常返回、异常返回事后插入自己逻辑代码的能力，有时候甚至取代原始方法。在一些常用流程中，如数据库事务，AOP会提供默认的实现逻辑。
 
 
 
 
 <font color=#0099ff face="楷体">**关于Spring的一些理解:**</font>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njg0OTA3MTMsLTExMDA4NTI0NTQsMT
+eyJoaXN0b3J5IjpbLTE4NTc4MjA3NDksLTExMDA4NTI0NTQsMT
 g3MjE2MzkzMiw4NjI1OTg5MTIsLTE5NjM0NDk2MTgsNTY3NjQ5
 OTA1LC0xNTI3NjAxMTcyLDE1NDIyMDg1ODEsLTUxODg1MzYxMy
 wxMjcyNzM3OTA5LDE1Mzc0NDE2MSwtMjA1OTYxMDI3MCwtMTY4
