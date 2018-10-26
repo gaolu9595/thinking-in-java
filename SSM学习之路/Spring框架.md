@@ -46,15 +46,19 @@
 6. AOP的开发方式，主要是**注解**（AspectJ）和XML【Ch11_lulu_AOP_chapter11.aspectJ】
 7. Spring底层是**通过责任链模式来实现多个切面**的【Ch11_lulu_AOP_chapter11.multiAspect】
 
+### <font face="Cabrili">Spring数据库事务管理</font>
+Spring的数据库事务是通过PlatformTransactionTemplate管理的
+
+1. 
 
 
 <font color=#0099ff face="楷体">**关于Spring的一些理解:**</font>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3OTQ1MDE4MiwtMjA2ODExMzcyMiwyMD
-g4NjMwMTA1LDUxMTk4OTcyMSwxOTIzNjkyMDMwLC0xMTAwODUy
-NDU0LDE4NzIxNjM5MzIsODYyNTk4OTEyLC0xOTYzNDQ5NjE4LD
-U2NzY0OTkwNSwtMTUyNzYwMTE3MiwxNTQyMjA4NTgxLC01MTg4
-NTM2MTMsMTI3MjczNzkwOSwxNTM3NDQxNjEsLTIwNTk2MTAyNz
-AsLTE2ODY0MDk1OTIsLTI5MjE4ODkxNywxMDMzMjIyNTksMTQ4
-NzI3NDgyMF19
+eyJoaXN0b3J5IjpbMjU5NDA0NTA4LDEzNzk0NTAxODIsLTIwNj
+gxMTM3MjIsMjA4ODYzMDEwNSw1MTE5ODk3MjEsMTkyMzY5MjAz
+MCwtMTEwMDg1MjQ1NCwxODcyMTYzOTMyLDg2MjU5ODkxMiwtMT
+k2MzQ0OTYxOCw1Njc2NDk5MDUsLTE1Mjc2MDExNzIsMTU0MjIw
+ODU4MSwtNTE4ODUzNjEzLDEyNzI3Mzc5MDksMTUzNzQ0MTYxLC
+0yMDU5NjEwMjcwLC0xNjg2NDA5NTkyLC0yOTIxODg5MTcsMTAz
+MzIyMjU5XX0=
 -->
