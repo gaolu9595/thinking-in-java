@@ -54,19 +54,21 @@ Spring的数据库事务是通过PlatformTransactionTemplate管理的
 
 ### <font face="Cabrili">Spring MVC</font>
 1. Spring MVC的**组件与流程**
-2. XML配置Spring MVC   与   Java注解配置Spring MVC
-3. Spring MVC的**初始化**
-4. Spring MVC的开发流程
+2. XML配置Spring MVC  【Web.xml】
+3. Java注解配置Spring MVC 【只要继承 AbstractAnnotationConfigDispatcherServletlnitializer 类就完成了  
+DispatcherServlet 映射关系和 Spring IoC 容器的初始化工作】
+4. Spring MVC的**初始化**
+5. Spring MVC的开发流程
 
 
 
 <font color=#0099ff face="楷体">**关于Spring的一些理解:**</font>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjM3MjgyNDUsLTE5OTQxMzQ5NjksMj
-U5NDA0NTA4LDEzNzk0NTAxODIsLTIwNjgxMTM3MjIsMjA4ODYz
-MDEwNSw1MTE5ODk3MjEsMTkyMzY5MjAzMCwtMTEwMDg1MjQ1NC
-wxODcyMTYzOTMyLDg2MjU5ODkxMiwtMTk2MzQ0OTYxOCw1Njc2
-NDk5MDUsLTE1Mjc2MDExNzIsMTU0MjIwODU4MSwtNTE4ODUzNj
-EzLDEyNzI3Mzc5MDksMTUzNzQ0MTYxLC0yMDU5NjEwMjcwLC0x
-Njg2NDA5NTkyXX0=
+eyJoaXN0b3J5IjpbLTEwNTcxMDI3NDIsLTE3NjM3MjgyNDUsLT
+E5OTQxMzQ5NjksMjU5NDA0NTA4LDEzNzk0NTAxODIsLTIwNjgx
+MTM3MjIsMjA4ODYzMDEwNSw1MTE5ODk3MjEsMTkyMzY5MjAzMC
+wtMTEwMDg1MjQ1NCwxODcyMTYzOTMyLDg2MjU5ODkxMiwtMTk2
+MzQ0OTYxOCw1Njc2NDk5MDUsLTE1Mjc2MDExNzIsMTU0MjIwOD
+U4MSwtNTE4ODUzNjEzLDEyNzI3Mzc5MDksMTUzNzQ0MTYxLC0y
+MDU5NjEwMjcwXX0=
 -->
