@@ -55,8 +55,7 @@ Spring的数据库事务是通过PlatformTransactionTemplate管理的
 ### <font face="Cabrili">Spring MVC</font>
 1. Spring MVC的**组件与流程**
 2. XML配置Spring MVC  【Web.xml】
-3. Java注解配置Spring MVC 【只要继承 AbstractAnnotationConfigDispatcherServletlnitializer 类就完成了  
-DispatcherServlet 映射关系和 Spring IoC 容器的初始化工作】
+3. Java注解配置Spring MVC 【只要继承 AbstractAnnotationConfigDispatcherServletlnitializer 类就完成了DispatcherServlet映射关系和 Spring IoC 容器的初始化工作】
 4. Spring MVC的**初始化**
 5. Spring MVC的开发流程
 
@@ -64,7 +63,7 @@ DispatcherServlet 映射关系和 Spring IoC 容器的初始化工作】
 
 <font color=#0099ff face="楷体">**关于Spring的一些理解:**</font>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTcxMDI3NDIsLTE3NjM3MjgyNDUsLT
+eyJoaXN0b3J5IjpbLTE0NDc1NDc2MTQsLTE3NjM3MjgyNDUsLT
 E5OTQxMzQ5NjksMjU5NDA0NTA4LDEzNzk0NTAxODIsLTIwNjgx
 MTM3MjIsMjA4ODYzMDEwNSw1MTE5ODk3MjEsMTkyMzY5MjAzMC
 wtMTEwMDg1MjQ1NCwxODcyMTYzOTMyLDg2MjU5ODkxMiwtMTk2
