@@ -52,12 +52,12 @@ Spring的数据库事务是通过PlatformTransactionTemplate管理的
 1. @Transactional注解
 2. 事务的传播方法与隔离级别
 
-
+### <font face="Cabrili">Spring MVC</font>
 
 
 <font color=#0099ff face="楷体">**关于Spring的一些理解:**</font>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NzI1NTY5NiwyNTk0MDQ1MDgsMTM3OT
+eyJoaXN0b3J5IjpbLTEzOTQ0MTE5OSwyNTk0MDQ1MDgsMTM3OT
 Q1MDE4MiwtMjA2ODExMzcyMiwyMDg4NjMwMTA1LDUxMTk4OTcy
 MSwxOTIzNjkyMDMwLC0xMTAwODUyNDU0LDE4NzIxNjM5MzIsOD
 YyNTk4OTEyLC0xOTYzNDQ5NjE4LDU2NzY0OTkwNSwtMTUyNzYw
