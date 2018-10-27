@@ -57,17 +57,18 @@ Spring的数据库事务是通过PlatformTransactionTemplate管理的
 2. XML配置Spring MVC  【Web.xml】
 3. Java注解配置Spring MVC 【只要继承 AbstractAnnotationConfigDispatcherServletlnitializer 类就完成了DispatcherServlet映射关系和 Spring IoC 容器的初始化工作】
 4. Spring MVC的**初始化**  【通过实现ServletContextListener接口，可以使得在DispatcherServlet初始化前就完成Spring IoC容器的初始化，也可以在结束前完成对IoC容器的销毁】【大部分场景下，应该让DispatcherServlet在服务器启动期间就完成Spring IoC的初始化，所以建议使用ContextLoaderListener进行初始化】【DispatcherServlet映射关系初始化可以设定在DispatcherServlet启动时或者是第一次接受到用户请求时】
+5. 
 6. Spring MVC的开发流程
 
 
 
 <font color=#0099ff face="楷体">**关于Spring的一些理解:**</font>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5OTI3NjQ5NywtMTc2MzcyODI0NSwtMT
-k5NDEzNDk2OSwyNTk0MDQ1MDgsMTM3OTQ1MDE4MiwtMjA2ODEx
-MzcyMiwyMDg4NjMwMTA1LDUxMTk4OTcyMSwxOTIzNjkyMDMwLC
-0xMTAwODUyNDU0LDE4NzIxNjM5MzIsODYyNTk4OTEyLC0xOTYz
-NDQ5NjE4LDU2NzY0OTkwNSwtMTUyNzYwMTE3MiwxNTQyMjA4NT
-gxLC01MTg4NTM2MTMsMTI3MjczNzkwOSwxNTM3NDQxNjEsLTIw
-NTk2MTAyNzBdfQ==
+eyJoaXN0b3J5IjpbMTM0NTE3NjYxMiwxMTk5Mjc2NDk3LC0xNz
+YzNzI4MjQ1LC0xOTk0MTM0OTY5LDI1OTQwNDUwOCwxMzc5NDUw
+MTgyLC0yMDY4MTEzNzIyLDIwODg2MzAxMDUsNTExOTg5NzIxLD
+E5MjM2OTIwMzAsLTExMDA4NTI0NTQsMTg3MjE2MzkzMiw4NjI1
+OTg5MTIsLTE5NjM0NDk2MTgsNTY3NjQ5OTA1LC0xNTI3NjAxMT
+cyLDE1NDIyMDg1ODEsLTUxODg1MzYxMywxMjcyNzM3OTA5LDE1
+Mzc0NDE2MV19
 -->
