@@ -60,10 +60,7 @@ Spring的数据库事务是通过PlatformTransactionTemplate管理的
 5. Spring MVC 需要初始化 IoC 容器和DispatcherServlet 请求两个上下文，其中 DispatcherServlet 请求上下文是 Spring IoC 上下文的扩展，这样就能使得 Spring 各个 Bean 能够形成依赖注入。
 6. Spring MVC的开发流程，如何编写Controller是重点
 
-7. 深入Spring MVC组件开发：
-	| 目标 | 方法 | 备注 |
-	|--|--|--|
-	| 给控制器传递参数 |  |  |
+
 
 
  
@@ -72,11 +69,11 @@ Spring的数据库事务是通过PlatformTransactionTemplate管理的
 
 <font color=#0099ff face="楷体">**关于Spring的一些理解:**</font>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjk0NjMwNzcsLTE3MzAwMTUxNzMsLT
-EyNTk2NTMwNTcsMTE5OTI3NjQ5NywtMTc2MzcyODI0NSwtMTk5
-NDEzNDk2OSwyNTk0MDQ1MDgsMTM3OTQ1MDE4MiwtMjA2ODExMz
-cyMiwyMDg4NjMwMTA1LDUxMTk4OTcyMSwxOTIzNjkyMDMwLC0x
-MTAwODUyNDU0LDE4NzIxNjM5MzIsODYyNTk4OTEyLC0xOTYzND
-Q5NjE4LDU2NzY0OTkwNSwtMTUyNzYwMTE3MiwxNTQyMjA4NTgx
-LC01MTg4NTM2MTNdfQ==
+eyJoaXN0b3J5IjpbMTM0MjI3MjkzOCwtMTE2OTQ2MzA3NywtMT
+czMDAxNTE3MywtMTI1OTY1MzA1NywxMTk5Mjc2NDk3LC0xNzYz
+NzI4MjQ1LC0xOTk0MTM0OTY5LDI1OTQwNDUwOCwxMzc5NDUwMT
+gyLC0yMDY4MTEzNzIyLDIwODg2MzAxMDUsNTExOTg5NzIxLDE5
+MjM2OTIwMzAsLTExMDA4NTI0NTQsMTg3MjE2MzkzMiw4NjI1OT
+g5MTIsLTE5NjM0NDk2MTgsNTY3NjQ5OTA1LC0xNTI3NjAxMTcy
+LDE1NDIyMDg1ODFdfQ==
 -->
