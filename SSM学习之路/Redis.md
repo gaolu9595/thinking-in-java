@@ -4,13 +4,14 @@
  - 基于ANSI C语言编写，接近汇编语言，运行很快速
  - 基于内存的读/写
  - 只有6种数据结构，规则也较关系数据库少
-2. RedisTemplate是Spring操作Redis用的最多的类，注意其序列化器
-3. 可以将对同一个数据类型的操作使用BoundXXX绑定到一起
-4. JdkSerializationRedisSerializer是默认的序列化器，可以将Java对象序列化并存储到Redis服务器中。而StringSerializer是*只针对字符串*的序列化器，可以将字符串自动赋值为 StringRedisSerializer对象，可读性很好。
-5. Redis对不同数据类型的操作：
+2. RedisTemplate是Spring操作Redis用的最多的类，StringRedisTemplate是操作字符串的类。注意他们的序列化器
+3. Redis默认使用的客户端驱动是lettuce，而jedis是最常用的客户端驱动。因此在
+4. 可以将对同一个数据类型的操作使用BoundXXXOperations绑定到一起，方便操作
+5. JdkSerializationRedisSerializer是默认的序列化器，可以将Java对象序列化并存储到Redis服务器中。而StringSerializer是*只针对字符串*的序列化器，可以将字符串自动赋值为 StringRedisSerializer对象，可读性很好。
+6. Redis对不同数据类型的操作：
 	- String：字符串是最常用的数据类型之一，
 	- Hash：散列结构是最常用的数据类型之一，
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzY1MzI3NjEsLTM2OTk3MzQzMF19
+eyJoaXN0b3J5IjpbLTE3ODM4MDk4NTUsLTM2OTk3MzQzMF19
 -->
