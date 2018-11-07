@@ -11,7 +11,7 @@
 6. Redis对不同数据类型的操作：
 	- String：字符串是最常用的数据类型之一，可以直接用StringRedisTemplate操作，较为方便
 	- Hash：散列结构是最常用的数据类型之一【field-value对】
-	- List：Redis中的List采用的是**链表结构**，因此其查询性能低，增删性能高
+	- List：Redis中的List采用的是**链表结构**[双向]，因此其查询性能较低，增删性能很高<font color="888888">【一直不知道为什么要设置为链表结构？】</font>
 	- Set：集合是不允许有重复元素存在的，在数据结构上来说它是散列表，因此无序
 	- Zset：有序集合 ，也是散列表结构，依靠增加属性score来实现有序
 	- Geo地理位置
@@ -38,7 +38,7 @@ NoSQL在**高并发的业务场景**中可以发挥巨大的性能优势，虽�
 </font>
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NzQwMjIyMCwtMTA5NjA4MzIzLDEzMz
-I1OTU5MjUsLTExODQzODc4MTEsMTMzMjkxNzg3LDcwNzMzNTY4
-MSwxODA1NTg3OTMyLC0zNjk5NzM0MzBdfQ==
+eyJoaXN0b3J5IjpbLTc3MzgzODk1MCwtMjY3NDAyMjIwLC0xMD
+k2MDgzMjMsMTMzMjU5NTkyNSwtMTE4NDM4NzgxMSwxMzMyOTE3
+ODcsNzA3MzM1NjgxLDE4MDU1ODc5MzIsLTM2OTk3MzQzMF19
 -->
