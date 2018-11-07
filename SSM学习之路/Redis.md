@@ -29,13 +29,16 @@ NoSQL的数据结构比较简单，**功能有限**，不能支持复杂的计�
 
 NoSQL并**不完全安全稳定**，因为它基于内存，一旦停电或者机器故障容易丢失数据，持久化能力不强
 
-NoSQL的数据完整性、事务能力、
+**NoSQL的数据完整性、事务能力、安全可靠性和可扩展性都远不及关系数据库**
 
+But..............
+
+NoSQL凭借其基于内存的读写特性，在高并发的业务场景中可以发挥很大的性能优势
 
 </font>
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1OTMyNDc3OSwxMzMyNTk1OTI1LC0xMT
-g0Mzg3ODExLDEzMzI5MTc4Nyw3MDczMzU2ODEsMTgwNTU4Nzkz
-MiwtMzY5OTczNDMwXX0=
+eyJoaXN0b3J5IjpbLTIxNDcyMDQ5MTQsMTMzMjU5NTkyNSwtMT
+E4NDM4NzgxMSwxMzMyOTE3ODcsNzA3MzM1NjgxLDE4MDU1ODc5
+MzIsLTM2OTk3MzQzMF19
 -->
