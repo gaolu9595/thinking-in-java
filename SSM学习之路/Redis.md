@@ -5,8 +5,8 @@
  - 基于内存的读/写
  - 只有6种数据结构，规则也较关系数据库少
 2. RedisTemplate是Spring操作Redis用的最多的类，注意其序列化器
-3. 
+3. JdkSerializationRedisSerializer是默认的序列化器，Java
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NDM3NjIyN119
+eyJoaXN0b3J5IjpbLTEwNDE4NDc5MzZdfQ==
 -->
