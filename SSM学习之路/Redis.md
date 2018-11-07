@@ -13,9 +13,9 @@
 	- Hash：散列结构是最常用的数据类型之一【field-value对】
 	- List：Redis中的List采用的是**链表结构**，因此其查询性能低，增删性能高
 	- Set：集合是不允许有重复元素存在的，在数据结构上来说它是散列表，因此无序
-	-  
+	- Zset： 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA3MzM1NjgxLDE4MDU1ODc5MzIsLTM2OT
-k3MzQzMF19
+eyJoaXN0b3J5IjpbMTgzNDc0NTM0MSw3MDczMzU2ODEsMTgwNT
+U4NzkzMiwtMzY5OTczNDMwXX0=
 -->
