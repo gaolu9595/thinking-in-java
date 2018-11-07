@@ -14,8 +14,13 @@
 	- List：Redis中的List采用的是**链表结构**，因此其查询性能低，增删性能高
 	- Set：集合是不允许有重复元素存在的，在数据结构上来说它是散列表，因此无序
 	- Zset：有序集合 ，也是散列表结构，依靠增加属性score来实现有序
+	- Geo地理位置
+	- 基数
+7. Redis支持一定的事务能力：
+	
+	
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMjkxNzg3LDcwNzMzNTY4MSwxODA1NT
-g3OTMyLC0zNjk5NzM0MzBdfQ==
+eyJoaXN0b3J5IjpbLTExODQzODc4MTEsMTMzMjkxNzg3LDcwNz
+MzNTY4MSwxODA1NTg3OTMyLC0zNjk5NzM0MzBdfQ==
 -->
