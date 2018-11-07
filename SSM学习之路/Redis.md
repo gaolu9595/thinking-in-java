@@ -16,12 +16,10 @@
 	- Zset：有序集合 ，也是散列表结构，依靠增加属性score来实现有序
 	- Geo地理位置
 	- 基数
-7. Redis支持一定的事务能力：
-	
-	【watch...multi...exec】
+7. Redis支持一定的事务能力:【watch...multi...exec】
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI0NDY2MjUsLTExODQzODc4MTEsMTMzMj
-kxNzg3LDcwNzMzNTY4MSwxODA1NTg3OTMyLC0zNjk5NzM0MzBd
-fQ==
+eyJoaXN0b3J5IjpbMTMzMjU5NTkyNSwtMTE4NDM4NzgxMSwxMz
+MyOTE3ODcsNzA3MzM1NjgxLDE4MDU1ODc5MzIsLTM2OTk3MzQz
+MF19
 -->
