@@ -33,12 +33,12 @@ NoSQL并**不完全安全稳定**，因为它基于内存，一旦停电或者�
 
 But..............
 
-NoSQL凭借其基于内存的读写特性，在高并发的业务场景中可以发挥很大的性能优势
+NoSQL在**高并发的业务场景**中可以发挥巨大的性能优势，虽然无法完全取代数据库，但是NoSQL仍然是一种必不可少的提高互联网应用性能的辅助工具。
 
 </font>
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDcyMDQ5MTQsMTMzMjU5NTkyNSwtMT
-E4NDM4NzgxMSwxMzMyOTE3ODcsNzA3MzM1NjgxLDE4MDU1ODc5
-MzIsLTM2OTk3MzQzMF19
+eyJoaXN0b3J5IjpbLTEwOTYwODMyMywxMzMyNTk1OTI1LC0xMT
+g0Mzg3ODExLDEzMzI5MTc4Nyw3MDczMzU2ODEsMTgwNTU4Nzkz
+MiwtMzY5OTczNDMwXX0=
 -->
