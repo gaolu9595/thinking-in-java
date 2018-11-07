@@ -12,8 +12,9 @@
 	- String：字符串是最常用的数据类型之一，可以直接用StringRedisTemplate操作，较为方便
 	- Hash：散列结构是最常用的数据类型之一【field-value对】
 	- List：Redis中的List采用的是**链表结构**，因此其查询性能低，增删性能高
-	- 
+	-  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNTU4NzkzMiwtMzY5OTczNDMwXX0=
+eyJoaXN0b3J5IjpbMTMxNDA1OTA0LDE4MDU1ODc5MzIsLTM2OT
+k3MzQzMF19
 -->
