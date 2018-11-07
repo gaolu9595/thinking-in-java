@@ -18,9 +18,10 @@
 	- 基数
 7. Redis支持一定的事务能力：
 	
-	
+	【watch...multi...exex】
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODQzODc4MTEsMTMzMjkxNzg3LDcwNz
-MzNTY4MSwxODA1NTg3OTMyLC0zNjk5NzM0MzBdfQ==
+eyJoaXN0b3J5IjpbMTA5MDY3NDE2NiwtMTE4NDM4NzgxMSwxMz
+MyOTE3ODcsNzA3MzM1NjgxLDE4MDU1ODc5MzIsLTM2OTk3MzQz
+MF19
 -->
