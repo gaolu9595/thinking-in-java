@@ -23,15 +23,19 @@
 
 <font color="654321" size="4"> **Redis（NoSQL）与数据库的异同**
 
-NoSQL的数据主要存储在内存中，部分可以持久化到磁盘；而数据库主要用磁盘来存储数据
+NoSQL的数据主要存储在**内存**中，部分可以持久化到磁盘；而数据库主要用磁盘来存储数据
 
-NoSQL的数据结构比较简单，功能有限，不如数据库的SQL语句
+NoSQL的数据结构比较简单，**功能有限**，不能支持复杂的计算，不如数据库的SQL语句强大
+
+NoSQL并**不完全安全稳定**，因为它基于内存，一旦停电或者机器故障容易丢失数据，持久化能力不强
+
+NoSQL的数据完整性、事务能力、
 
 
 </font>
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDA4NDI2MTYsMTMzMjU5NTkyNSwtMT
-E4NDM4NzgxMSwxMzMyOTE3ODcsNzA3MzM1NjgxLDE4MDU1ODc5
-MzIsLTM2OTk3MzQzMF19
+eyJoaXN0b3J5IjpbLTQ1OTMyNDc3OSwxMzMyNTk1OTI1LC0xMT
+g0Mzg3ODExLDEzMzI5MTc4Nyw3MDczMzU2ODEsMTgwNTU4Nzkz
+MiwtMzY5OTczNDMwXX0=
 -->
