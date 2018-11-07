@@ -17,9 +17,14 @@
 	- Geo地理位置
 	- 基数
 7. Redis支持一定的事务能力:【watch...multi...exec】
+
+
+
+
+<font color="654321" size="5"> Redis（NoSQL）与数据库的异同</font>
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMjU5NTkyNSwtMTE4NDM4NzgxMSwxMz
-MyOTE3ODcsNzA3MzM1NjgxLDE4MDU1ODc5MzIsLTM2OTk3MzQz
-MF19
+eyJoaXN0b3J5IjpbLTE0ODQzNDIyODgsMTMzMjU5NTkyNSwtMT
+E4NDM4NzgxMSwxMzMyOTE3ODcsNzA3MzM1NjgxLDE4MDU1ODc5
+MzIsLTM2OTk3MzQzMF19
 -->
