@@ -16,7 +16,7 @@
 	- Zset：有序集合 ，也是散列表结构，依靠增加属性score来实现有序
 	- Geo地理位置
 	- 基数
-7. Redis支持一定的事务能力:【watch...multi...exec】
+7. Redis支持一定的事务能力:【watch...multi...exec】，支持流水线技术（大大提升性能），支持发布订阅，支持Lua语言进行复杂计算
 
 
 
@@ -38,7 +38,7 @@ NoSQL在**高并发的业务场景**中可以发挥巨大的性能优势，虽�
 </font>
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTYwODMyMywxMzMyNTk1OTI1LC0xMT
-g0Mzg3ODExLDEzMzI5MTc4Nyw3MDczMzU2ODEsMTgwNTU4Nzkz
-MiwtMzY5OTczNDMwXX0=
+eyJoaXN0b3J5IjpbLTI2NzQwMjIyMCwtMTA5NjA4MzIzLDEzMz
+I1OTU5MjUsLTExODQzODc4MTEsMTMzMjkxNzg3LDcwNzMzNTY4
+MSwxODA1NTg3OTMyLC0zNjk5NzM0MzBdfQ==
 -->
