@@ -1,4 +1,4 @@
-### <font face="Cabrili" color="123456">Redis</font>👌
+### <font face="Cabrili" color="123456">Redis[Remote Dictionary Server]</font>👌
 
 1. **性能优越性的原因**：
  - 基于ANSI C语言编写，接近汇编语言，运行很快速
@@ -17,6 +17,14 @@
 	- Geo地理位置
 	- 基数
 7. Redis支持一定的事务能力:【watch...multi...exec】，支持流水线技术（大大提升性能），支持发布订阅，支持Lua语言进行复杂计算
+8. Redis相比memcached有哪些优势？
+
+	(1) memcached所有的值均是简单的字符串，redis作为其替代者，支持更为丰富的数据类型
+
+	(2) redis的速度比memcached快很多
+
+	(3) redis可以持久化其数据
+9. 
 
 
 
@@ -38,7 +46,8 @@ NoSQL在**高并发的业务场景**中可以发挥巨大的性能优势，虽�
 </font>
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MzgzODk1MCwtMjY3NDAyMjIwLC0xMD
-k2MDgzMjMsMTMzMjU5NTkyNSwtMTE4NDM4NzgxMSwxMzMyOTE3
-ODcsNzA3MzM1NjgxLDE4MDU1ODc5MzIsLTM2OTk3MzQzMF19
+eyJoaXN0b3J5IjpbLTE4MjcyNDgzMDgsLTc3MzgzODk1MCwtMj
+Y3NDAyMjIwLC0xMDk2MDgzMjMsMTMzMjU5NTkyNSwtMTE4NDM4
+NzgxMSwxMzMyOTE3ODcsNzA3MzM1NjgxLDE4MDU1ODc5MzIsLT
+M2OTk3MzQzMF19
 -->
