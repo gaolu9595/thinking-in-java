@@ -22,7 +22,7 @@
 	- redis的速度比memcached快很多
 	-  redis可以持久化其数据
 
-9. Redis的**内存回收策略**：6种【LRU、TTL等，但他】
+9. Redis的**内存回收策略**：6种【LRU、TTL等，但他们都只是一种**近似**算法，而非精确算法】
 10. Redis的**持久化策略**：快照备份（Snapshot），只追加文件（AOF，Append-Only File）
 11. 
 
@@ -46,8 +46,8 @@ NoSQL在**高并发的业务场景**中可以发挥巨大的性能优势，虽�
 </font>
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMjU1NTgwMCwxOTcyOTE1MTkzLC0xOD
-I3MjQ4MzA4LC03NzM4Mzg5NTAsLTI2NzQwMjIyMCwtMTA5NjA4
-MzIzLDEzMzI1OTU5MjUsLTExODQzODc4MTEsMTMzMjkxNzg3LD
-cwNzMzNTY4MSwxODA1NTg3OTMyLC0zNjk5NzM0MzBdfQ==
+eyJoaXN0b3J5IjpbMjU5NzA2MTAsMTk3MjkxNTE5MywtMTgyNz
+I0ODMwOCwtNzczODM4OTUwLC0yNjc0MDIyMjAsLTEwOTYwODMy
+MywxMzMyNTk1OTI1LC0xMTg0Mzg3ODExLDEzMzI5MTc4Nyw3MD
+czMzU2ODEsMTgwNTU4NzkzMiwtMzY5OTczNDMwXX0=
 -->
