@@ -18,13 +18,11 @@
 	- 基数
 7. Redis支持一定的事务能力:【watch...multi...exec】，支持流水线技术（大大提升性能），支持发布订阅，支持Lua语言进行复杂计算
 8. Redis相比memcached有哪些优势？
+	- memcached所有的值均是简单的字符串，redis作为其替代者，支持更为丰富的数据类型
+	- redis的速度比memcached快很多
+	-  redis可以持久化其数据
 
-	(1) memcached所有的值均是简单的字符串，redis作为其替代者，支持更为丰富的数据类型
-
-	(2) redis的速度比memcached快很多
-
-	(3) redis可以持久化其数据
-9. Redis的**内存回收策略**：6种
+9. Redis的**内存回收策略**：6种【LRU等】
 10. Redis的**持久化策略**：快照备份（Snapshot），只追加文件（AOF，Append-Only File）
 11. 
 
@@ -48,8 +46,8 @@ NoSQL在**高并发的业务场景**中可以发挥巨大的性能优势，虽�
 </font>
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTIwNjgxNTAsLTE4MjcyNDgzMDgsLT
-c3MzgzODk1MCwtMjY3NDAyMjIwLC0xMDk2MDgzMjMsMTMzMjU5
-NTkyNSwtMTE4NDM4NzgxMSwxMzMyOTE3ODcsNzA3MzM1NjgxLD
-E4MDU1ODc5MzIsLTM2OTk3MzQzMF19
+eyJoaXN0b3J5IjpbMTk3MjkxNTE5MywtMTgyNzI0ODMwOCwtNz
+czODM4OTUwLC0yNjc0MDIyMjAsLTEwOTYwODMyMywxMzMyNTk1
+OTI1LC0xMTg0Mzg3ODExLDEzMzI5MTc4Nyw3MDczMzU2ODEsMT
+gwNTU4NzkzMiwtMzY5OTczNDMwXX0=
 -->
