@@ -25,7 +25,7 @@
 9. Redis的**内存回收策略**：6种【LRU、TTL等，但他们都只是一种**近似**算法，而非精确算法】
 10. Redis的**持久化策略**：快照备份（Snapshot），只追加文件（AOF，Append-Only File）
 11. Redis的**主从同步机制**与**哨兵机制**
-12. 使用Spring缓存注解Redis，注意“注解失效问题”（与@Transactional注解失效原理一致）
+12. 使用Spring缓存注解Redis，注意“注解失效问题”（与@Transactional注解失效原理一致，因为Spring缓存也是基于AOP原理的，所以类内部的自调用不会用到代理对象，因此注解会失效）
 
 
 
@@ -47,9 +47,9 @@ NoSQL在**高并发的业务场景**中可以发挥巨大的性能优势，虽�
 </font>
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTAyNzIzNDksMjU5NzA2MTAsMTk3Mj
-kxNTE5MywtMTgyNzI0ODMwOCwtNzczODM4OTUwLC0yNjc0MDIy
-MjAsLTEwOTYwODMyMywxMzMyNTk1OTI1LC0xMTg0Mzg3ODExLD
-EzMzI5MTc4Nyw3MDczMzU2ODEsMTgwNTU4NzkzMiwtMzY5OTcz
-NDMwXX0=
+eyJoaXN0b3J5IjpbMjQ1OTE1MjI4LDI1OTcwNjEwLDE5NzI5MT
+UxOTMsLTE4MjcyNDgzMDgsLTc3MzgzODk1MCwtMjY3NDAyMjIw
+LC0xMDk2MDgzMjMsMTMzMjU5NTkyNSwtMTE4NDM4NzgxMSwxMz
+MyOTE3ODcsNzA3MzM1NjgxLDE4MDU1ODc5MzIsLTM2OTk3MzQz
+MF19
 -->
