@@ -24,7 +24,7 @@
 	(2) redis的速度比memcached快很多
 
 	(3) redis可以持久化其数据
-9. 
+9. Redis
 
 
 
@@ -46,8 +46,8 @@ NoSQL在**高并发的业务场景**中可以发挥巨大的性能优势，虽�
 </font>
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjcyNDgzMDgsLTc3MzgzODk1MCwtMj
-Y3NDAyMjIwLC0xMDk2MDgzMjMsMTMzMjU5NTkyNSwtMTE4NDM4
-NzgxMSwxMzMyOTE3ODcsNzA3MzM1NjgxLDE4MDU1ODc5MzIsLT
-M2OTk3MzQzMF19
+eyJoaXN0b3J5IjpbMzI1MDcwOTk3LC0xODI3MjQ4MzA4LC03Nz
+M4Mzg5NTAsLTI2NzQwMjIyMCwtMTA5NjA4MzIzLDEzMzI1OTU5
+MjUsLTExODQzODc4MTEsMTMzMjkxNzg3LDcwNzMzNTY4MSwxOD
+A1NTg3OTMyLC0zNjk5NzM0MzBdfQ==
 -->
