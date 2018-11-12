@@ -83,6 +83,12 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
  38. 接口：相当于一个完全抽象的类，其中所有域都隐式地定义为static和final。在实现一个接口时，在接口中被定义的方法必须被定义为public。接口可以降低方法与类之间的耦合。
  39. **接口与抽象类的使用场景**【接口可以支持多实现，达到多重继承的效果；抽象类可以将每个子类都具有相同实现的方法声明为非抽象方法，减少冗余；接口可以实现方法与具体实现的完全分离，更利于代码调试和维护；抽象类可以保证类与类之间的层级关系，但是也可能使类与类之间耦合度过高，继承过于复杂】
  40. 内部类与匿名内部类
+ 41. java**中基本类型和包装类的区别**：
+	 - 包装类是对象,拥有方法和字段.对象的调用都是通过引用对象的地址 ;
+	 - 包装类创建的是对象，拥有方法和字段.对象的调用都是通过引用对象的地址 ; 基本类型不是.
+	 - 包装类是引用传递 而基本类型是值传递 ;
+	 - 变量的值存储在栈里，而对象存储在堆里，相比而言，堆栈更高效，这也是java保留基本类型的原因。包装类创建的对象，可以使用api提供的一些有用的方法。更为强大。
+
 
 
 
@@ -91,11 +97,11 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MDIyMTAzNSwtMTEzODEzNzY1MiwxOD
-kzNTA0Njk4LC0xMTQ4MzEzMzc2LDI3NDUzOTM1NCwxMjMzMzY2
-MjM3LC0yODUzODM3ODMsMTIwMzg3NDc4MCwxMjE0MDQ3Mjk2LC
-0xMzA3MTk2OTcyLDgwNjY1NzYwOSwtNDY0NDkzMDE3LDExMTAy
-MDk2OCwtMTQxNDU0NDI3MCwxNTg4MzkwMTIxLC0xNTQxOTQzNj
-kyLDIwNzM0NjgxMTUsLTE4ODM3MzQ2MSwyMDUxMTY2MTY0LC0z
-NjAyMzc4NTJdfQ==
+eyJoaXN0b3J5IjpbLTg0ODg3MzA1NSwxNzYwMjIxMDM1LC0xMT
+M4MTM3NjUyLDE4OTM1MDQ2OTgsLTExNDgzMTMzNzYsMjc0NTM5
+MzU0LDEyMzMzNjYyMzcsLTI4NTM4Mzc4MywxMjAzODc0NzgwLD
+EyMTQwNDcyOTYsLTEzMDcxOTY5NzIsODA2NjU3NjA5LC00NjQ0
+OTMwMTcsMTExMDIwOTY4LC0xNDE0NTQ0MjcwLDE1ODgzOTAxMj
+EsLTE1NDE5NDM2OTIsMjA3MzQ2ODExNSwtMTg4MzczNDYxLDIw
+NTExNjYxNjRdfQ==
 -->
