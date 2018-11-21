@@ -88,6 +88,10 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 	 - 包装类创建的是对象，拥有方法和字段.对象的调用都是通过引用对象的地址 ; 基本类型不是.
 	 - 包装类是引用传递 而基本类型是值传递 ;
 	 - 变量的值存储在栈里，而对象存储在堆里，相比而言，堆栈更高效，这也是java保留基本类型的原因。包装类创建的对象，可以使用api提供的一些有用的方法。更为强大。
+42. Java I/O系统：
+	- 任何继承自InputStream或Reader的类都含有read方法，用于读取单个字节或者字节数组。对于不同的数据源，InputStream都提供相应的子类，如FileInputStream专用于从文件中读取信息
+	- 任何继承自OutputStream或Writer的类都含有write方法，用于写入单个字节或者字节数组。OutputStream针对不同的输出数据类别，提供相应的子类，如FileOutputStream专用于将信息写入文件
+	- 
 
 
 
@@ -97,11 +101,11 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0ODg3MzA1NSwxNzYwMjIxMDM1LC0xMT
-M4MTM3NjUyLDE4OTM1MDQ2OTgsLTExNDgzMTMzNzYsMjc0NTM5
-MzU0LDEyMzMzNjYyMzcsLTI4NTM4Mzc4MywxMjAzODc0NzgwLD
-EyMTQwNDcyOTYsLTEzMDcxOTY5NzIsODA2NjU3NjA5LC00NjQ0
-OTMwMTcsMTExMDIwOTY4LC0xNDE0NTQ0MjcwLDE1ODgzOTAxMj
-EsLTE1NDE5NDM2OTIsMjA3MzQ2ODExNSwtMTg4MzczNDYxLDIw
-NTExNjYxNjRdfQ==
+eyJoaXN0b3J5IjpbLTMxMzQ3OTYzMCwtODQ4ODczMDU1LDE3Nj
+AyMjEwMzUsLTExMzgxMzc2NTIsMTg5MzUwNDY5OCwtMTE0ODMx
+MzM3NiwyNzQ1MzkzNTQsMTIzMzM2NjIzNywtMjg1MzgzNzgzLD
+EyMDM4NzQ3ODAsMTIxNDA0NzI5NiwtMTMwNzE5Njk3Miw4MDY2
+NTc2MDksLTQ2NDQ5MzAxNywxMTEwMjA5NjgsLTE0MTQ1NDQyNz
+AsMTU4ODM5MDEyMSwtMTU0MTk0MzY5MiwyMDczNDY4MTE1LC0x
+ODgzNzM0NjFdfQ==
 -->
