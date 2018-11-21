@@ -92,7 +92,7 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 	- 任何继承自InputStream或Reader的类都含有read方法，用于读取单个字节或者字节数组。对于不同的数据源，InputStream都提供相应的子类，如FileInputStream专用于从文件中读取信息
 	- 任何继承自OutputStream或Writer的类都含有write方法，用于写入单个字节或者字节数组。OutputStream针对不同的输出数据类别，提供相应的子类，如FileOutputStream专用于将信息写入文件
 	- FilterInputStream和FilterOutputStream是用来提供装饰器类接口以控制IS和OS的两个类。其中，其子类DataInputStream和DataOutputStream允许读取/写入各种不同的基本数据类型数据以及String对象
-	- Reader和Writer类还可以提供兼容Unicode与面向字符的I/O功能。而InputStream和OutputStream可以通过
+	- Reader和Writer类还可以提供兼容Unicode与面向字符的I/O功能。而InputStream和OutputStream可以通过InputStreamReader和OutputStreamWriter这两个适配器转换成Reader和Writer.
 
 
 
@@ -102,7 +102,7 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwOTYzNzY3MywtMzEzNDc5NjMwLC04ND
+eyJoaXN0b3J5IjpbMTEwNDg4MDE2MiwtMzEzNDc5NjMwLC04ND
 g4NzMwNTUsMTc2MDIyMTAzNSwtMTEzODEzNzY1MiwxODkzNTA0
 Njk4LC0xMTQ4MzEzMzc2LDI3NDUzOTM1NCwxMjMzMzY2MjM3LC
 0yODUzODM3ODMsMTIwMzg3NDc4MCwxMjE0MDQ3Mjk2LC0xMzA3
