@@ -91,7 +91,7 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 42. Java I/O系统：
 	- 任何继承自InputStream或Reader的类都含有read方法，用于读取单个字节或者字节数组。对于不同的数据源，InputStream都提供相应的子类，如FileInputStream专用于从文件中读取信息
 	- 任何继承自OutputStream或Writer的类都含有write方法，用于写入单个字节或者字节数组。OutputStream针对不同的输出数据类别，提供相应的子类，如FileOutputStream专用于将信息写入文件
-	- 
+	- FilterInputStream和FilterOutputStream是
 
 
 
@@ -101,11 +101,11 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMzQ3OTYzMCwtODQ4ODczMDU1LDE3Nj
-AyMjEwMzUsLTExMzgxMzc2NTIsMTg5MzUwNDY5OCwtMTE0ODMx
-MzM3NiwyNzQ1MzkzNTQsMTIzMzM2NjIzNywtMjg1MzgzNzgzLD
-EyMDM4NzQ3ODAsMTIxNDA0NzI5NiwtMTMwNzE5Njk3Miw4MDY2
-NTc2MDksLTQ2NDQ5MzAxNywxMTEwMjA5NjgsLTE0MTQ1NDQyNz
-AsMTU4ODM5MDEyMSwtMTU0MTk0MzY5MiwyMDczNDY4MTE1LC0x
-ODgzNzM0NjFdfQ==
+eyJoaXN0b3J5IjpbMTI1Mjk4NTU3NCwtMzEzNDc5NjMwLC04ND
+g4NzMwNTUsMTc2MDIyMTAzNSwtMTEzODEzNzY1MiwxODkzNTA0
+Njk4LC0xMTQ4MzEzMzc2LDI3NDUzOTM1NCwxMjMzMzY2MjM3LC
+0yODUzODM3ODMsMTIwMzg3NDc4MCwxMjE0MDQ3Mjk2LC0xMzA3
+MTk2OTcyLDgwNjY1NzYwOSwtNDY0NDkzMDE3LDExMTAyMDk2OC
+wtMTQxNDU0NDI3MCwxNTg4MzkwMTIxLC0xNTQxOTQzNjkyLDIw
+NzM0NjgxMTVdfQ==
 -->
