@@ -1,4 +1,5 @@
 ### <font face="Cabrili">Spring IoC</font>
+Spring 是一个
 
  1. Inversion of Control：**控制反转**（将创建对象的主动权，从程序员自己手中交给容器，让容器按需求和依赖规则来创建和管理对象）是一种通过描述（Java中可以是XML或者注解）并通过第三方产生或者获取特定对象的方式
  2. IoC容器：容纳和管理所有Bean（资源），默认情况下Bean是作为单例存在的
@@ -69,11 +70,11 @@ Spring的数据库事务是通过PlatformTransactionTemplate管理的
 
 <font color=#0099ff face="楷体">**关于Spring的一些理解:**</font>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MjI3MjkzOCwtMTE2OTQ2MzA3NywtMT
-czMDAxNTE3MywtMTI1OTY1MzA1NywxMTk5Mjc2NDk3LC0xNzYz
-NzI4MjQ1LC0xOTk0MTM0OTY5LDI1OTQwNDUwOCwxMzc5NDUwMT
-gyLC0yMDY4MTEzNzIyLDIwODg2MzAxMDUsNTExOTg5NzIxLDE5
-MjM2OTIwMzAsLTExMDA4NTI0NTQsMTg3MjE2MzkzMiw4NjI1OT
-g5MTIsLTE5NjM0NDk2MTgsNTY3NjQ5OTA1LC0xNTI3NjAxMTcy
-LDE1NDIyMDg1ODFdfQ==
+eyJoaXN0b3J5IjpbMzk1MjIxMjE4LDEzNDIyNzI5MzgsLTExNj
+k0NjMwNzcsLTE3MzAwMTUxNzMsLTEyNTk2NTMwNTcsMTE5OTI3
+NjQ5NywtMTc2MzcyODI0NSwtMTk5NDEzNDk2OSwyNTk0MDQ1MD
+gsMTM3OTQ1MDE4MiwtMjA2ODExMzcyMiwyMDg4NjMwMTA1LDUx
+MTk4OTcyMSwxOTIzNjkyMDMwLC0xMTAwODUyNDU0LDE4NzIxNj
+M5MzIsODYyNTk4OTEyLC0xOTYzNDQ5NjE4LDU2NzY0OTkwNSwt
+MTUyNzYwMTE3Ml19
 -->
