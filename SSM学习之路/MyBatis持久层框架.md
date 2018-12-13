@@ -22,7 +22,7 @@
 
 ### <font color=#0000ff >**MyBatis配置config**</font>
 
-**MyBatis的配置项顺序不能颠倒**
+<font color=#ff0000 >**MyBatis的配置项顺序不能颠倒**</font>
 
 
 ### <font color=#0000ff >**MyBatis映射器mapper（Mybatis最复杂的部分）**</font>
@@ -64,11 +64,11 @@ MyBatis缓存（支持一级缓存和二级缓存）
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODg2MTg5NzcsMzAzODQxNzU0LC0xNj
-g5ODg3NDI5LDg3MzE3NTcxOCwxMTQ4NzM2MTI0LDI0NTc2NzAw
-MSwxNzMzMjEyNTU1LDE5MDcyMjc1MzIsMjE1NzcwNjEyLDQ5ND
-c5MTE4NSwtMTEyNjA4NTEwMiwtMTA2ODE4MTU0NSwxMjMxNDEx
-NzI0LDQ4MDk2NjA1MCwxNDE0OTEzOTc3LC0xMzgyNzEzNzY3LC
-0xNDM4NDI4OTcsLTQwODcyMDI3NSwtODc5Mjg1ODM4LDEzMTA3
-ODc4MzVdfQ==
+eyJoaXN0b3J5IjpbMTAwMzU2ODg3NywtMTY4ODYxODk3NywzMD
+M4NDE3NTQsLTE2ODk4ODc0MjksODczMTc1NzE4LDExNDg3MzYx
+MjQsMjQ1NzY3MDAxLDE3MzMyMTI1NTUsMTkwNzIyNzUzMiwyMT
+U3NzA2MTIsNDk0NzkxMTg1LC0xMTI2MDg1MTAyLC0xMDY4MTgx
+NTQ1LDEyMzE0MTE3MjQsNDgwOTY2MDUwLDE0MTQ5MTM5NzcsLT
+EzODI3MTM3NjcsLTE0Mzg0Mjg5NywtNDA4NzIwMjc1LC04Nzky
+ODU4MzhdfQ==
 -->
