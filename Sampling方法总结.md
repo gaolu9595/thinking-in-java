@@ -8,12 +8,12 @@
 
 随机模拟中有一个重要的问题就是**给定一个概率分布p(x)，我们如何在计算机中生成它的样本**。一般而言均匀分布 Uniform(0,1)的样本是相对容易生成的。 通过线性同余发生器可以生成伪随机数，我们用确定性算法生成[0,1]之间的伪随机数序列后，这些序列的各种统计指标和均匀分布 Uniform(0,1) 的理论计算结果非常接近。这样的伪随机序列就有比较好的统计性质，可以被当成真实的随机数使用。
 
-
-
 Sampling方法解决问题的**基本思想**，就是要把待解决的问题转化为一种可以通过某种采样方法可以解决的问题，至于怎么转化，还是挺有创造性，没有定法。因此**随机模拟方法的核心就是如何对一个概率分布得到样本**，即抽样（sampling）。
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE5MzU2NzQwLDE2NTIyNzMzODgsMTgwNj
-gzOTE5OCwtMzU3MDcwNDgzLDEyMTE0NDE3N119
+eyJoaXN0b3J5IjpbLTExMzczMDc5NjQsMTY1MjI3MzM4OCwxOD
+A2ODM5MTk4LC0zNTcwNzA0ODMsMTIxMTQ0MTc3XX0=
 -->
