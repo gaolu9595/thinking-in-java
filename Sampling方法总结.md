@@ -92,10 +92,18 @@ Monte Carlo 采样计算：x表示随机变量，服从概率分布 p(x)，那�
 
 ![enter image description here](https://uploads.cosx.org/2013/01/mcmc-transition.jpg)
 
+假设我们已经有一个转移矩阵Q(对应元素为q(i,j)), 把以上的过程整理一下，我们就得到了如下的用于采样概率分布p(x)的算法。
 
+![enter image description here](https://uploads.cosx.org/2013/01/mcmc-algo-1.jpg)
+
+![enter image description here](https://images0.cnblogs.com/blog/354318/201502/012132534877269.png)
+
+
+![enter image description here](https://uploads.cosx.org/2013/01/mcmc-algo-2.jpg)
+https://images0.cnblogs.com/blog/354318/201502/012132546599428.png
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMzE2MDM5MywxMTgyODQ4NDIxLDc5OT
+eyJoaXN0b3J5IjpbMTE2NDgyNDU5NywxMTgyODQ4NDIxLDc5OT
 M0OTc5OSwtMTg5Nzg1MTM3OCwtNjM2OTI5Nzc5LC0yMDU5MzU1
 NzEwLDc0ODgwMTg2NSwyMDk2MDA2OTUsMjE0Njg1OTU4MSwtMT
 EzNzMwNzk2NCwxNjUyMjczMzg4LDE4MDY4MzkxOTgsLTM1NzA3
