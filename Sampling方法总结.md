@@ -16,9 +16,6 @@
 $$\int_a^b f(x) dx = \int_a^b \frac{f(x)}{g(x)}g(x) dx = \frac{1}{n}\sum _1^n \frac{f(x)}{g(x)}$$
 
 
-![enter image description here](C:%5CUsers%5Cgaolu%5CDesktop%5Cequation.jpg)
-
-
 这样把g(x)看做是x在区间内的概率分布，而把前面的分数部分看做一个函数，然后在g(x)下**抽取n个样本**，当n足够大时，可以用采用均值来近似。因此只要g(x)比较容易采到数据样本，就可以求得分f(x)在区间上的积分。
 
 ### 2. Monte Carlo principle
@@ -139,7 +136,7 @@ http://cos.name/2013/01/lda-math-mcmc-and-gibbs-sampling
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNjc1NTIyLC0yMDI5NTU4MDMyLDE3Mz
+eyJoaXN0b3J5IjpbNTc5Mzk5MzQ5LC0yMDI5NTU4MDMyLDE3Mz
 Q0MjM5ODgsMTY2MTI0MzU5OSwxODI4NzQzNjA2LDExODI4NDg0
 MjEsNzk5MzQ5Nzk5LC0xODk3ODUxMzc4LC02MzY5Mjk3NzksLT
 IwNTkzNTU3MTAsNzQ4ODAxODY1LDIwOTYwMDY5NSwyMTQ2ODU5
