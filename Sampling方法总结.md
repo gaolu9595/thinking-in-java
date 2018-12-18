@@ -13,7 +13,7 @@
 
 如果我们要求f(x)的积分，如:
 
-$$\int_a^b f(x)dx $$
+$$\int_{a}^{b} f(x)dx $$
 
 而f(x)的形式可能比较复杂，积分不好求，则可以通过数值解法来求近似的结果。常用的方法是蒙特卡洛积分：
 
@@ -37,8 +37,8 @@ Monte Carlo 采样计算：x表示随机变量，服从概率分布 p(x)，那�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMTQ4MTA5MiwtNjM2OTI5Nzc5LC0yMD
-U5MzU1NzEwLDc0ODgwMTg2NSwyMDk2MDA2OTUsMjE0Njg1OTU4
-MSwtMTEzNzMwNzk2NCwxNjUyMjczMzg4LDE4MDY4MzkxOTgsLT
-M1NzA3MDQ4MywxMjExNDQxNzddfQ==
+eyJoaXN0b3J5IjpbLTE4OTc4NTEzNzgsLTYzNjkyOTc3OSwtMj
+A1OTM1NTcxMCw3NDg4MDE4NjUsMjA5NjAwNjk1LDIxNDY4NTk1
+ODEsLTExMzczMDc5NjQsMTY1MjI3MzM4OCwxODA2ODM5MTk4LC
+0zNTcwNzA0ODMsMTIxMTQ0MTc3XX0=
 -->
