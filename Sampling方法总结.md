@@ -126,11 +126,16 @@ Monte Carlo 采样计算：x表示随机变量，服从概率分布 p(x)，那�
 ![enter image description here](https://uploads.cosx.org/2013/01/gibbs-algo-2.jpg)
 
 以上算法收敛后，得到的就是概率分布p(x1,x2,⋯,xn)的样本，当然这些样本并不独立，但是我们此处要求的是采样得到的样本符合给定的概率分布，并不要求独立。同样的，在以上算法中，坐标轴轮换采样不是必须的，可以在坐标轴轮换中引入随机性，这时候转移矩阵 Q 中任何两个点的转移概率中就会包含坐标轴选择的概率，而在通常的 Gibbs Sampling 算法中，坐标轴轮换是一个确定性的过程，也就是在给定时刻t，在一根固定的坐标轴上转移的概率是1。
+
+
+
+refrences：
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNDQyMzk4OCwxNjYxMjQzNTk5LDE4Mj
-g3NDM2MDYsMTE4Mjg0ODQyMSw3OTkzNDk3OTksLTE4OTc4NTEz
-NzgsLTYzNjkyOTc3OSwtMjA1OTM1NTcxMCw3NDg4MDE4NjUsMj
-A5NjAwNjk1LDIxNDY4NTk1ODEsLTExMzczMDc5NjQsMTY1MjI3
-MzM4OCwxODA2ODM5MTk4LC0zNTcwNzA0ODMsMTIxMTQ0MTc3XX
-0=
+eyJoaXN0b3J5IjpbLTc0MzkwODYzMSwxNzM0NDIzOTg4LDE2Nj
+EyNDM1OTksMTgyODc0MzYwNiwxMTgyODQ4NDIxLDc5OTM0OTc5
+OSwtMTg5Nzg1MTM3OCwtNjM2OTI5Nzc5LC0yMDU5MzU1NzEwLD
+c0ODgwMTg2NSwyMDk2MDA2OTUsMjE0Njg1OTU4MSwtMTEzNzMw
+Nzk2NCwxNjUyMjczMzg4LDE4MDY4MzkxOTgsLTM1NzA3MDQ4My
+wxMjExNDQxNzddfQ==
 -->
