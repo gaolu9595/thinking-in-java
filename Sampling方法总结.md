@@ -11,7 +11,7 @@
 ## 1、蒙特卡洛数值积分
 
 如果我们要求f(x)的积分，如
-
+-$$\nf$$
 
 ![](http://www.forkosh.com/mathtex.cgi?formdata=%5Cint%5Climits_%7Ba%7D%5E%7Bb%7Df%28x%29dx)
 
@@ -30,7 +30,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ4ODAxODY1LDIwOTYwMDY5NSwyMTQ2OD
-U5NTgxLC0xMTM3MzA3OTY0LDE2NTIyNzMzODgsMTgwNjgzOTE5
-OCwtMzU3MDcwNDgzLDEyMTE0NDE3N119
+eyJoaXN0b3J5IjpbLTIwNTkzNTU3MTAsNzQ4ODAxODY1LDIwOT
+YwMDY5NSwyMTQ2ODU5NTgxLC0xMTM3MzA3OTY0LDE2NTIyNzMz
+ODgsMTgwNjgzOTE5OCwtMzU3MDcwNDgzLDEyMTE0NDE3N119
 -->
