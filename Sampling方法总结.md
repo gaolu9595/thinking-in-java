@@ -23,7 +23,9 @@ $$ \int_a^b f(x) dx = \int_a^b \frac{f(x)}{g(x)}g(x) dx = \frac{1}{n}\sum _1^n \
 ### 2. Monte Carlo principle
 
 Monte Carlo 采样计算：x表示随机变量，服从概率分布 p(x)，那么要计算 f(x) 的期望，只需要我们不停从 p(x) 中抽样xi，然后对这些f(xi)取平均即可近似f(x)的期望。
+
 ![enter image description here](https://images0.cnblogs.com/blog/533521/201310/25225400-30083dce288f4bbfbd0294d8c70e553b.png)
+![enter image description here](https://images0.cnblogs.com/blog/533521/201310/25225413-7405b98e045b4af09eea448fb1db4eb5.gif)
 
 ### 3. 接受-拒绝采样
 
@@ -33,8 +35,8 @@ Monte Carlo 采样计算：x表示随机变量，服从概率分布 p(x)，那�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODEyMTU3MzUsLTYzNjkyOTc3OSwtMj
-A1OTM1NTcxMCw3NDg4MDE4NjUsMjA5NjAwNjk1LDIxNDY4NTk1
-ODEsLTExMzczMDc5NjQsMTY1MjI3MzM4OCwxODA2ODM5MTk4LC
-0zNTcwNzA0ODMsMTIxMTQ0MTc3XX0=
+eyJoaXN0b3J5IjpbMjE0MjIyNTAwMCwtNjM2OTI5Nzc5LC0yMD
+U5MzU1NzEwLDc0ODgwMTg2NSwyMDk2MDA2OTUsMjE0Njg1OTU4
+MSwtMTEzNzMwNzk2NCwxNjUyMjczMzg4LDE4MDY4MzkxOTgsLT
+M1NzA3MDQ4MywxMjExNDQxNzddfQ==
 -->
