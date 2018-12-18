@@ -10,18 +10,15 @@
 
 ## 1、蒙特卡洛数值积分
 
-如果我们要求f(x)的积分，如
--$$ \int_a^b f(x)*g(x)/g(x) dx = \int _a^b (1/g(x)) *f(x)*g(x) dx$$
+如果我们要求f(x)的积分，如: 
+$$ \int_a^b f(x)dx $$
 
-![](http://www.forkosh.com/mathtex.cgi?formdata=%5Cint%5Climits_%7Ba%7D%5E%7Bb%7Df%28x%29dx)
+而f(x)的形式可能比较复杂，积分不好求，则可以通过数值解法来求近似的结果。常用的方法是蒙特卡洛积分：
 
-而f(x)的形式比较复杂积分不好求，则可以通过数值解法来求近似的结果。常用的方法是蒙特卡洛积分：
 
-[![mathtex](https://images0.cnblogs.com/blog/354318/201502/012131210506829.gif "mathtex")](https://images0.cnblogs.com/blog/354318/201502/012131205342973.gif)
 
 这样把q(x)看做是x在区间内的概率分布，而把前面的分数部门看做一个函数，然后在q(x)下抽取n个样本，当n足够大时，可以用采用均值来近似：
 
-![](http://www.forkosh.com/mathtex.cgi?formdata=%5Cfrac%7B1%7D%7Bn%7D%5Csum_%7Bi%7D%5Cfrac%7Bf%28x_i%29%7D%7Bq%28x_i%29%7D)
 
 因此只要q（x）比较容易采到数据样本就行了。随机模拟方法的核心就是如何对一个概率分布得到样本，即抽样（sampling）。下面我们将介绍常用的抽样方法。
 
@@ -30,8 +27,8 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyOTAxMzc5OSwtMjA1OTM1NTcxMCw3ND
-g4MDE4NjUsMjA5NjAwNjk1LDIxNDY4NTk1ODEsLTExMzczMDc5
-NjQsMTY1MjI3MzM4OCwxODA2ODM5MTk4LC0zNTcwNzA0ODMsMT
-IxMTQ0MTc3XX0=
+eyJoaXN0b3J5IjpbLTE2OTYxMDk2NTksLTIwNTkzNTU3MTAsNz
+Q4ODAxODY1LDIwOTYwMDY5NSwyMTQ2ODU5NTgxLC0xMTM3MzA3
+OTY0LDE2NTIyNzMzODgsMTgwNjgzOTE5OCwtMzU3MDcwNDgzLD
+EyMTE0NDE3N119
 -->
