@@ -40,14 +40,18 @@ Monte Carlo 采样计算：x表示随机变量，服从概率分布 p(x)，那�
 
 在高维的情况下，接受-拒绝采样会出现两个问题：第一是合适的 q 分布比较难以找到，第二是很难确定一个合理的 k 值。这两个问题会导致拒绝率很高，无用计算增加。
 
-### 4. 接受-拒绝采样
+### 4. 重要性抽样(Importance sampling)
+
+与接受-拒绝采样一样，重要性采样同样借助了一个易于采样的q(x)：
+
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2OTE3NTU1NCwtMTg5Nzg1MTM3OCwtNj
-M2OTI5Nzc5LC0yMDU5MzU1NzEwLDc0ODgwMTg2NSwyMDk2MDA2
-OTUsMjE0Njg1OTU4MSwtMTEzNzMwNzk2NCwxNjUyMjczMzg4LD
-E4MDY4MzkxOTgsLTM1NzA3MDQ4MywxMjExNDQxNzddfQ==
+eyJoaXN0b3J5IjpbNzk5MzQ5Nzk5LC0xODk3ODUxMzc4LC02Mz
+Y5Mjk3NzksLTIwNTkzNTU3MTAsNzQ4ODAxODY1LDIwOTYwMDY5
+NSwyMTQ2ODU5NTgxLC0xMTM3MzA3OTY0LDE2NTIyNzMzODgsMT
+gwNjgzOTE5OCwtMzU3MDcwNDgzLDEyMTE0NDE3N119
 -->
