@@ -47,13 +47,9 @@ Monte Carlo 采样计算：x表示随机变量，服从概率分布 p(x)，那�
 
 ![enter image description here](https://images0.cnblogs.com/blog/533521/201310/25225454-745161c7386a4a88bb04fe3d52691994.png)
 
-其中，$$ \frac{p(z)}{q(z)} $$ 可以看做 importance weight。我们来考察一下上面的式子，p 和 f 是确定的，我们要确定的是 q。要确定一个什么样的分布才会让采样的效果比较好呢？直观的感觉是，样本的方差越小期望收敛速率越快。比如一次采样是 0, 一次采样是 1000, 平均值是 500,这样采样效果很差，如果一次采样是 499, 一次采样是 501, 你说期望是 500,可信度还比较高。在上式中，我们目标是p×f/q方差越小越好，所以 |p×f| 大的地方，proposal distribution q(z) 也应该大。举个稍微极端的例子：
+其中，$$ \frac{p(z)}{q(z)} $$ 可以看做 importance weight。我们来考察一下上面的式子，p 和 f 是确定的，我们要确定的是 q。要确定一个什么样的分布才会让采样的效果比较好呢？直观的感觉是，样本的方差越小期望收敛速率越快。比如一次采样是 0, 一次采样是 1000, 平均值是 500,这样采样效果很差，如果一次采样是 499, 一次采样是 501, 你说期望是 500,可信度还比较高。在上式中，我们目标是p×f/q方差越小越好，所以 |p×f| 大的地方，proposal distribution q(z) 也应该大。
 
-![enter image description here](https://images0.cnblogs.com/blog/533521/201310/25225509-8492f85ebc134b3cbc728a8eec4068dd.png)
-
-第一个图表示 p 分布， 第二个图的阴影区域 f = 1，非阴影区域 f = 0, 那么一个良好的 q 分布应该在左边箭头所指的区域有很高的分布概率，因为在其他区域的采样计算实际上都是无效的。这表明 Importance Sampling 有可能比用原来的 p 分布抽样更加有效。
-
-但是可惜的是，在高维空间里找到一个这样合适的 q 非常难。
+但是可惜的是，在高维空间里找到一个这样合适的 q 非常难。因为根据上面的小方差最优原理，我们经常会取一些简单的分布作为q。但是当x是高维数据的时候，q分布的简单性很难与p或者pf相匹配。当q>>pf时候，重要采样采到了很多无用的样本（权值之和很小，或趋近于0）。当q<<pf时候，样本很少被采集到，其对应的权值会非常大。
 
 ### 5. 马尔科夫链  Markov Chain
 
@@ -136,10 +132,10 @@ http://cos.name/2013/01/lda-math-mcmc-and-gibbs-sampling
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc5Mzk5MzQ5LC0yMDI5NTU4MDMyLDE3Mz
-Q0MjM5ODgsMTY2MTI0MzU5OSwxODI4NzQzNjA2LDExODI4NDg0
-MjEsNzk5MzQ5Nzk5LC0xODk3ODUxMzc4LC02MzY5Mjk3NzksLT
-IwNTkzNTU3MTAsNzQ4ODAxODY1LDIwOTYwMDY5NSwyMTQ2ODU5
-NTgxLC0xMTM3MzA3OTY0LDE2NTIyNzMzODgsMTgwNjgzOTE5OC
-wtMzU3MDcwNDgzLDEyMTE0NDE3N119
+eyJoaXN0b3J5IjpbLTMyMDIyNzg0Miw1NzkzOTkzNDksLTIwMj
+k1NTgwMzIsMTczNDQyMzk4OCwxNjYxMjQzNTk5LDE4Mjg3NDM2
+MDYsMTE4Mjg0ODQyMSw3OTkzNDk3OTksLTE4OTc4NTEzNzgsLT
+YzNjkyOTc3OSwtMjA1OTM1NTcxMCw3NDg4MDE4NjUsMjA5NjAw
+Njk1LDIxNDY4NTk1ODEsLTExMzczMDc5NjQsMTY1MjI3MzM4OC
+wxODA2ODM5MTk4LC0zNTcwNzA0ODMsMTIxMTQ0MTc3XX0=
 -->
