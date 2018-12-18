@@ -11,12 +11,13 @@
 
 ###  1. 蒙特卡洛数值积分
 
-如果我们要求f(x)的积分，如: 
-$$ \int_a^b f(x)dx $$
+如果我们要求f(x)的积分，如:
+
+$$\int_a^b f(x)dx $$
 
 而f(x)的形式可能比较复杂，积分不好求，则可以通过数值解法来求近似的结果。常用的方法是蒙特卡洛积分：
 
-$$ \int_a^b f(x) dx = \int_a^b \frac{f(x)}{g(x)}g(x) dx = \frac{1}{n}\sum _1^n \frac{f(x)}{g(x)}$$
+$$\int_a^b f(x) dx = \int_a^b \frac{f(x)}{g(x)}g(x) dx = \frac{1}{n}\sum _1^n \frac{f(x)}{g(x)}$$
 
 这样把g(x)看做是x在区间内的概率分布，而把前面的分数部分看做一个函数，然后在g(x)下**抽取n个样本**，当n足够大时，可以用采用均值来近似。因此只要g(x)比较容易采到数据样本，就可以求得分f(x)在区间上的积分。
 
@@ -25,6 +26,7 @@ $$ \int_a^b f(x) dx = \int_a^b \frac{f(x)}{g(x)}g(x) dx = \frac{1}{n}\sum _1^n \
 Monte Carlo 采样计算：x表示随机变量，服从概率分布 p(x)，那么要计算 f(x) 的期望，只需要我们不停从 p(x) 中抽样xi，然后对这些f(xi)取平均即可近似f(x)的期望。
 
 ![enter image description here](https://images0.cnblogs.com/blog/533521/201310/25225400-30083dce288f4bbfbd0294d8c70e553b.png)
+
 ![enter image description here](https://images0.cnblogs.com/blog/533521/201310/25225413-7405b98e045b4af09eea448fb1db4eb5.gif)
 
 ### 3. 接受-拒绝采样
@@ -35,7 +37,7 @@ Monte Carlo 采样计算：x表示随机变量，服从概率分布 p(x)，那�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MjIyNTAwMCwtNjM2OTI5Nzc5LC0yMD
+eyJoaXN0b3J5IjpbMTQxMTQ4MTA5MiwtNjM2OTI5Nzc5LC0yMD
 U5MzU1NzEwLDc0ODgwMTg2NSwyMDk2MDA2OTUsMjE0Njg1OTU4
 MSwtMTEzNzMwNzk2NCwxNjUyMjczMzg4LDE4MDY4MzkxOTgsLT
 M1NzA3MDQ4MywxMjExNDQxNzddfQ==
