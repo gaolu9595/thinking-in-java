@@ -11,11 +11,7 @@
 
 ###  1. 蒙特卡洛数值积分
 
-如果我们要求f(x)的积分，如:
-
-$$\int_{a}^{b} f(x)dx $$
-
-而f(x)的形式可能比较复杂，积分不好求，则可以通过数值解法来求近似的结果。常用的方法是蒙特卡洛积分：
+如果我们要求f(x)的积分，而f(x)的形式可能比较复杂，积分不好求，则可以通过数值解法来求近似的结果。常用的方法是蒙特卡洛积分：
 
 $$\int_a^b f(x) dx = \int_a^b \frac{f(x)}{g(x)}g(x) dx = \frac{1}{n}\sum _1^n \frac{f(x)}{g(x)}$$
 
@@ -29,7 +25,7 @@ Monte Carlo 采样计算：x表示随机变量，服从概率分布 p(x)，那�
 
 ![enter image description here](https://images0.cnblogs.com/blog/533521/201310/25225413-7405b98e045b4af09eea448fb1db4eb5.gif)
 
-### 3. 接受-拒绝采样
+### 3. 接受-拒绝抽样（Acceptance-Rejection sampling)
 
 很多实际问题中，p(x)是很难直接采样的的，因此，我们需要求助其他的手段来采样。既然 p(x) 太复杂在程序中没法直接采样，那么我设定一个程序可抽样的分布 q(x) 比如高斯分布，然后按照一定的方法拒绝某些样本，达到接近 p(x) 分布的目的:
 
@@ -50,7 +46,7 @@ Monte Carlo 采样计算：x表示随机变量，服从概率分布 p(x)，那�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MzE2NTIzMywtMTg5Nzg1MTM3OCwtNj
+eyJoaXN0b3J5IjpbLTg2OTE3NTU1NCwtMTg5Nzg1MTM3OCwtNj
 M2OTI5Nzc5LC0yMDU5MzU1NzEwLDc0ODgwMTg2NSwyMDk2MDA2
 OTUsMjE0Njg1OTU4MSwtMTEzNzMwNzk2NCwxNjUyMjczMzg4LD
 E4MDY4MzkxOTgsLTM1NzA3MDQ4MywxMjExNDQxNzddfQ==
