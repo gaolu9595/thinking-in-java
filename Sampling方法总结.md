@@ -15,7 +15,7 @@ $$ \int_a^b f(x)dx $$
 
 而f(x)的形式可能比较复杂，积分不好求，则可以通过数值解法来求近似的结果。常用的方法是蒙特卡洛积分：
 
-
+$$ \int_a^b f(x) dx = \int_a^b \frac{f(x)}{}/g(x)*g(x) dx $$
 
 这样把q(x)看做是x在区间内的概率分布，而把前面的分数部门看做一个函数，然后在q(x)下抽取n个样本，当n足够大时，可以用采用均值来近似：
 
@@ -27,8 +27,8 @@ $$ \int_a^b f(x)dx $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTYxMDk2NTksLTIwNTkzNTU3MTAsNz
-Q4ODAxODY1LDIwOTYwMDY5NSwyMTQ2ODU5NTgxLC0xMTM3MzA3
-OTY0LDE2NTIyNzMzODgsMTgwNjgzOTE5OCwtMzU3MDcwNDgzLD
-EyMTE0NDE3N119
+eyJoaXN0b3J5IjpbLTkzNDIzMjI3NywtMjA1OTM1NTcxMCw3ND
+g4MDE4NjUsMjA5NjAwNjk1LDIxNDY4NTk1ODEsLTExMzczMDc5
+NjQsMTY1MjI3MzM4OCwxODA2ODM5MTk4LC0zNTcwNzA0ODMsMT
+IxMTQ0MTc3XX0=
 -->
