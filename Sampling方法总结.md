@@ -12,6 +12,7 @@
 
 如果我们要求f(x)的积分，如
 
+
 ![](http://www.forkosh.com/mathtex.cgi?formdata=%5Cint%5Climits_%7Ba%7D%5E%7Bb%7Df%28x%29dx)
 
 而f(x)的形式比较复杂积分不好求，则可以通过数值解法来求近似的结果。常用的方法是蒙特卡洛积分：
@@ -29,7 +30,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NjAwNjk1LDIxNDY4NTk1ODEsLTExMz
-czMDc5NjQsMTY1MjI3MzM4OCwxODA2ODM5MTk4LC0zNTcwNzA0
-ODMsMTIxMTQ0MTc3XX0=
+eyJoaXN0b3J5IjpbNzQ4ODAxODY1LDIwOTYwMDY5NSwyMTQ2OD
+U5NTgxLC0xMTM3MzA3OTY0LDE2NTIyNzMzODgsMTgwNjgzOTE5
+OCwtMzU3MDcwNDgzLDEyMTE0NDE3N119
 -->
