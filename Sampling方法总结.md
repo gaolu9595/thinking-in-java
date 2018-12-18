@@ -11,7 +11,7 @@
 ## 1、蒙特卡洛数值积分
 
 如果我们要求f(x)的积分，如
--$$ \inf_a^b f(x)*g(x)/g(x) dx = \inf _a^b (1/g(x)) *f(x)*g(x) dx$$
+-$$ \int_a^b f(x)*g(x)/g(x) dx = \int _a^b (1/g(x)) *f(x)*g(x) dx$$
 
 ![](http://www.forkosh.com/mathtex.cgi?formdata=%5Cint%5Climits_%7Ba%7D%5E%7Bb%7Df%28x%29dx)
 
@@ -30,7 +30,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDczMTEyNSwtMjA1OTM1NTcxMCw3ND
+eyJoaXN0b3J5IjpbMTUyOTAxMzc5OSwtMjA1OTM1NTcxMCw3ND
 g4MDE4NjUsMjA5NjAwNjk1LDIxNDY4NTk1ODEsLTExMzczMDc5
 NjQsMTY1MjI3MzM4OCwxODA2ODM5MTk4LC0zNTcwNzA0ODMsMT
 IxMTQ0MTc3XX0=
