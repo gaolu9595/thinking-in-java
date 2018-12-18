@@ -20,14 +20,21 @@ $$ \int_a^b f(x) dx = \int_a^b \frac{f(x)}{g(x)}g(x) dx = \frac{1}{n}\sum _1^n \
 
 这样把g(x)看做是x在区间内的概率分布，而把前面的分数部分看做一个函数，然后在g(x)下**抽取n个样本**，当n足够大时，可以用采用均值来近似。因此只要g(x)比较容易采到数据样本，就可以求得分f(x)在区间上的积分。
 
-### 2. 
+### 2. Monte Carlo principle
+
+Monte Carlo 采样计算：x表示随机变量，服从概率分布 p(x)，那么要计算 f(x) 的期望，只需要我们不停从 p(x) 中抽样xi，然后对这些f(xi)取平均即可近似f(x)的期望。
+![](https://images0.cnblogs.com/blog/533521/201310/25225400-30083dce288f4bbfbd0294d8c70e553b.png)
+
+### 3. 接受-拒绝采样
+
+很多实际问题中，p(x)是很难直接采样的的，因此，我们需要求助其他的手段来采样。既然 p(x) 太复杂在程序中没法直接采样，那么我设定一个程序可抽样的分布 q(x) 比如高斯分布，然后按照一定的方法拒绝某些样本，达到接近 p(x) 分布的目的
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNjkyOTc3OSwtMjA1OTM1NTcxMCw3ND
-g4MDE4NjUsMjA5NjAwNjk1LDIxNDY4NTk1ODEsLTExMzczMDc5
-NjQsMTY1MjI3MzM4OCwxODA2ODM5MTk4LC0zNTcwNzA0ODMsMT
-IxMTQ0MTc3XX0=
+eyJoaXN0b3J5IjpbLTU5MzI4NzI2LC02MzY5Mjk3NzksLTIwNT
+kzNTU3MTAsNzQ4ODAxODY1LDIwOTYwMDY5NSwyMTQ2ODU5NTgx
+LC0xMTM3MzA3OTY0LDE2NTIyNzMzODgsMTgwNjgzOTE5OCwtMz
+U3MDcwNDgzLDEyMTE0NDE3N119
 -->
