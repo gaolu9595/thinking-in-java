@@ -49,16 +49,20 @@ Monte Carlo 采样计算：x表示随机变量，服从概率分布 p(x)，那�
 其中，$$ \frac{p(z)}{q(z)} $$ 可以看做 importance weight。我们来考察一下上面的式子，p 和 f 是确定的，我们要确定的是 q。要确定一个什么样的分布才会让采样的效果比较好呢？直观的感觉是，样本的方差越小期望收敛速率越快。比如一次采样是 0, 一次采样是 1000, 平均值是 500,这样采样效果很差，如果一次采样是 499, 一次采样是 501, 你说期望是 500,可信度还比较高。在上式中，我们目标是p×f/q方差越小越好，所以 |p×f| 大的地方，proposal distribution q(z) 也应该大。举个稍微极端的例子：
 
 ![enter image description here](https://images0.cnblogs.com/blog/533521/201310/25225509-8492f85ebc134b3cbc728a8eec4068dd.png)
+
 第一个图表示 p 分布， 第二个图的阴影区域 f = 1，非阴影区域 f = 0, 那么一个良好的 q 分布应该在左边箭头所指的区域有很高的分布概率，因为在其他区域的采样计算实际上都是无效的。这表明 Importance Sampling 有可能比用原来的 p 分布抽样更加有效。
 
 但是可惜的是，在高维空间里找到一个这样合适的 q 非常难。
 
 ### 5. 马尔科夫链，马尔科夫稳态
 
-马尔科夫链的数学定义: 
+马尔科夫链的数学定义:           
 ![enter image description here](https://images0.cnblogs.com/blog/354318/201502/012132334569283.png)
 
-也就是说前一个状态只与当前状态有关，而与其他状态无关，Markov Chain 体现的是状态空间的转换关系，下一个状态只决定与当前的状态
+
+也就是说前一个状态只与当前状态有关，而与其他状态无关，Markov Chain 体现的是状态空间的转换关系，下一个状态只决定与当前的状态。
+
+举例来说，社会学家经常把人按其经济状况分成3类：下层(lower-class)、中层(middle-class)、上层(upper-class)，我们用1,2,3 分别代表这三个阶层。社会学家们发现决定一个人的收入阶层的最重要的因素就是其父母的收入阶层。如果一个人的收入属于下层类别，那么他的孩子属于下层收入的概率是 0.65, 属于中层收入的概率是 0.28, 属于上层收入的概率是 0.07。事实上，从父代到子代，收入阶层的变化的转移概率如下：
 
 
 
@@ -66,9 +70,9 @@ Monte Carlo 采样计算：x表示随机变量，服从概率分布 p(x)，那�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODQ5NjUwOSw3OTkzNDk3OTksLTE4OT
-c4NTEzNzgsLTYzNjkyOTc3OSwtMjA1OTM1NTcxMCw3NDg4MDE4
-NjUsMjA5NjAwNjk1LDIxNDY4NTk1ODEsLTExMzczMDc5NjQsMT
-Y1MjI3MzM4OCwxODA2ODM5MTk4LC0zNTcwNzA0ODMsMTIxMTQ0
-MTc3XX0=
+eyJoaXN0b3J5IjpbLTEyMzU3MzI1ODEsNzk5MzQ5Nzk5LC0xOD
+k3ODUxMzc4LC02MzY5Mjk3NzksLTIwNTkzNTU3MTAsNzQ4ODAx
+ODY1LDIwOTYwMDY5NSwyMTQ2ODU5NTgxLC0xMTM3MzA3OTY0LD
+E2NTIyNzMzODgsMTgwNjgzOTE5OCwtMzU3MDcwNDgzLDEyMTE0
+NDE3N119
 -->
