@@ -106,11 +106,27 @@ Monte Carlo 采样计算：x表示随机变量，服从概率分布 p(x)，那�
 
 ### 6. 吉布斯采样 Gibbs Sampling
 
+![enter image description here](https://images0.cnblogs.com/blog/354318/201502/012133000505875.png)
+
+
+![enter image description here](https://uploads.cosx.org/2013/01/gibbs-transition.png)
+
+![enter image description here](https://images0.cnblogs.com/blog/354318/201502/012133008472518.png)
+
+
+![enter image description here](https://uploads.cosx.org/2013/01/gibbs-algo-1.jpg)
+
+![enter image description here](https://uploads.cosx.org/2013/01/two-stage-gibbs.png)
+
+![enter image description here](https://images0.cnblogs.com/blog/354318/201502/012133041447591.png)
+
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNTc5NjQxMSwxMTgyODQ4NDIxLDc5OT
-M0OTc5OSwtMTg5Nzg1MTM3OCwtNjM2OTI5Nzc5LC0yMDU5MzU1
-NzEwLDc0ODgwMTg2NSwyMDk2MDA2OTUsMjE0Njg1OTU4MSwtMT
-EzNzMwNzk2NCwxNjUyMjczMzg4LDE4MDY4MzkxOTgsLTM1NzA3
-MDQ4MywxMjExNDQxNzddfQ==
+eyJoaXN0b3J5IjpbODg4NTQ0MjQyLDExODI4NDg0MjEsNzk5Mz
+Q5Nzk5LC0xODk3ODUxMzc4LC02MzY5Mjk3NzksLTIwNTkzNTU3
+MTAsNzQ4ODAxODY1LDIwOTYwMDY5NSwyMTQ2ODU5NTgxLC0xMT
+M3MzA3OTY0LDE2NTIyNzMzODgsMTgwNjgzOTE5OCwtMzU3MDcw
+NDgzLDEyMTE0NDE3N119
 -->
