@@ -49,12 +49,13 @@ Monte Carlo 采样计算：x表示随机变量，服从概率分布 p(x)，那�
 其中，$$ \frac{p(z)}{q(z)} $$ 可以看做 importance weight。我们来考察一下上面的式子，p 和 f 是确定的，我们要确定的是 q。要确定一个什么样的分布才会让采样的效果比较好呢？直观的感觉是，样本的方差越小期望收敛速率越快。比如一次采样是 0, 一次采样是 1000, 平均值是 500,这样采样效果很差，如果一次采样是 499, 一次采样是 501, 你说期望是 500,可信度还比较高。在上式中，我们目标是p×f/q方差越小越好，所以 |p×f| 大的地方，proposal distribution q(z) 也应该大。举个稍微极端的例子：
 
 ![enter image description here](https://images0.cnblogs.com/blog/533521/201310/25225509-8492f85ebc134b3cbc728a8eec4068dd.png)
-![enter image description here](https://images0.cnblogs.com/blog/533521/201310/25225509-8492f85ebc134b3cbc728a8eec4068dd.png)
+第一个图表示 p 分布， 第二个图的阴影区域 f = 1，非阴影区域 f = 0, 那么一个良好的 q 分布应该在左边箭头所指的区域有很高的分布概率，因为在其他区域的采样计算实际上都是无效的。这表明 Importance Sampling 有可能比用原来的 p 分布抽样更加有效。
 
+但是可惜的是，在高维空间里找到一个这样合适的 q 非常难。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MTYzMjY0OSw3OTkzNDk3OTksLTE4OT
+eyJoaXN0b3J5IjpbMjA3OTE0MjYwOCw3OTkzNDk3OTksLTE4OT
 c4NTEzNzgsLTYzNjkyOTc3OSwtMjA1OTM1NTcxMCw3NDg4MDE4
 NjUsMjA5NjAwNjk1LDIxNDY4NTk1ODEsLTExMzczMDc5NjQsMT
 Y1MjI3MzM4OCwxODA2ODM5MTk4LC0zNTcwNzA0ODMsMTIxMTQ0
