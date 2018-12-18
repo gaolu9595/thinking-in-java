@@ -129,13 +129,19 @@ Monte Carlo 采样计算：x表示随机变量，服从概率分布 p(x)，那�
 
 
 
-refrences：
+**refrences：**
+https://www.cnblogs.com/xbinworld/p/4266146.html
+
+https://blog.csdn.net/xianlingmao/article/details/7768833
+
+http://cos.name/2013/01/lda-math-mcmc-and-gibbs-sampling
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MzkwODYzMSwxNzM0NDIzOTg4LDE2Nj
-EyNDM1OTksMTgyODc0MzYwNiwxMTgyODQ4NDIxLDc5OTM0OTc5
-OSwtMTg5Nzg1MTM3OCwtNjM2OTI5Nzc5LC0yMDU5MzU1NzEwLD
-c0ODgwMTg2NSwyMDk2MDA2OTUsMjE0Njg1OTU4MSwtMTEzNzMw
-Nzk2NCwxNjUyMjczMzg4LDE4MDY4MzkxOTgsLTM1NzA3MDQ4My
-wxMjExNDQxNzddfQ==
+eyJoaXN0b3J5IjpbLTIwMjk1NTgwMzIsMTczNDQyMzk4OCwxNj
+YxMjQzNTk5LDE4Mjg3NDM2MDYsMTE4Mjg0ODQyMSw3OTkzNDk3
+OTksLTE4OTc4NTEzNzgsLTYzNjkyOTc3OSwtMjA1OTM1NTcxMC
+w3NDg4MDE4NjUsMjA5NjAwNjk1LDIxNDY4NTk1ODEsLTExMzcz
+MDc5NjQsMTY1MjI3MzM4OCwxODA2ODM5MTk4LC0zNTcwNzA0OD
+MsMTIxMTQ0MTc3XX0=
 -->
