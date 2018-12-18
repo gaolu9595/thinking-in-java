@@ -31,14 +31,15 @@ Monte Carlo 采样计算：x表示随机变量，服从概率分布 p(x)，那�
 
 ### 3. 接受-拒绝采样
 
-很多实际问题中，p(x)是很难直接采样的的，因此，我们需要求助其他的手段来采样。既然 p(x) 太复杂在程序中没法直接采样，那么我设定一个程序可抽样的分布 q(x) 比如高斯分布，然后按照一定的方法拒绝某些样本，达到接近 p(x) 分布的目的
+很多实际问题中，p(x)是很难直接采样的的，因此，我们需要求助其他的手段来采样。既然 p(x) 太复杂在程序中没法直接采样，那么我设定一个程序可抽样的分布 q(x) 比如高斯分布，然后按照一定的方法拒绝某些样本，达到接近 p(x) 分布的目的:
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTc4NTEzNzgsLTYzNjkyOTc3OSwtMj
-A1OTM1NTcxMCw3NDg4MDE4NjUsMjA5NjAwNjk1LDIxNDY4NTk1
-ODEsLTExMzczMDc5NjQsMTY1MjI3MzM4OCwxODA2ODM5MTk4LC
-0zNTcwNzA0ODMsMTIxMTQ0MTc3XX0=
+eyJoaXN0b3J5IjpbMjk5MzIzMzA2LC0xODk3ODUxMzc4LC02Mz
+Y5Mjk3NzksLTIwNTkzNTU3MTAsNzQ4ODAxODY1LDIwOTYwMDY5
+NSwyMTQ2ODU5NTgxLC0xMTM3MzA3OTY0LDE2NTIyNzMzODgsMT
+gwNjgzOTE5OCwtMzU3MDcwNDgzLDEyMTE0NDE3N119
 -->
