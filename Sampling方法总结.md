@@ -80,10 +80,22 @@ Monte Carlo 采样计算：x表示随机变量，服从概率分布 p(x)，那�
 ![enter image description here](https://images0.cnblogs.com/blog/354318/201502/012132433319734.png)
 
 
+对于给定的概率分布p(x),我们希望能有便捷的方式生成它对应的样本。由于马氏链能收敛到平稳分布， 于是一个很的漂亮想法是：如果我们能构造一个转移矩阵为P的马氏链，使得该马氏链的平稳分布恰好是p(x), 那么我们从任何一个初始状态x0出发沿着马氏链转移, 得到一个转移序列 x0,x1,x2,⋯xn,xn+1⋯,， 如果马氏链在第n步已经收敛了，于是我们就得到了 π(x) 的样本xn,xn+1⋯
+
+![enter image description here](https://images0.cnblogs.com/blog/354318/201502/012132453786092.png)
+
+
+![enter image description here](https://images0.cnblogs.com/blog/354318/201502/012132487534424.png)
+
+
+![enter image description here](https://uploads.cosx.org/2013/01/mcmc-transition.jpg)
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzUxNjM4MjEsNzk5MzQ5Nzk5LC0xOD
-k3ODUxMzc4LC02MzY5Mjk3NzksLTIwNTkzNTU3MTAsNzQ4ODAx
-ODY1LDIwOTYwMDY5NSwyMTQ2ODU5NTgxLC0xMTM3MzA3OTY0LD
-E2NTIyNzMzODgsMTgwNjgzOTE5OCwtMzU3MDcwNDgzLDEyMTE0
-NDE3N119
+eyJoaXN0b3J5IjpbMTE4Mjg0ODQyMSw3OTkzNDk3OTksLTE4OT
+c4NTEzNzgsLTYzNjkyOTc3OSwtMjA1OTM1NTcxMCw3NDg4MDE4
+NjUsMjA5NjAwNjk1LDIxNDY4NTk1ODEsLTExMzczMDc5NjQsMT
+Y1MjI3MzM4OCwxODA2ODM5MTk4LC0zNTcwNzA0ODMsMTIxMTQ0
+MTc3XX0=
 -->
