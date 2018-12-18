@@ -18,7 +18,7 @@ $$ \int_a^b f(x)dx $$
 
 $$ \int_a^b f(x) dx = \int_a^b \frac{f(x)}{g(x)}g(x) dx = \frac{1}{n}\sum _1^n \frac{f(x)}{g(x)}$$
 
-这样把g(x)看做是x在区间内的概率分布，而把前面的分数部分看做一个函数，然后在g(x)下抽取n个样本，当n足够大时，可以用采用均值来近似。因此只要g(x)比较容易采到数据样本就行了
+这样把g(x)看做是x在区间内的概率分布，而把前面的分数部分看做一个函数，然后在g(x)下**抽取n个样本**，当n足够大时，可以用采用均值来近似。因此只要g(x)比较容易采到数据样本，就可以求得分f(x)在区间上的积分。
 
 ### 2. 
 
@@ -26,8 +26,8 @@ $$ \int_a^b f(x) dx = \int_a^b \frac{f(x)}{g(x)}g(x) dx = \frac{1}{n}\sum _1^n \
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTU2NTkwMDgsLTIwNTkzNTU3MTAsNz
-Q4ODAxODY1LDIwOTYwMDY5NSwyMTQ2ODU5NTgxLC0xMTM3MzA3
-OTY0LDE2NTIyNzMzODgsMTgwNjgzOTE5OCwtMzU3MDcwNDgzLD
-EyMTE0NDE3N119
+eyJoaXN0b3J5IjpbLTYzNjkyOTc3OSwtMjA1OTM1NTcxMCw3ND
+g4MDE4NjUsMjA5NjAwNjk1LDIxNDY4NTk1ODEsLTExMzczMDc5
+NjQsMTY1MjI3MzM4OCwxODA2ODM5MTk4LC0zNTcwNzA0ODMsMT
+IxMTQ0MTc3XX0=
 -->
