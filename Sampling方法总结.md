@@ -54,7 +54,7 @@ Monte Carlo 采样计算：x表示随机变量，服从概率分布 p(x)，那�
 
 但是可惜的是，在高维空间里找到一个这样合适的 q 非常难。
 
-### 5. 马尔科夫链，马尔科夫稳态
+### 5. 马尔科夫链  Markov Chain
 
 马尔科夫链的数学定义:           
 ![enter image description here](https://images0.cnblogs.com/blog/354318/201502/012132334569283.png)
@@ -100,10 +100,15 @@ Monte Carlo 采样计算：x表示随机变量，服从概率分布 p(x)，那�
 
 
 ![enter image description here](https://uploads.cosx.org/2013/01/mcmc-algo-2.jpg)
-https://images0.cnblogs.com/blog/354318/201502/012132546599428.png
+
+![enter image description here](https://images0.cnblogs.com/blog/354318/201502/012132546599428.png)
+
+
+### 6. 吉布斯采样 Gibbs Sampling
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NDgyNDU5NywxMTgyODQ4NDIxLDc5OT
+eyJoaXN0b3J5IjpbMTMyNTc5NjQxMSwxMTgyODQ4NDIxLDc5OT
 M0OTc5OSwtMTg5Nzg1MTM3OCwtNjM2OTI5Nzc5LC0yMDU5MzU1
 NzEwLDc0ODgwMTg2NSwyMDk2MDA2OTUsMjE0Njg1OTU4MSwtMT
 EzNzMwNzk2NCwxNjUyMjczMzg4LDE4MDY4MzkxOTgsLTM1NzA3
