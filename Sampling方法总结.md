@@ -37,9 +37,9 @@ Monte Carlo 采样计算：x表示随机变量，服从概率分布 p(x)，那�
 
 具体操作如下，设定一个方便抽样的函数 q(x)，以及一个常量 k，使得 p(x) 总在 kq(x) 的下方。（参考上图）
 
--   x 轴方向：从 q(x) 分布抽样得到 a。(如果是高斯，就用之前说过的 tricky and faster 的算法更快）
--   y 轴方向：从均匀分布（0, kq(a)) 中抽样得到 u。
--   如果刚好落到灰色区域： u > p(a), 拒绝， 否则接受这次抽样
+-   x 轴方向：从 q(x) 分布抽样得到 a。
+-   y 轴方向：从均匀分布(0, kq(a)) 中抽样得到 u。
+-   如果刚好落到灰色区域: u > p(a) 拒绝， 否则接受这次抽样
 -   重复以上过程
 
 在高维的情况下，接受-拒绝采样会出现两个问题：第一是合适的 q 分布比较难以找到，第二是很难确定一个合理的 k 值。这两个问题会导致拒绝率很高，无用计算增加。
@@ -50,7 +50,7 @@ Monte Carlo 采样计算：x表示随机变量，服从概率分布 p(x)，那�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MjM1Mzc4NywtMTg5Nzg1MTM3OCwtNj
+eyJoaXN0b3J5IjpbLTI0MzE2NTIzMywtMTg5Nzg1MTM3OCwtNj
 M2OTI5Nzc5LC0yMDU5MzU1NzEwLDc0ODgwMTg2NSwyMDk2MDA2
 OTUsMjE0Njg1OTU4MSwtMTEzNzMwNzk2NCwxNjUyMjczMzg4LD
 E4MDY4MzkxOTgsLTM1NzA3MDQ4MywxMjExNDQxNzddfQ==
