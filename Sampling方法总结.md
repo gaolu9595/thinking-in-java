@@ -64,15 +64,17 @@ Monte Carlo 采样计算：x表示随机变量，服从概率分布 p(x)，那�
 
 举例来说，社会学家经常把人按其经济状况分成3类：下层(lower-class)、中层(middle-class)、上层(upper-class)，我们用1,2,3 分别代表这三个阶层。社会学家们发现决定一个人的收入阶层的最重要的因素就是其父母的收入阶层。如果一个人的收入属于下层类别，那么他的孩子属于下层收入的概率是 0.65, 属于中层收入的概率是 0.28, 属于上层收入的概率是 0.07。事实上，从父代到子代，收入阶层的变化的转移概率如下：
 
+![enter image description here](https://uploads.cosx.org/2013/01/table-1.jpg)
+![enter image description here](https://uploads.cosx.org/2013/01/markov-transition.png)
 
-
-
+转换成转移矩阵的形式：
+![enter image description here](https://images0.cnblogs.com/blog/354318/201502/012132350037556.png)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzU3MzI1ODEsNzk5MzQ5Nzk5LC0xOD
-k3ODUxMzc4LC02MzY5Mjk3NzksLTIwNTkzNTU3MTAsNzQ4ODAx
-ODY1LDIwOTYwMDY5NSwyMTQ2ODU5NTgxLC0xMTM3MzA3OTY0LD
-E2NTIyNzMzODgsMTgwNjgzOTE5OCwtMzU3MDcwNDgzLDEyMTE0
-NDE3N119
+eyJoaXN0b3J5IjpbMjU1NzE0MzI0LDc5OTM0OTc5OSwtMTg5Nz
+g1MTM3OCwtNjM2OTI5Nzc5LC0yMDU5MzU1NzEwLDc0ODgwMTg2
+NSwyMDk2MDA2OTUsMjE0Njg1OTU4MSwtMTEzNzMwNzk2NCwxNj
+UyMjczMzg4LDE4MDY4MzkxOTgsLTM1NzA3MDQ4MywxMjExNDQx
+NzddfQ==
 -->
