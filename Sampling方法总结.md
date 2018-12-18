@@ -56,10 +56,19 @@ Monte Carlo 采样计算：x表示随机变量，服从概率分布 p(x)，那�
 ### 5. 马尔科夫链，马尔科夫稳态
 
 马尔科夫链的数学定义: 
+![enter image description here](https://images0.cnblogs.com/blog/354318/201502/012132334569283.png)
+
+也就是说前一个状态只与当前状态有关，而与其他状态无关，Markov Chain 体现的是状态空间的转换关系，下一个状态只决定与当前的状态
+
+
+
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNTY0ODMsNzk5MzQ5Nzk5LC0xODk3OD
-UxMzc4LC02MzY5Mjk3NzksLTIwNTkzNTU3MTAsNzQ4ODAxODY1
-LDIwOTYwMDY5NSwyMTQ2ODU5NTgxLC0xMTM3MzA3OTY0LDE2NT
-IyNzMzODgsMTgwNjgzOTE5OCwtMzU3MDcwNDgzLDEyMTE0NDE3
-N119
+eyJoaXN0b3J5IjpbLTE5ODQ5NjUwOSw3OTkzNDk3OTksLTE4OT
+c4NTEzNzgsLTYzNjkyOTc3OSwtMjA1OTM1NTcxMCw3NDg4MDE4
+NjUsMjA5NjAwNjk1LDIxNDY4NTk1ODEsLTExMzczMDc5NjQsMT
+Y1MjI3MzM4OCwxODA2ODM5MTk4LC0zNTcwNzA0ODMsMTIxMTQ0
+MTc3XX0=
 -->
