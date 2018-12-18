@@ -75,6 +75,8 @@ Monte Carlo 采样计算：x表示随机变量，服从概率分布 p(x)，那�
 
 
 ![enter image description here](https://uploads.cosx.org/2013/01/table-2.jpg)
+
+
 我们发现从第7代人开始，这个分布就稳定不变了，事实上，在这个问题中，从任意初始概率分布开始都会收敛到这个上面这个稳定的结果。
 
 ![enter image description here](https://images0.cnblogs.com/blog/354318/201502/012132433319734.png)
@@ -93,9 +95,9 @@ Monte Carlo 采样计算：x表示随机变量，服从概率分布 p(x)，那�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4Mjg0ODQyMSw3OTkzNDk3OTksLTE4OT
-c4NTEzNzgsLTYzNjkyOTc3OSwtMjA1OTM1NTcxMCw3NDg4MDE4
-NjUsMjA5NjAwNjk1LDIxNDY4NTk1ODEsLTExMzczMDc5NjQsMT
-Y1MjI3MzM4OCwxODA2ODM5MTk4LC0zNTcwNzA0ODMsMTIxMTQ0
-MTc3XX0=
+eyJoaXN0b3J5IjpbMTYzMzE2MDM5MywxMTgyODQ4NDIxLDc5OT
+M0OTc5OSwtMTg5Nzg1MTM3OCwtNjM2OTI5Nzc5LC0yMDU5MzU1
+NzEwLDc0ODgwMTg2NSwyMDk2MDA2OTUsMjE0Njg1OTU4MSwtMT
+EzNzMwNzk2NCwxNjUyMjczMzg4LDE4MDY4MzkxOTgsLTM1NzA3
+MDQ4MywxMjExNDQxNzddfQ==
 -->
