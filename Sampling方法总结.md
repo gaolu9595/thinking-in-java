@@ -9,25 +9,27 @@
 随机模拟方法的核心就是**如何对一个概率分布得到样本**，即采样（sampling）。而Sampling方法解决问题的基本思想，就是**产生一系列样本来模拟一个概率分布**。
 
 
-###  1、蒙特卡洛数值积分
+###  1. 蒙特卡洛数值积分
 
 如果我们要求f(x)的积分，如: 
 $$ \int_a^b f(x)dx $$
 
 而f(x)的形式可能比较复杂，积分不好求，则可以通过数值解法来求近似的结果。常用的方法是蒙特卡洛积分：
 
-$$ \int_a^b f(x) dx = \int_a^b \frac{f(x)}{g(x)}*g(x) dx $$
+$$ \int_a^b f(x) dx = \int_a^b \frac{f(x)}{g(x)}g(x) dx = $$
+
+$$ {\sum _1^n [f(x_i)/g(x_i)]}/n  $$
 
 这样把g(x)看做是x在区间内的概率分布，而把前面的分数部分看做一个函数，然后在g(x)下抽取n个样本，当n足够大时，可以用采用均值来近似。因此只要g(x)比较容易采到数据样本就行了
 
-
+### 2. 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTc4MzQzNDYsLTIwNTkzNTU3MTAsNz
-Q4ODAxODY1LDIwOTYwMDY5NSwyMTQ2ODU5NTgxLC0xMTM3MzA3
-OTY0LDE2NTIyNzMzODgsMTgwNjgzOTE5OCwtMzU3MDcwNDgzLD
-EyMTE0NDE3N119
+eyJoaXN0b3J5IjpbNjA3MTY0NTcsLTIwNTkzNTU3MTAsNzQ4OD
+AxODY1LDIwOTYwMDY5NSwyMTQ2ODU5NTgxLC0xMTM3MzA3OTY0
+LDE2NTIyNzMzODgsMTgwNjgzOTE5OCwtMzU3MDcwNDgzLDEyMT
+E0NDE3N119
 -->
