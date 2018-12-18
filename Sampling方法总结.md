@@ -46,13 +46,15 @@ Monte Carlo 采样计算：x表示随机变量，服从概率分布 p(x)，那�
 
 ![enter image description here](https://images0.cnblogs.com/blog/533521/201310/25225454-745161c7386a4a88bb04fe3d52691994.png)
 
-其中，$$ \frac{p(z)}{q(z)} $$ 可以看做 importance weight。我们来考察一下上面的式子，p 和 f 是确定的，我们要确定的是 q。要确定一个什么样的分布才会让采样的效果比较好呢？直观的感觉是，样本的方差越小期望收敛速率越快。比如一次采样是 0, 一次采样是 1000, 平均值是 500,这样采样效果很差，如果一次采样是 499, 一次采样是 501, 你说期望是 500,可信度还比较高。在上式中，我们目标是 $$ p*\frac{f}{q} $$方差越小越好，所以 |p×f| 大的地方，proposal distribution q(z) 也应该大。举个稍微极端的例子：
+其中，$$ \frac{p(z)}{q(z)} $$ 可以看做 importance weight。我们来考察一下上面的式子，p 和 f 是确定的，我们要确定的是 q。要确定一个什么样的分布才会让采样的效果比较好呢？直观的感觉是，样本的方差越小期望收敛速率越快。比如一次采样是 0, 一次采样是 1000, 平均值是 500,这样采样效果很差，如果一次采样是 499, 一次采样是 501, 你说期望是 500,可信度还比较高。在上式中，我们目标是p×f/q方差越小越好，所以 |p×f| 大的地方，proposal distribution q(z) 也应该大。举个稍微极端的例子：
 
+![enter image description here](https://images0.cnblogs.com/blog/533521/201310/25225509-8492f85ebc134b3cbc728a8eec4068dd.png)
+![enter image description here](https://images0.cnblogs.com/blog/533521/201310/25225509-8492f85ebc134b3cbc728a8eec4068dd.png)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMTY5OTIyNSw3OTkzNDk3OTksLTE4OT
+eyJoaXN0b3J5IjpbLTI4MTYzMjY0OSw3OTkzNDk3OTksLTE4OT
 c4NTEzNzgsLTYzNjkyOTc3OSwtMjA1OTM1NTcxMCw3NDg4MDE4
 NjUsMjA5NjAwNjk1LDIxNDY4NTk1ODEsLTExMzczMDc5NjQsMT
 Y1MjI3MzM4OCwxODA2ODM5MTk4LC0zNTcwNzA0ODMsMTIxMTQ0
