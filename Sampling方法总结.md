@@ -16,9 +16,7 @@ $$ \int_a^b f(x)dx $$
 
 而f(x)的形式可能比较复杂，积分不好求，则可以通过数值解法来求近似的结果。常用的方法是蒙特卡洛积分：
 
-$$ \int_a^b f(x) dx = \int_a^b \frac{f(x)}{g(x)}g(x) dx = $$
-
-$$ {\sum _1^n [f(x_i)/g(x_i)]}/n  $$
+$$ \int_a^b f(x) dx = \int_a^b \frac{f(x)}{g(x)}g(x) dx = \frac{1}{n}\sum _1^n \frac{f(x)}{g(x)}$$
 
 这样把g(x)看做是x在区间内的概率分布，而把前面的分数部分看做一个函数，然后在g(x)下抽取n个样本，当n足够大时，可以用采用均值来近似。因此只要g(x)比较容易采到数据样本就行了
 
@@ -28,8 +26,8 @@ $$ {\sum _1^n [f(x_i)/g(x_i)]}/n  $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA3MTY0NTcsLTIwNTkzNTU3MTAsNzQ4OD
-AxODY1LDIwOTYwMDY5NSwyMTQ2ODU5NTgxLC0xMTM3MzA3OTY0
-LDE2NTIyNzMzODgsMTgwNjgzOTE5OCwtMzU3MDcwNDgzLDEyMT
-E0NDE3N119
+eyJoaXN0b3J5IjpbLTE0OTU2NTkwMDgsLTIwNTkzNTU3MTAsNz
+Q4ODAxODY1LDIwOTYwMDY5NSwyMTQ2ODU5NTgxLC0xMTM3MzA3
+OTY0LDE2NTIyNzMzODgsMTgwNjgzOTE5OCwtMzU3MDcwNDgzLD
+EyMTE0NDE3N119
 -->
