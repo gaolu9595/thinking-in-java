@@ -15,6 +15,10 @@
 
 $$\int_a^b f(x) dx = \int_a^b \frac{f(x)}{g(x)}g(x) dx = \frac{1}{n}\sum _1^n \frac{f(x)}{g(x)}$$
 
+
+![enter image description here](C:%5CUsers%5Cgaolu%5CDesktop%5C%E7%90%90%5Cequation.jpg)
+
+
 这样把g(x)看做是x在区间内的概率分布，而把前面的分数部分看做一个函数，然后在g(x)下**抽取n个样本**，当n足够大时，可以用采用均值来近似。因此只要g(x)比较容易采到数据样本，就可以求得分f(x)在区间上的积分。
 
 ### 2. Monte Carlo principle
@@ -123,9 +127,10 @@ Monte Carlo 采样计算：x表示随机变量，服从概率分布 p(x)，那�
 
 以上算法收敛后，得到的就是概率分布p(x1,x2,⋯,xn)的样本，当然这些样本并不独立，但是我们此处要求的是采样得到的样本符合给定的概率分布，并不要求独立。同样的，在以上算法中，坐标轴轮换采样不是必须的，可以在坐标轴轮换中引入随机性，这时候转移矩阵 Q 中任何两个点的转移概率中就会包含坐标轴选择的概率，而在通常的 Gibbs Sampling 算法中，坐标轴轮换是一个确定性的过程，也就是在给定时刻t，在一根固定的坐标轴上转移的概率是1。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MTI0MzU5OSwxODI4NzQzNjA2LDExOD
-I4NDg0MjEsNzk5MzQ5Nzk5LC0xODk3ODUxMzc4LC02MzY5Mjk3
-NzksLTIwNTkzNTU3MTAsNzQ4ODAxODY1LDIwOTYwMDY5NSwyMT
-Q2ODU5NTgxLC0xMTM3MzA3OTY0LDE2NTIyNzMzODgsMTgwNjgz
-OTE5OCwtMzU3MDcwNDgzLDEyMTE0NDE3N119
+eyJoaXN0b3J5IjpbMTYyMTQ5MDEwNCwxNjYxMjQzNTk5LDE4Mj
+g3NDM2MDYsMTE4Mjg0ODQyMSw3OTkzNDk3OTksLTE4OTc4NTEz
+NzgsLTYzNjkyOTc3OSwtMjA1OTM1NTcxMCw3NDg4MDE4NjUsMj
+A5NjAwNjk1LDIxNDY4NTk1ODEsLTExMzczMDc5NjQsMTY1MjI3
+MzM4OCwxODA2ODM5MTk4LC0zNTcwNzA0ODMsMTIxMTQ0MTc3XX
+0=
 -->
