@@ -44,14 +44,17 @@ Monte Carlo 采样计算：x表示随机变量，服从概率分布 p(x)，那�
 
 与接受-拒绝采样一样，重要性采样同样借助了一个易于采样的q(x)：
 
+![enter image description here](https://images0.cnblogs.com/blog/533521/201310/25225454-745161c7386a4a88bb04fe3d52691994.png)
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk5MzQ5Nzk5LC0xODk3ODUxMzc4LC02Mz
-Y5Mjk3NzksLTIwNTkzNTU3MTAsNzQ4ODAxODY1LDIwOTYwMDY5
-NSwyMTQ2ODU5NTgxLC0xMTM3MzA3OTY0LDE2NTIyNzMzODgsMT
-gwNjgzOTE5OCwtMzU3MDcwNDgzLDEyMTE0NDE3N119
+eyJoaXN0b3J5IjpbLTQ2ODg5MDA0MSw3OTkzNDk3OTksLTE4OT
+c4NTEzNzgsLTYzNjkyOTc3OSwtMjA1OTM1NTcxMCw3NDg4MDE4
+NjUsMjA5NjAwNjk1LDIxNDY4NTk1ODEsLTExMzczMDc5NjQsMT
+Y1MjI3MzM4OCwxODA2ODM5MTk4LC0zNTcwNzA0ODMsMTIxMTQ0
+MTc3XX0=
 -->
