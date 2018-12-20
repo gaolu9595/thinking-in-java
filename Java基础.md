@@ -82,19 +82,20 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
  37. 抽象类：不一定含有抽象方法，但是具有一个或多个抽象方法的类必须声明为抽象类。继承抽象类时可以不实现其所有抽象方法，这样的话子类也必须声明为抽象类。抽象类是不能创建实例对象的。
  38. 接口：相当于一个完全抽象的类，其中所有域都隐式地定义为static和final。在实现一个接口时，在接口中被定义的方法必须被定义为public。接口可以降低方法与类之间的耦合。
  39. **接口与抽象类的使用场景**【接口可以支持多实现，达到多重继承的效果；抽象类可以将每个子类都具有相同实现的方法声明为非抽象方法，减少冗余；接口可以实现方法与具体实现的完全分离，更利于代码调试和维护；抽象类可以保证类与类之间的层级关系，但是也可能使类与类之间耦合度过高，继承过于复杂】
- 40. 内部类与匿名内部类
- 41. java**中基本类型和包装类的区别**：
+ 40. 接口中的方法，默认就是public的。且必须是public的；   接口中的域都是自动static和final的，所以接口是一种很便捷地用来创建常量组的工具。
+ 41. 内部类与匿名内部类
+ 42. java**中基本类型和包装类的区别**：
 	 - 包装类是对象,拥有方法和字段.对象的调用都是通过引用对象的地址 ;
 	 - 包装类创建的是对象，拥有方法和字段.对象的调用都是通过引用对象的地址 ; 基本类型不是.
 	 - 包装类是引用传递 而基本类型是值传递 ;
 	 - 变量的值存储在栈里，而对象存储在堆里，相比而言，堆栈更高效，这也是java保留基本类型的原因。包装类创建的对象，可以使用api提供的一些有用的方法。更为强大。
-42. Java I/O系统：
+43. Java I/O系统：
 	- 任何继承自InputStream或Reader的类都含有read方法，用于读取单个字节或者字节数组。对于不同的数据源，InputStream都提供相应的子类，如FileInputStream专用于从文件中读取信息 **[面向字节]**
 	- 任何继承自OutputStream或Writer的类都含有write方法，用于写入单个字节或者字节数组。OutputStream针对不同的输出数据类别，提供相应的子类，如FileOutputStream专用于将信息写入文件 **[面向字节]**
 	- FilterInputStream和FilterOutputStream是用来提供装饰器类接口以控制IS和OS的两个类。其中，其子类DataInputStream和DataOutputStream允许读取/写入各种不同的基本数据类型数据以及String对象
 	- Reader和Writer类还可以提供**兼容Unicode**与**面向字符**的I/O功能。而InputStream和OutputStream可以通过InputStreamReader和OutputStreamWriter这两个适配器转换成Reader和Writer.
 	- 【Tips】尽量尝试使用Reader和Writer，若程序无法成功编译，可知不得不使用面向字节地类库；无论什么时候使用readLine()，都不应该使用DataInputStream，而应该使用BufferedReader。除了这种情况外，DataInputStream【面向字节】仍是I/O类库的首选成员
-	- 
+44. 
 
 
 
@@ -104,11 +105,11 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNDkxMzA4NywxNTA1OTg3MDQ4LDExND
-M1OTk0MTEsLTMxMzQ3OTYzMCwtODQ4ODczMDU1LDE3NjAyMjEw
-MzUsLTExMzgxMzc2NTIsMTg5MzUwNDY5OCwtMTE0ODMxMzM3Ni
-wyNzQ1MzkzNTQsMTIzMzM2NjIzNywtMjg1MzgzNzgzLDEyMDM4
-NzQ3ODAsMTIxNDA0NzI5NiwtMTMwNzE5Njk3Miw4MDY2NTc2MD
-ksLTQ2NDQ5MzAxNywxMTEwMjA5NjgsLTE0MTQ1NDQyNzAsMTU4
-ODM5MDEyMV19
+eyJoaXN0b3J5IjpbLTEwMjIyOTg5ODAsLTkzNDkxMzA4NywxNT
+A1OTg3MDQ4LDExNDM1OTk0MTEsLTMxMzQ3OTYzMCwtODQ4ODcz
+MDU1LDE3NjAyMjEwMzUsLTExMzgxMzc2NTIsMTg5MzUwNDY5OC
+wtMTE0ODMxMzM3NiwyNzQ1MzkzNTQsMTIzMzM2NjIzNywtMjg1
+MzgzNzgzLDEyMDM4NzQ3ODAsMTIxNDA0NzI5NiwtMTMwNzE5Nj
+k3Miw4MDY2NTc2MDksLTQ2NDQ5MzAxNywxMTEwMjA5NjgsLTE0
+MTQ1NDQyNzBdfQ==
 -->
