@@ -95,7 +95,9 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 	- FilterInputStream和FilterOutputStream是用来提供装饰器类接口以控制IS和OS的两个类。其中，其子类DataInputStream和DataOutputStream允许读取/写入各种不同的基本数据类型数据以及String对象
 	- Reader和Writer类还可以提供**兼容Unicode**与**面向字符**的I/O功能。而InputStream和OutputStream可以通过InputStreamReader和OutputStreamWriter这两个适配器转换成Reader和Writer.
 	- 【Tips】尽量尝试使用Reader和Writer，若程序无法成功编译，可知不得不使用面向字节地类库；无论什么时候使用readLine()，都不应该使用DataInputStream，而应该使用BufferedReader。除了这种情况外，DataInputStream【面向字节】仍是I/O类库的首选成员
-44. 
+44. 类型信息（运行时类型信息可以使你在程序运行时发现和使用类型信息）：
+	- Java让我们在运行时识别对象和类信息的两种方式：一种是传统的**RTTI**，它假定我们在编译时已经知道了所有的类型；另一种是**反射机制**，它允许我们在运行时发现和使用类的信息
+	- 
 
 
 
@@ -105,11 +107,11 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjIyOTg5ODAsLTkzNDkxMzA4NywxNT
-A1OTg3MDQ4LDExNDM1OTk0MTEsLTMxMzQ3OTYzMCwtODQ4ODcz
-MDU1LDE3NjAyMjEwMzUsLTExMzgxMzc2NTIsMTg5MzUwNDY5OC
-wtMTE0ODMxMzM3NiwyNzQ1MzkzNTQsMTIzMzM2NjIzNywtMjg1
-MzgzNzgzLDEyMDM4NzQ3ODAsMTIxNDA0NzI5NiwtMTMwNzE5Nj
-k3Miw4MDY2NTc2MDksLTQ2NDQ5MzAxNywxMTEwMjA5NjgsLTE0
-MTQ1NDQyNzBdfQ==
+eyJoaXN0b3J5IjpbLTE3OTI0OTU4NTcsLTEwMjIyOTg5ODAsLT
+kzNDkxMzA4NywxNTA1OTg3MDQ4LDExNDM1OTk0MTEsLTMxMzQ3
+OTYzMCwtODQ4ODczMDU1LDE3NjAyMjEwMzUsLTExMzgxMzc2NT
+IsMTg5MzUwNDY5OCwtMTE0ODMxMzM3NiwyNzQ1MzkzNTQsMTIz
+MzM2NjIzNywtMjg1MzgzNzgzLDEyMDM4NzQ3ODAsMTIxNDA0Nz
+I5NiwtMTMwNzE5Njk3Miw4MDY2NTc2MDksLTQ2NDQ5MzAxNywx
+MTEwMjA5NjhdfQ==
 -->
