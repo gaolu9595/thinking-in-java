@@ -97,7 +97,7 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 	- 【Tips】尽量尝试使用Reader和Writer，若程序无法成功编译，可知不得不使用面向字节地类库；无论什么时候使用readLine()，都不应该使用DataInputStream，而应该使用BufferedReader。除了这种情况外，DataInputStream【面向字节】仍是I/O类库的首选成员
 44. 类型信息（运行时类型信息可以使你在程序运行时发现和使用类型信息）：
 	- Java让我们在运行时识别对象和类信息的两种方式：一种是传统的**RTTI**，它假定我们在编译时已经知道了所有的类型；另一种是**反射机制**，它允许我们在运行时发现和使用类的信息
-	- 类名.class和类名.forName()都可以拿到一个类的Class对象的引用，但是前者不会自动地初始化该class对象，而后者的副作用则是若该类未被加载过则加载它
+	- 类名.class和类名.forName()都可以拿到一个类的Class对象的引用，但是前者在编译时就会受到检查，且在用它来创建Class对象时不会自动地初始化该class对象；而后者则是在运行时才进行检查，其副作用则是若该类未被加载过则加载它
 	- **对Java反射的理解**：之所以说RTTI是编译器必须要在编译时打开和检查所有类的.class文件，是因为我们在创建对象的时候还是用的new方法这种显示创建方法，所以相关的类型信息一定会暴露在程序空间中，编译器在编译时就会去检查它。而反射则是在程序运行时，通过网络或者磁盘文件或者一些操作动作中传来了一些新的对象，由于没有显式地用new创建，且JVM使用惰性加载Class的机制，所以他们的类型信息在编译时并不已知，因此才具有在运行时才打开和检查.class文件的特性。Java反射在框架开发中很有用，不用在程序中把创建对象写死，而只需要在运行过程中创建和管理JavaBean对象（具有setter和getter方法）
 
 
@@ -107,11 +107,11 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODM5MzEyMDEsLTM5MDY5NTUsLTE3OT
-I0OTU4NTcsLTEwMjIyOTg5ODAsLTkzNDkxMzA4NywxNTA1OTg3
-MDQ4LDExNDM1OTk0MTEsLTMxMzQ3OTYzMCwtODQ4ODczMDU1LD
-E3NjAyMjEwMzUsLTExMzgxMzc2NTIsMTg5MzUwNDY5OCwtMTE0
-ODMxMzM3NiwyNzQ1MzkzNTQsMTIzMzM2NjIzNywtMjg1MzgzNz
-gzLDEyMDM4NzQ3ODAsMTIxNDA0NzI5NiwtMTMwNzE5Njk3Miw4
-MDY2NTc2MDldfQ==
+eyJoaXN0b3J5IjpbNjUxNjE5NTI4LC0xNjgzOTMxMjAxLC0zOT
+A2OTU1LC0xNzkyNDk1ODU3LC0xMDIyMjk4OTgwLC05MzQ5MTMw
+ODcsMTUwNTk4NzA0OCwxMTQzNTk5NDExLC0zMTM0Nzk2MzAsLT
+g0ODg3MzA1NSwxNzYwMjIxMDM1LC0xMTM4MTM3NjUyLDE4OTM1
+MDQ2OTgsLTExNDgzMTMzNzYsMjc0NTM5MzU0LDEyMzMzNjYyMz
+csLTI4NTM4Mzc4MywxMjAzODc0NzgwLDEyMTQwNDcyOTYsLTEz
+MDcxOTY5NzJdfQ==
 -->
