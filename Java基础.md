@@ -98,7 +98,7 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 44. 类型信息（运行时类型信息可以使你在程序运行时发现和使用类型信息）：
 	- Java让我们在运行时识别对象和类信息的两种方式：一种是传统的**RTTI**，它假定我们在编译时已经知道了所有的类型；另一种是**反射机制**，它允许我们在运行时发现和使用类的信息
 	- 类名.class和类名.forName()都可以拿到一个类的Class对象的引用，但是前者不会自动地初始化该class对象，而后者的副作用则是若该类未被加载过则加载它
-	- 对Java反射的理解：
+	- 对Java反射的理解：之所以说RTTI是编译器必须要在编译时打开和检查所有类的.class文件，是因为我们在创建对象的时候还是用的new方法这种显示创建方法，所以
 
 
 
@@ -107,7 +107,7 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNzY3NTgzMiwtMzkwNjk1NSwtMTc5Mj
+eyJoaXN0b3J5IjpbMjA5Njc2MjI0MSwtMzkwNjk1NSwtMTc5Mj
 Q5NTg1NywtMTAyMjI5ODk4MCwtOTM0OTEzMDg3LDE1MDU5ODcw
 NDgsMTE0MzU5OTQxMSwtMzEzNDc5NjMwLC04NDg4NzMwNTUsMT
 c2MDIyMTAzNSwtMTEzODEzNzY1MiwxODkzNTA0Njk4LC0xMTQ4
