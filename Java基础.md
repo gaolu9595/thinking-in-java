@@ -89,16 +89,19 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 	 - 包装类创建的是对象，拥有方法和字段.对象的调用都是通过引用对象的地址 ; 基本类型不是.
 	 - 包装类是引用传递 而基本类型是值传递 ;
 	 - 变量的值存储在栈里，而对象存储在堆里，相比而言，堆栈更高效，这也是java保留基本类型的原因。包装类创建的对象，可以使用api提供的一些有用的方法。更为强大。
-43. Java I/O系统：
+35. Java I/O系统：
 	- 任何继承自InputStream或Reader的类都含有read方法，用于读取单个字节或者字节数组。对于不同的数据源，InputStream都提供相应的子类，如FileInputStream专用于从文件中读取信息 **[面向字节]**
 	- 任何继承自OutputStream或Writer的类都含有write方法，用于写入单个字节或者字节数组。OutputStream针对不同的输出数据类别，提供相应的子类，如FileOutputStream专用于将信息写入文件 **[面向字节]**
 	- FilterInputStream和FilterOutputStream是用来提供装饰器类接口以控制IS和OS的两个类。其中，其子类DataInputStream和DataOutputStream允许读取/写入各种不同的基本数据类型数据以及String对象
 	- Reader和Writer类还可以提供**兼容Unicode**与**面向字符**的I/O功能。而InputStream和OutputStream可以通过InputStreamReader和OutputStreamWriter这两个适配器转换成Reader和Writer.
 	- 【Tips】尽量尝试使用Reader和Writer，若程序无法成功编译，可知不得不使用面向字节地类库；无论什么时候使用readLine()，都不应该使用DataInputStream，而应该使用BufferedReader。除了这种情况外，DataInputStream【面向字节】仍是I/O类库的首选成员
-44. 类型信息（运行时类型信息可以使你在程序运行时发现和使用类型信息）：
+36. 类型信息（运行时类型信息可以使你在程序运行时发现和使用类型信息）：
 	- Java让我们在运行时识别对象和类信息的两种方式：一种是传统的**RTTI**，它假定我们在编译时已经知道了所有的类型；另一种是**反射机制**，它允许我们在运行时发现和使用类的信息
 	- 类名.class和类名.forName()都可以拿到一个类的Class对象的引用，但是前者在编译时就会受到检查，且在用它来创建Class对象时不会自动地初始化该class对象；而后者则是在运行时才进行检查，其副作用则是若该类未被加载过则加载它
 	- **对Java反射的理解**：之所以说RTTI是编译器必须要在编译时打开和检查所有类的.class文件，是因为我们在创建对象的时候还是用的new方法这种显示创建方法，所以相关的类型信息一定会暴露在程序空间中，编译器在编译时就会去检查它。而反射则是在程序运行时，通过网络或者磁盘文件或者一些操作动作中传来了一些新的对象，由于没有显式地用new创建，且JVM使用惰性加载Class的机制，所以他们的类型信息在编译时并不已知，因此才具有在运行时才打开和检查.class文件的特性。Java反射在框架开发中很有用，不用在程序中把创建对象写死，而只需要在运行过程中创建和管理JavaBean对象（具有setter和getter方法）
+
+45. Java数组与其他种类的容器之间的区别有效率、类型和保存基本类型的能力三方面。
+
 
 
 
@@ -107,11 +110,11 @@ IDE: Integrated Development Enviorment (e.g. Eclipse)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUxNjE5NTI4LC0xNjgzOTMxMjAxLC0zOT
-A2OTU1LC0xNzkyNDk1ODU3LC0xMDIyMjk4OTgwLC05MzQ5MTMw
-ODcsMTUwNTk4NzA0OCwxMTQzNTk5NDExLC0zMTM0Nzk2MzAsLT
-g0ODg3MzA1NSwxNzYwMjIxMDM1LC0xMTM4MTM3NjUyLDE4OTM1
-MDQ2OTgsLTExNDgzMTMzNzYsMjc0NTM5MzU0LDEyMzMzNjYyMz
-csLTI4NTM4Mzc4MywxMjAzODc0NzgwLDEyMTQwNDcyOTYsLTEz
-MDcxOTY5NzJdfQ==
+eyJoaXN0b3J5IjpbMTI5Njg5NDk0OCw2NTE2MTk1MjgsLTE2OD
+M5MzEyMDEsLTM5MDY5NTUsLTE3OTI0OTU4NTcsLTEwMjIyOTg5
+ODAsLTkzNDkxMzA4NywxNTA1OTg3MDQ4LDExNDM1OTk0MTEsLT
+MxMzQ3OTYzMCwtODQ4ODczMDU1LDE3NjAyMjEwMzUsLTExMzgx
+Mzc2NTIsMTg5MzUwNDY5OCwtMTE0ODMxMzM3NiwyNzQ1MzkzNT
+QsMTIzMzM2NjIzNywtMjg1MzgzNzgzLDEyMDM4NzQ3ODAsMTIx
+NDA0NzI5Nl19
 -->
